@@ -21,7 +21,14 @@ import {Footer} from './landing.footer'
 
 @Component({
     selector: 'rl-wp-refer-landing',
-    templateUrl: 'app/views/app.view.html',
+    template: `
+    	<masthead class="{{language}}"></masthead>
+		<features class="{{language}}"></features>
+		<product-selector class="{{language}}"></product-selector>
+		<videoplayer class="{{language}}"></videoplayer>
+		<more-features class="{{language}}"></more-features>
+		<banner class="{{language}}"></banner>
+    `,
     directives: [VideoPlayer, AppMasthead, Features, ProductSelector, Banner, MoreFeatures, Header, Footer]
 })
 class AppComponent {
@@ -33,12 +40,12 @@ class AppComponent {
 		private env: EnvironmentService) {
 		this.language = appdata.language
 
-		// analytics.bind('language', function(str) {
-		// 	return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
-		// })
-  //       analytics.bind('category', function(str) {
-  //           return 'Refer LP'
-  //       })
+		analytics.bind('language', function(str) {
+			return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
+		})
+        analytics.bind('category', function(str) {
+            return 'Cooking LP'
+        })
 
         breakpoint.add('mobile', 480)
         breakpoint.add('tablet', 481)

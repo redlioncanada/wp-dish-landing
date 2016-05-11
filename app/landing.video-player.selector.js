@@ -74,7 +74,7 @@ System.register(['angular2/core', './services/logger.service', './services/googl
                 VideoPlayerSelector = __decorate([
                     core_1.Component({
                         selector: 'videoplayer-selector',
-                        templateUrl: 'app/views/landing.video-player.selector.view.html'
+                        template: "\n    \t<div (click)=\"select()\" class=\"{{selected ? 'selected' : ''}}\">\n\t\t\t<div class=\"wp-refer-landing-videoplayer-text\">\n\t\t\t\t<div class=\"wp-refer-landing-videoplayer-title\" [innerHtml]=\"data.ctaTitle\"></div>\n\t\t\t\t<div class=\"wp-refer-landing-videoplayer-button\">{{data.cta}}</div>\n\t\t\t</div>\n\t\t\t<img src=\"{{data.thumb}}\" alt=\"{{data.alt}}\"/>\n\t\t</div>\n    "
                     }), 
                     __metadata('design:paramtypes', [logger_service_1.LoggerService, googleapi_service_1.GoogleApiService])
                 ], VideoPlayerSelector);

@@ -32,7 +32,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 LearnMoreButton = __decorate([
                     core_1.Component({
                         selector: 'learn-more-button',
-                        templateUrl: 'app/views/landing.learn-more.button.view.html'
+                        template: "\n    \t<a href=\"{{link}}\" target=\"_blank\"><div class=\"learn-more-button {{arrow ? 'learn-more-arrow': ''}}\">\n\t\t\t<p>{{text}} &gt;</p>\n\t\t</div></a>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], LearnMoreButton);

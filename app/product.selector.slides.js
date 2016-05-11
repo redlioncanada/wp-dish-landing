@@ -165,7 +165,7 @@ System.register(['angular2/core', './product.selector.slide'], function(exports_
                 ProductSlides = __decorate([
                     core_1.Component({
                         selector: 'product-slides',
-                        templateUrl: 'app/views/product.selector.slides.view.html',
+                        template: "\n      <div class=\"row\">\n        <div class=\"product-slide-background\"></div>\n          <product-slide class=\"{{selectedProduct.prodId == product.prodId ? 'selected' : ''}}\" *ngFor=\"#product of products; #i=index\" [selected]=\"selectedProduct.prodId == product.prodId\" [fridge]= \"product.prodImage\" [fridgeTitle]= \"product.prodName\" [fridgeDescription]=\"product.prodDescription\" [fridgeUrl]=\"product.prodUrl\" [fridgeId]=\"product.prodId\" [ctaText]=\"product.ctaText\" [fridgeAlt]=\"product.prodAlt\">\n\n          </product-slide>\n      </div>\n    ",
                         directives: [product_selector_slide_1.ProductSlide]
                     }),
                     __param(0, core_1.Inject(core_1.ElementRef)), 

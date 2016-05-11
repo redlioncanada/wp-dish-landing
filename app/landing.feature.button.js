@@ -90,7 +90,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 FeatureButton = __decorate([
                     core_1.Component({
                         selector: 'feature-button',
-                        templateUrl: 'app/views/landing.feature.button.view.html',
+                        template: "\n        <a href=\"{{btnLink}}\">\n            <div class=\"wp-landing-feature-button\" >\n                <!-- I don't know.  I just like spacing my code with comments -->\n                <div class=\"wp-landing-feature-button-up\">\n                    <div class=\"wp-landing-feature-icon wp-landing-innerBtn\"><img class=\"{{btnType}}\" src={{btnIcon}} alt=\"{{btnAlt}}\" /></div>\n                    <div class=\"wp-landing-feature-title wp-landing-innerBtn\">{{btnTitle}}</div>\n                    <div class=\"wp-landing-feature-rule wp-landing-innerBtn\"></div>\n                    <p class=\"wp-landing-over-copy\">{{btnRollOverCopy}}</p>\n                    <p class=\"wp-landing-over-cta\">{{btnRollOverCTA}}</p>\n                </div>\n            </div>\n        </a>\n    "
                     }),
                     __param(0, core_1.Inject(core_1.ElementRef)), 
                     __metadata('design:paramtypes', [core_1.ElementRef])
