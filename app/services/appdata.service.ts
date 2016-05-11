@@ -63,7 +63,7 @@ export class AppDataService {
 					{
 						title: "FlexHeat<sup>&trade;</sup> Element",
 						image: "./public/images/more-features-1.jpg",
-						link: "https://google.ca/?q=placeholder",
+						link: "",
 						alt: "test",
 						text: "",
 						cta: ""
@@ -79,7 +79,7 @@ export class AppDataService {
 					{
 						title: "FIT System Guarantee",
 						image: "./public/images/more-features-3.jpg",
-						link: "https://google.ca/?q=placeholder",
+						link: "",
 						alt: "test",
 						text: "",
 						cta: ""

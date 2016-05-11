@@ -1,4 +1,4 @@
-System.register(['angular2/core', './logger.service'], function(exports_1, context_1) {
+System.register(['angular2/core', './logger.service.js'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -29,21 +29,21 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                     this.contents.en = {
                         masthead: {
                             enabled: true,
-                            image: "./public/images/refer-landing-masthead.jpg",
+                            image: "/images/wp-cooking-landing/refer-landing-masthead.jpg",
                             alt: "test",
                             title: ""
                         },
                         banner: {
                             enabled: true,
                             link: 'http://www.whirlpool.ca/en_CA/everydaycare/',
-                            image: './public/images/banner.jpg',
+                            image: '/images/wp-cooking-landing/banner.jpg',
                             ctaText: 'Learn More'
                         },
                         features: {
                             enabled: true,
                             features: [
                                 {
-                                    image: "./public/images/refer-landing-shopping-cart.png",
+                                    image: "/images/wp-cooking-landing/refer-landing-shopping-cart.png",
                                     title: "Buying Guide",
                                     alt: "test",
                                     desc: "What to look for when buying",
@@ -52,7 +52,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "cart"
                                 },
                                 {
-                                    image: "./public/images/refer-landing-star.png",
+                                    image: "/images/wp-cooking-landing/refer-landing-star.png",
                                     title: "Ratings and Reviews",
                                     alt: "test",
                                     desc: "See what others are saying",
@@ -61,7 +61,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "star"
                                 },
                                 {
-                                    image: "./public/images/refer-landing-mag-glass.png",
+                                    image: "/images/wp-cooking-landing/refer-landing-mag-glass.png",
                                     title: "Find Your Whirlpool",
                                     alt: "test",
                                     desc: "Need help finding your range?",
@@ -77,15 +77,15 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             features: [
                                 {
                                     title: "FlexHeat<sup>&trade;</sup> Element",
-                                    image: "./public/images/more-features-1.jpg",
-                                    link: "",
+                                    image: "/images/wp-cooking-landing/more-features-1.jpg",
+                                    link: "https://google.ca/?q=placeholder",
                                     alt: "test",
                                     text: "",
                                     cta: ""
                                 },
                                 {
                                     title: "Temperature Sensor",
-                                    image: "./public/images/more-features-2.jpg",
+                                    image: "/images/wp-cooking-landing/more-features-2.jpg",
                                     link: "http://www.whirlpool.ca/en_CA/Accessories-1/Accessories_Kitchen_Accessories_Oven__Range-3/102280109/",
                                     alt: "test",
                                     text: "",
@@ -93,8 +93,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     title: "FIT System Guarantee",
-                                    image: "./public/images/more-features-3.jpg",
-                                    link: "",
+                                    image: "/images/wp-cooking-landing/more-features-3.jpg",
+                                    link: "https://google.ca/?q=placeholder",
                                     alt: "test",
                                     text: "",
                                     cta: ""
@@ -107,7 +107,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             videos: [
                                 {
                                     id: 'Q-riw_PxAzw',
-                                    thumb: './public/images/video-select-1.jpg',
+                                    thumb: '/images/wp-cooking-landing/video-select-1.jpg',
                                     title: 'Electric and Gas Ranges',
                                     alt: "test",
                                     ctaTitle: 'Electric and Gas Ranges',
@@ -115,8 +115,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the time saver system.'
                                 },
                                 {
-                                    image: './public/images/video-thumb-1.jpg',
-                                    thumb: './public/images/video-select-2.jpg',
+                                    image: '/images/wp-cooking-landing/video-thumb-1.jpg',
+                                    thumb: '/images/wp-cooking-landing/video-select-2.jpg',
                                     title: 'Frozen Bake<sup>&trade;</sup> Technology',
                                     alt: "test",
                                     ctaTitle: 'Frozen Bake<sup>&trade;</sup> Technology',
@@ -124,8 +124,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster2 by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
                                 },
                                 {
-                                    image: './public/images/video-thumb-1.jpg',
-                                    thumb: './public/images/video-select-3.jpg',
+                                    image: '/images/wp-cooking-landing/video-thumb-1.jpg',
+                                    thumb: '/images/wp-cooking-landing/video-select-3.jpg',
                                     title: 'Fan Convection Cooking',
                                     alt: "test",
                                     ctaTitle: 'Fan Convection Cooking',
@@ -143,7 +143,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/fcr.png",
+                                    image: "/images/wp-cooking-landing/products/fcr.png",
                                     title: "Front Control Ranges",
                                     alt: "test",
                                     desc: "View our versatile and unique design. The Double Drawer style delivers optimal organization, including two soft-close drawers – one with 5 unique temperature settings.",
@@ -152,7 +152,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "Learn More"
                                 },
                                 {
-                                    image: "./public/images/products/rcr.png",
+                                    image: "/images/wp-cooking-landing/products/rcr.png",
                                     title: "Rear Control Ranges",
                                     alt: "test",
                                     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
@@ -161,7 +161,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "Learn More"
                                 },
                                 {
-                                    image: "./public/images/products/dor.png",
+                                    image: "/images/wp-cooking-landing/products/dor.png",
                                     title: "Double Oven Ranges",
                                     alt: "test",
                                     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
@@ -170,7 +170,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "Learn More"
                                 },
                                 {
-                                    image: "./public/images/products/wall-oven.png",
+                                    image: "/images/wp-cooking-landing/products/wall-oven.png",
                                     title: "Wall Ovens",
                                     alt: "test",
                                     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
@@ -179,7 +179,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "Learn More"
                                 },
                                 {
-                                    image: "./public/images/products/cooktop.png",
+                                    image: "/images/wp-cooking-landing/products/cooktop.png",
                                     title: "Cooktops",
                                     alt: "test",
                                     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
@@ -188,7 +188,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "Learn More"
                                 },
                                 {
-                                    image: "./public/images/products/microwave.png",
+                                    image: "/images/wp-cooking-landing/products/microwave.png",
                                     title: "Microwaves",
                                     alt: "test",
                                     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
@@ -197,7 +197,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "Learn More"
                                 },
                                 {
-                                    image: "./public/images/products/hood.png",
+                                    image: "/images/wp-cooking-landing/products/hood.png",
                                     title: "Hoods",
                                     alt: "test",
                                     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
@@ -211,21 +211,21 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                     this.contents.fr = {
                         masthead: {
                             enabled: true,
-                            image: "./public/images/refer-landing-masthead-fr.jpg",
+                            image: "/images/wp-cooking-landing/refer-landing-masthead-fr.jpg",
                             alt: "test",
                             title: ""
                         },
                         banner: {
                             enabled: true,
                             link: 'http://www.whirlpool.ca/fr_CA/everydaycare/',
-                            image: './public/images/banner_fr.jpg',
+                            image: '/images/wp-cooking-landing/banner_fr.jpg',
                             ctaText: 'En savoir plus'
                         },
                         features: {
                             enabled: true,
                             features: [
                                 // {
-                                // 	image: "./public/images/refer-landing-shopping-cart.png",
+                                // 	image: "/images/wp-cooking-landing/refer-landing-shopping-cart.png",
                                 // 	title: "Guide D'achat",
                                 // 	desc: "Éléments à considérer lorsque vous magasinez",
                                 // 	alt: "test",
@@ -234,7 +234,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 // 	type: "cart"
                                 // },
                                 {
-                                    image: "./public/images/refer-landing-star.png",
+                                    image: "/images/wp-cooking-landing/refer-landing-star.png",
                                     title: "Classements et Évaluations",
                                     desc: "Voyez ce que les autres clients en disent",
                                     alt: "test",
@@ -243,7 +243,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "star"
                                 },
                                 {
-                                    image: "./public/images/refer-landing-mag-glass.png",
+                                    image: "/images/wp-cooking-landing/refer-landing-mag-glass.png",
                                     title: "Trouvez Votre Électroménager Whirlpool",
                                     desc: "Vous avez besoin d'aide pour trouver un réfrigérateur?",
                                     alt: "test",
@@ -259,7 +259,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             features: [
                                 {
                                     title: "Accessoires supplémentaires",
-                                    image: "./public/images/more-features-1.jpg",
+                                    image: "/images/wp-cooking-landing/more-features-1.jpg",
                                     link: "http://www.whirlpool.ca/fr_CA/Accessories-1/Accessories_Kitchen_Accessories_Refrigerator-3/102280119/",
                                     alt: "test",
                                     text: "",
@@ -267,7 +267,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     title: "Filtres à eau",
-                                    image: "./public/images/more-features-2.jpg",
+                                    image: "/images/wp-cooking-landing/more-features-2.jpg",
                                     link: "http://www.whirlpool.ca/fr_CA/2_3_80/jump-pages_water-filters.content.html",
                                     alt: "test",
                                     text: "",
@@ -275,7 +275,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     title: "Entretien autorisé",
-                                    image: "./public/images/more-features-3.jpg",
+                                    image: "/images/wp-cooking-landing/more-features-3.jpg",
                                     link: "https://whirlpoolcertifiedcare.ca/fr",
                                     alt: "test",
                                     text: "",
@@ -288,8 +288,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             title: "Innovation à voir absolument",
                             videos: [
                                 {
-                                    image: './public/images/video-thumb-1.jpg',
-                                    thumb: './public/images/video-select-1.jpg',
+                                    image: '/images/wp-cooking-landing/video-thumb-1.jpg',
+                                    thumb: '/images/wp-cooking-landing/video-select-1.jpg',
                                     title: 'Système de rangement Perfect Places<sup>&trade;</sup>',
                                     ctaTitle: 'Système de rangement Perfect Places<sup>&trade;</sup>',
                                     alt: "test",
@@ -297,8 +297,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: 'La conception Whirlpool à double tiroir  offre cinq zones de rangement uniques pour mieux organiser vos articles. Il s\'agit de notre réfrigérateur le plus flexible à ce jour.'
                                 },
                                 {
-                                    image: './public/images/video-thumb-2.jpg',
-                                    thumb: './public/images/video-select-2.jpg',
+                                    image: '/images/wp-cooking-landing/video-thumb-2.jpg',
+                                    thumb: '/images/wp-cooking-landing/video-select-2.jpg',
                                     title: 'Fonctions Resource Saver<sup>&trade;</sup> et EasyView<sup>&trade;</sup>',
                                     ctaTitle: 'Fonctions Resource Saver<sup>&trade;</sup><br/>et EasyView<sup>&trade;</sup>',
                                     alt: "test",
@@ -306,8 +306,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: 'Les réfrigérateurs les plus efficaces de l’industrie dans leur catégorie respective. Augmentez la souplesse de rangement de votre réfrigérateur et préservez la fraîcheur et le bon goût de vos fruits et légumes grâce au système de bacs à légumes triples EasyView™. Désormais, vous pouvez facilement accéder aux aliments grâce à la visibilité totale à travers le bac à légumes. De plus, vous pourrez ranger une grande variété d\'articles grâce aux trois tiroirs. Le contrôle automatique d\'humidité contribue également à maintenir la fraîcheur.',
                                 },
                                 {
-                                    image: './public/images/video-thumb-3.jpg',
-                                    thumb: './public/images/video-select-3.jpg',
+                                    image: '/images/wp-cooking-landing/video-thumb-3.jpg',
+                                    thumb: '/images/wp-cooking-landing/video-select-3.jpg',
                                     title: 'Système de rangement StoreRight<sup>&trade;</sup>',
                                     ctaTitle: 'Système de rangement StoreRight<sup>&trade;</sup>',
                                     alt: "test",
@@ -325,7 +325,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/double-drawer.png",
+                                    image: "/images/wp-cooking-landing/products/double-drawer.png",
                                     title: "Tiroir double",
                                     desc: "Devenez le champion de l’organisation grâce à notre réfrigérateur polyvalent à double tiroir, conçu pour tous les besoins de votre famille. Son style unique offre 9 espaces de rangement, optimisés par notre système PerfectPlaces™, avec le tiroir à température contrôlée et le bac pour petits articles.",
                                     link: "http://www.whirlpool.ca/fr_CA/kitchen-1/refrigeration-2/refrigerators-3/-%5BWRV986FDEM%5D-5552596/WRV986FDEM/",
@@ -334,7 +334,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "En savoir plus"
                                 },
                                 {
-                                    image: "./public/images/products/french-door.png",
+                                    image: "/images/wp-cooking-landing/products/french-door.png",
                                     title: "Portes françaises",
                                     desc: "Nos réfrigérateurs à portes françaises procurent un rangement polyvalent, maintiennent vos produits frais à hauteur des yeux et vous permettent de conserver facilement vos produits congelés favoris. Leur élégance et capacité optimale font de ces réfrigérateurs un élément idéal de votre cuisine familiale.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back",
@@ -343,7 +343,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "En savoir plus"
                                 },
                                 {
-                                    image: "./public/images/products/side-by-side.png",
+                                    image: "/images/wp-cooking-landing/products/side-by-side.png",
                                     title: "Côte à côte",
                                     desc: "Découvrez l’avantage d’un espace supplémentaire dans les balconnets de porte qui facilitent le rangement et l'accès aux petits ou grands articles. Ce style classique offre un rangement parfaitement équilibré entre les aliments frais et surgelés, avec la possibilité de choisir différentes tailles.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back",
@@ -352,7 +352,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "En savoir plus"
                                 },
                                 {
-                                    image: "./public/images/products/bottom-freezer.png",
+                                    image: "/images/wp-cooking-landing/products/bottom-freezer.png",
                                     title: "Congélateur inférieur",
                                     desc: "Bénéficiez d’un accès pratique aux aliments frais et aux collations sur le pouce ou après l'école. Vous avez le choix entre le congélateur-tiroir ou à porte, ainsi qu'une variété de tailles s'agençant à tout espace de votre maison.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023/",
@@ -361,7 +361,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "En savoir plus"
                                 },
                                 {
-                                    image: "./public/images/products/top-freezer.png",
+                                    image: "/images/wp-cooking-landing/products/top-freezer.png",
                                     title: "Congélateur supérieur",
                                     desc: "Il y aura toujours une place pour vos aliments frais ou surgelés favoris dans ce réfrigérateur au style simple et classique à la fois. Notre réfrigérateur à congélateur supérieur offre un excellent rapport qualité/prix et est aussi disponible en tailles plus petites.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023/",
@@ -370,7 +370,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaText: "En savoir plus"
                                 },
                                 {
-                                    image: "./public/images/products/freezer.png",
+                                    image: "/images/wp-cooking-landing/products/freezer.png",
                                     title: "Congélateurs",
                                     desc: "Découvrez tout l'espace supplémentaire pour les aliments congelés, tels que les pizzas ou les suçons glacés. Nos modèles horizontaux ou verticaux assurent l'ajustement idéal pour tout espace.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/",
