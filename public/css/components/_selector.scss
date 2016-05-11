@@ -27,7 +27,7 @@ product-selector {
         display: block;
         width: 100%;
     }
-    .wp-refer-landing-product-slide{
+    .wp-cooking-landing-product-slide{
         position: absolute;
         width: 943px;
     }
@@ -175,17 +175,17 @@ product-selector {
 
 product-selector-nav {
     position: relative;
-    display: block;
     top: 70px;
     height: 300px;
 
     .row {
         position: relative;
+        display: inline-block;
     }
     
-    .wp-refer-landing-product,.see-all {
+    .wp-cooking-landing-product,.see-all {
         float: left;
-        width: 14.28571428571429%;
+        width: 25%;
         padding: 0 2px;
         
 
@@ -194,35 +194,32 @@ product-selector-nav {
         }
     }
 
-    .wp-refer-landing-product{
-        @media screen and (max-width: $mobileBreakpoint) {
-            width: 16.5%;
-        }
-
+    .wp-cooking-landing-product{
         > img {
             @include transition(0.2s);
         }
     }
 
-    .wp-refer-landing-product:not(.selected) {
+    .wp-cooking-landing-product:not(.selected) {
         > img {
             opacity: 0.6;
         }
 
-        .wp-refer-landing-button {
+        .wp-cooking-landing-button {
             color: $selectorTextColor;
         }
     }
 
-    .wp-refer-landing-button {
+    .wp-cooking-landing-button {
         margin-top: 10px;
         height: 25px;
+        min-height: 6.5%;
         display: table;
         color: $selectorTextColor;
         width: 100%;
         @include transition(0.2s);
 
-        .wp-refer-landing-button-circle {
+        .wp-cooking-landing-button-circle {
             width: 100%;
             height: 18px;
             margin-bottom: 10px;
@@ -246,6 +243,8 @@ product-selector-nav {
         }
 
         @media screen and (max-width: $mobileBreakpoint) {
+            min-height: 10.5%;
+
             p {
                 font-size: 0.9em;
                 font-weight: 200;
@@ -253,34 +252,33 @@ product-selector-nav {
         }
     }
 
-    .wp-refer-landing-product:hover {
+    .wp-cooking-landing-product:hover {
         > img {
             opacity: 0.75;
         }
 
-        .wp-refer-landing-button {
+        .wp-cooking-landing-button {
             color: $selectorHighlightedTextColor !important;
         }
 
-        .wp-refer-landing-button-circle div {
+        .wp-cooking-landing-button-circle div {
             background-color: $selectorHighlightedTextColor !important;
         }
     }
 
-    .wp-refer-landing-product.selected {
-        .wp-refer-landing-button {
+    .wp-cooking-landing-product.selected {
+        .wp-cooking-landing-button {
             color: $selectorHighlightedTextColor;
         }
 
-        .wp-refer-landing-button-circle div {
+        .wp-cooking-landing-button-circle div {
             background-color: $selectorHighlightedTextColor;
         }
     }
 
     .see-all {
-        height: 190px;
-        width: 13%;
-        margin-left: 1%;
+        height: 300px;
+        width: 25%;
         color: $selectorCTAColor;
         text-transform: uppercase;
         display: table;
@@ -289,12 +287,12 @@ product-selector-nav {
 
         div {
             display: table;
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             border: 1px solid black;
             border-radius: 130px;
-            margin-top: 38%;
-            margin-left: 10px;
+            margin: 0 auto;
+            margin-top: 58%;
             font-weight: 400;
         }
 
@@ -306,9 +304,8 @@ product-selector-nav {
         }
 
         @media screen and (max-width: $mobileBreakpoint) {
-            clear: left;
-            width: 97%;
-            margin-top: 10px;
+            height: 130px;
+            margin-top: 70px;
             display: initial;
             padding: initial;
 
@@ -348,7 +345,7 @@ product-selector.fr {
 
     product-selector-nav {
         @media screen and (max-width: $mobileBreakpoint) {
-            div .wp-refer-landing-button p {
+            div .wp-cooking-landing-button p {
                 font-size: 0.6em;
                 font-weight: 200;
             }

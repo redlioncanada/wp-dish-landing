@@ -20,7 +20,7 @@ import {Footer} from './landing.footer'
 
 
 @Component({
-    selector: 'rl-wp-refer-landing',
+    selector: 'rl-wp-cooking-landing',
     template: `
     	<masthead class="{{language}}"></masthead>
 		<features class="{{language}}"></features>

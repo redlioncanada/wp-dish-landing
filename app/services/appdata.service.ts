@@ -49,7 +49,7 @@ export class AppDataService {
 						image: "./public/images/refer-landing-mag-glass.png",
 						title: "Find Your Whirlpool",
 						alt: "test",
-						desc: "Need help finding your refrigerator?",
+						desc: "Need help finding your range?",
 						cta: "Click Here",
 						link: "http://findmy.whirlpool.ca",
 						type: "magnifier"
@@ -61,25 +61,25 @@ export class AppDataService {
 				title: "Additional Features",
 				features: [
 					{
-						title: "Additional Accessories",
+						title: "FlexHeat<sup>&trade;</sup> Element",
 						image: "./public/images/more-features-1.jpg",
-						link: "http://www.whirlpool.ca/en_CA/Accessories-1/Accessories_Kitchen_Accessories_Refrigerator-3/102280119/",
+						link: "https://google.ca/?q=placeholder",
 						alt: "test",
 						text: "",
 						cta: ""
 					},
 					{
-						title: "Water Filtration",
+						title: "Temperature Sensor",
 						image: "./public/images/more-features-2.jpg",
-						link: "http://www.whirlpool.ca/en_CA/2_3_80/jump-pages_water-filters.content.html",
+						link: "http://www.whirlpool.ca/en_CA/Accessories-1/Accessories_Kitchen_Accessories_Oven__Range-3/102280109/",
 						alt: "test",
 						text: "",
 						cta: ""
 					},
 					{
-						title: "Certified Care",
+						title: "FIT System Guarantee",
 						image: "./public/images/more-features-3.jpg",
-						link: "https://whirlpoolcertifiedcare.ca/en",
+						link: "https://google.ca/?q=placeholder",
 						alt: "test",
 						text: "",
 						cta: ""
@@ -91,31 +91,31 @@ export class AppDataService {
 				title: "Must-See Innovation",
 				videos: [
 					{
-						id: '8uqalJESFos',
+						id: 'Q-riw_PxAzw',
 						thumb: './public/images/video-select-1.jpg',
-						title: 'Perfect Places<sup>&trade;</sup>',
+						title: 'Electric and Gas Ranges',
 						alt: "test",
-						ctaTitle: 'Perfect Places<sup>&trade;</sup>',
+						ctaTitle: 'Electric and Gas Ranges',
 						cta: 'Play Video',
-						desc: false
+						desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the time saver system.'
 					},
 					{
-						id: 'xI986ew0VD0',
+						image: './public/images/video-thumb-1.jpg',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
+						title: 'Frozen Bake<sup>&trade;</sup> Technology',
 						alt: "test",
-						ctaTitle: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
-						cta: 'Play Video',
-						desc: false,
+						ctaTitle: 'Frozen Bake<sup>&trade;</sup> Technology',
+						cta: 'View',
+						desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster2 by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
 					},
 					{
-						id: 'j-SeXWbpEaw',
+						image: './public/images/video-thumb-1.jpg',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'StoreRight<sup>&trade;</sup> System',
+						title: 'Fan Convection Cooking',
 						alt: "test",
-						ctaTitle: 'StoreRight<sup>&trade;</sup> System',
-						cta: 'Play Video',
-						desc: false
+						ctaTitle: 'Fan Convection Cooking',
+						cta: 'View',
+						desc: 'Bake on any rack with fan convection cooking. It fills the entire oven with heat, so no matter which rack you use, you still get great results.'
 					}
 				]
 			},
@@ -128,57 +128,66 @@ export class AppDataService {
 				},
 				products: [
 					{
-						image: "./public/images/products/double-drawer.png",
-                        title: "Double Drawer",
+						image: "./public/images/products/fcr.png",
+                        title: "Front Control Ranges",
                         alt: "test",
-                        desc: "Get even more organized with our versatile Double Drawer refrigerator, designed with your family's needs in mind. This unique style offers 9 storage zones with our PerfectPlaces™ System, including our temperature-controlled drawer and small items bin.",
-                        link: "http://www.whirlpool.ca/en_CA/kitchen-1/refrigeration-2/refrigerators-3/-[WRV986FDEM]-5552596/WRV986FDEM/",
-                        id: "double-drawer",
+                        desc: "View our versatile and unique design. The Double Drawer style delivers optimal organization, including two soft-close drawers – one with 5 unique temperature settings.",
+                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
+                        id: "front-control-ranges",
                         ctaText: "Learn More"
                     },
 					{
-						image: "./public/images/products/french-door.png",
-                        title: "French Door",
+						image: "./public/images/products/rcr.png",
+                        title: "Rear Control Ranges",
                         alt: "test",
-                        desc: "Our French Door refrigerators offer the flexible organization and convenience to keep your fresh foods at eye level and easily store your frozen favourites. The premium look and optimal capacity make these refrigerators an ideal piece for your family's kitchen.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/",
-                        id: "french-door",
+                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/",
+                        id: "rear-control-ranges",
                         ctaText: "Learn More"
                     },
 					{
-						image: "./public/images/products/side-by-side.png",
-                        title: "Side-by-Side",
+						image: "./public/images/products/dor.png",
+                        title: "Double Oven Ranges",
                         alt: "test",
-                        desc: "Learn all the ways more door bin space makes it easy for your family to organize and access items big or small. This classic style offers a great balance of space for both fresh and frozen foods with the flexibility for different size options.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110369/",
-                        id: "side-by-side",
+                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
+                        id: "double-oven-ranges",
                         ctaText: "Learn More"
                     },
 					{
-						image: "./public/images/products/bottom-freezer.png",
-                        title: "Bottom Freezer",
+						image: "./public/images/products/wall-oven.png",
+                        title: "Wall Ovens",
                         alt: "test",
-                        desc: "See how convenient it is to reach fresh foods and after-school snacks on the go. You have the option of pull-out drawer or swing-door style freezers, plus a variety of sizes to fit any space in your home.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110370/",
-                        id: "bottom-freezer",
+                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102280007/",
+                        id: "wall-oven",
                         ctaText: "Learn More"
                     },
                     {
-						image: "./public/images/products/top-freezer.png",
-                        title: "Top Freezer",
+						image: "./public/images/products/cooktop.png",
+                        title: "Cooktops",
                         alt: "test",
-                        desc: "There's always a place for fresh and frozen favourites inside this simple, classic style. Our Top Freezer refrigerator offers great quality and value and is available in smaller sizes for use as second one when you need the extra space.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110371/",
-                        id: "top-freezer",
+                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102280011/",
+                        id: "cooktops",
                         ctaText: "Learn More"
                     },
 					{
-						image: "./public/images/products/freezer.png",
-                        title: "Freezers",
+						image: "./public/images/products/microwave.png",
+                        title: "Microwaves",
                         alt: "test",
-                        desc: "See all the extra storage for frozen foods, from pizza to popsicles. Our chest and upright styles ensure the perfect fit for any home.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/",
-                        id: "freezers",
+                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102280018/",
+                        id: "microwaves",
+                        ctaText: "Learn More"
+                    },
+                    {
+						image: "./public/images/products/hood.png",
+                        title: "Hoods",
+                        alt: "test",
+                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Hoods-3/102280014/",
+                        id: "hoods",
                         ctaText: "Learn More"
                     }
 				]

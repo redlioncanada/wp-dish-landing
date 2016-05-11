@@ -1,18 +1,18 @@
 videoplayer {
 	> h2 {
 		@include header-text;
-        margin-top: 50px;
+        margin-top: 100px;
         margin-bottom: 20px;
          @media screen and (max-width: $mobileBreakpoint) {
-         	margin-top: 0px;
+         	margin-top: 70px;
             font-size: 2em;
         }
 	}
     
-    h2.wp-refer-landing-videoplayer-title{
+    h2.wp-cooking-landing-videoplayer-title{
     	@include header-text;
          @media screen and (max-width: $mobileBreakpoint) {
-                font-size: 1em;
+                font-size: 2em;
          }
     }
 
@@ -35,16 +35,6 @@ videoplayer {
 
 		li:nth-child(2) img {
 			width: 101.5%;
-		}
-
-		li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
-			margin-top: -65px;
-		}
-
-		@media screen and (max-width: $mobileBreakpoint) {
-			li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
-				margin-top: -23px;
-			}
 		}
 	}
 }
@@ -69,18 +59,18 @@ videoplayer-player {
 	}
 
 
-	.wp-refer-landing-videoplayer-text {
+	.wp-cooking-landing-videoplayer-text {
 		width: 100%;
 		padding: 28px 40px;
 		background-color: $videoPlayer-backgroundColor;
 		color: $videoPlayer-descColor;
 		margin-top: -5px;
 
-		.wp-refer-landing-videoplayer-description, .wp-refer-landing-videoplayer-title {
+		.wp-cooking-landing-videoplayer-description, .wp-cooking-landing-videoplayer-title {
 			text-align: center;
 		}
         
-        .wp-refer-landing-videoplayer-description{
+        .wp-cooking-landing-videoplayer-description{
         	margin-top: 10px;
             @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 66%;
@@ -92,7 +82,7 @@ videoplayer-player {
 videoplayer-selector {
 	width: 100%;
 
-	.wp-refer-landing-videoplayer-text {
+	.wp-cooking-landing-videoplayer-text {
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -102,25 +92,26 @@ videoplayer-selector {
         }
 
 
-		.wp-refer-landing-videoplayer-title, .wp-refer-landing-videoplayer-button {
+		.wp-cooking-landing-videoplayer-title, .wp-cooking-landing-videoplayer-button {
 			top: 50%;
 			text-align: center;
 			color: $videoPlayer-copyColor;
 			border-radius: 15px;
 		}
 
-		.wp-refer-landing-videoplayer-title {
+		.wp-cooking-landing-videoplayer-title {
 			font-size: 2em;
-			margin-top: -20px;
+			margin-top: -65px;
 			width: 100%;
 			color: $videoPlayer-copyColor !important;
 
 			@media screen and (max-width: $mobileBreakpoint) {
+				margin-top: -23px;
 	        	font-size: 1.0em;
 	        }
 		}
 
-		.wp-refer-landing-videoplayer-button {
+		.wp-cooking-landing-videoplayer-button {
 			font-size: 0.8em;
 			position: relative;
 			top: 60%;
@@ -135,12 +126,12 @@ videoplayer-selector {
 		}
 	}
 
-	.wp-refer-landing-videoplayer-text h2, .wp-refer-landing-videoplayer-text div {
+	.wp-cooking-landing-videoplayer-text h2, .wp-cooking-landing-videoplayer-text div {
 		position: absolute;
 	}
 
 	videoplayer-selector:hover {
-		.wp-refer-landing-videoplayer-button {
+		.wp-cooking-landing-videoplayer-button {
 			@include grow(1.2);
 		}
 	}
@@ -166,7 +157,7 @@ videoplayer-selector {
 			cursor: default;
 		}
 
-		.wp-refer-landing-videoplayer-button, .wp-refer-landing-videoplayer-title {
+		.wp-cooking-landing-videoplayer-button, .wp-cooking-landing-videoplayer-title {
 			opacity: 0;
 		}
 
@@ -177,7 +168,7 @@ videoplayer-selector {
 }
 
 videoplayer.fr {
-	ul li videoplayer-selector .wp-refer-landing-videoplayer-title {
+	ul li videoplayer-selector .wp-cooking-landing-videoplayer-title {
 		line-height: 35px;
 
 		@media screen and (max-width: $mobileBreakpoint) {
@@ -188,7 +179,7 @@ videoplayer.fr {
 
 	ul li:nth-child(1) {
 		videoplayer-selector {
-			.wp-refer-landing-videoplayer-title {
+			.wp-cooking-landing-videoplayer-title {
 				margin-top: -92px;
 
 				@media screen and (max-width: $mobileBreakpoint) {
@@ -200,7 +191,7 @@ videoplayer.fr {
 
 	ul li:nth-child(2) {
 		videoplayer-selector {
-			.wp-refer-landing-videoplayer-title {
+			.wp-cooking-landing-videoplayer-title {
 				margin-top: -92px;
 
 				@media screen and (max-width: $mobileBreakpoint) {
@@ -212,7 +203,7 @@ videoplayer.fr {
 
 	ul li:nth-child(3) {
 		videoplayer-selector {
-			.wp-refer-landing-videoplayer-title {
+			.wp-cooking-landing-videoplayer-title {
 				margin-top: -92px;
 
 				@media screen and (max-width: $mobileBreakpoint) {
@@ -224,7 +215,7 @@ videoplayer.fr {
 
 	videoplayer-selector {
 		@media screen and (max-width: $mobileBreakpoint) {
-			.wp-refer-landing-videoplayer-title {
+			.wp-cooking-landing-videoplayer-title {
 				font-size: 1em;
 				margin-top: -8px;
 			}

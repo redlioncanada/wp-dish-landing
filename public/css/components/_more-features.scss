@@ -11,22 +11,26 @@ more-features {
         }
 	}
 
-	more-features-feature {
-		padding: 0 5px;
-	}
-
 	more-features-feature:first-of-type {
-		padding-left: initial;
+		> a > div {
+			margin-left: initial;
+		}
 	}
 
 	more-features-feature:last-of-type {
-		padding-right: initial;
+		> a > div {
+			margin-right: initial;
+		}
 	}
 }
 
 more-features-feature {
 	width: 33.33333333333%;
 	float: left;
+
+	> a > div {
+		margin: 0 5px;
+	}
 
 	.hover {
 		position: relative;
