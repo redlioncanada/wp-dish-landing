@@ -87,12 +87,13 @@ more-features-feature {
 
 	img {
 		width: 100%;
+		margin-bottom: 0px !important;
 	}
 
 	.bottom-text {
 		text-align: center;
 		color: $moreFeaturesTitlesColor;
-		margin-top: -5px;
+		margin-top: 15px;
 
 		@media screen and (max-width: $mobileBreakpoint) {
 			margin-top: 0px;

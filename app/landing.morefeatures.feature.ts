@@ -9,12 +9,12 @@ declare var $: JQueryStatic;
     	<a href="{{link}}" target="_blank"><div>
 			<div>
 				<div class="hover">
-					<!-- <div class="text-container">
+					<div *ngIf="text" class="text-container">
 						<div class="text-container-cell">
 							<p class="text">{{text}}</p>
-							<p class="cta">{{cta}}</p>
+							<p class="cta" *ngIf="cta">{{cta}}</p>
 						</div>
-					</div> -->
+					</div>
 					<img src="{{image}}" alt="{{alt}}"/>
 				</div>
 			</div>

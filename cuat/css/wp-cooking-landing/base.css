@@ -1188,7 +1188,7 @@ rl-wp-cooking-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
-      background-color: #000000; }
+      background-color: #eab018; }
     rl-wp-cooking-landing more-features-feature .text-container-cell {
       max-width: 50%; }
       rl-wp-cooking-landing more-features-feature .text-container-cell .cta {
@@ -1207,11 +1207,12 @@ rl-wp-cooking-landing {
       align-self: flex-end;
       -webkit-align-self: flex-end; }
     rl-wp-cooking-landing more-features-feature img {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 0px !important; }
     rl-wp-cooking-landing more-features-feature .bottom-text {
       text-align: center;
       color: #000000;
-      margin-top: -5px; }
+      margin-top: 15px; }
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing more-features-feature .bottom-text {
           margin-top: 0px; } }

@@ -80,7 +80,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/more-features-1.jpg",
                                     link: "",
                                     alt: "test",
-                                    text: "",
+                                    text: "The FlexHeat™ element is like having two or three elements in one. A 6\" inner ring is great for smaller pots and pans, while expandable outer rings make room to heat larger cookware.",
                                     cta: ""
                                 },
                                 {
@@ -94,7 +94,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     title: "FIT System Guarantee",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "",
+                                    link: "/other-assets/en_CA/pdf/WHR_FIT_Front Control_Guarantee_2016_EN.pdf",
                                     alt: "test",
                                     text: "",
                                     cta: ""
@@ -106,7 +106,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             title: "Must-See Innovation",
                             videos: [
                                 {
-                                    id: 'Q-riw_PxAzw',
+                                    id: 'GO_B6SOOaHU',
                                     thumb: './public/images/video-select-1.jpg',
                                     title: 'Electric and Gas Ranges',
                                     alt: "test",
@@ -115,7 +115,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the time saver system.'
                                 },
                                 {
-                                    image: './public/images/video-thumb-1.jpg',
+                                    image: './public/images/video-thumb-2.jpg',
                                     thumb: './public/images/video-select-2.jpg',
                                     title: 'Frozen Bake<sup>&trade;</sup> Technology',
                                     alt: "test",
@@ -124,7 +124,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster2 by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
                                 },
                                 {
-                                    image: './public/images/video-thumb-1.jpg',
+                                    image: './public/images/video-thumb-3.jpg',
                                     thumb: './public/images/video-select-3.jpg',
                                     title: 'Fan Convection Cooking',
                                     alt: "test",
@@ -276,7 +276,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     title: "Entretien autorisé",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "https://whirlpoolcertifiedcare.ca/fr",
+                                    link: "/other-assets/fr_CA/pdf/WHR_FIT_Front Control_Guarantee_2016_FR.pdf",
                                     alt: "test",
                                     text: "",
                                     cta: ""
