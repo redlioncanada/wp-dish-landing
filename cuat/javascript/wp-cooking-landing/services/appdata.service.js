@@ -57,7 +57,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "test",
                                     desc: "See what others are saying",
                                     cta: "Click Here",
-                                    link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html",
+                                    link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html#Ovens",
                                     type: "star"
                                 },
                                 {
@@ -88,7 +88,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     image: "/images/wp-cooking-landing/more-features-2.jpg",
                                     link: "http://www.whirlpool.ca/en_CA/Accessories-1/Accessories_Kitchen_Accessories_Oven__Range-3/102280109/",
                                     alt: "test",
-                                    text: "",
+                                    text: "A built-in sensor monitors oven temperature and controls the cooking elements to deliver consistent, delicious results every time.",
                                     cta: ""
                                 },
                                 {
@@ -139,7 +139,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                             title: 'Choose Your Style',
                             nav: {
                                 text: 'See<br/>All',
-                                link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back'
+                                link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/'
                             },
                             products: [
                                 {
@@ -239,7 +239,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Voyez ce que les autres clients en disent",
                                     alt: "test",
                                     cta: "Cliquez ici",
-                                    link: "http://www.whirlpool.ca/fr_CA/2_3_90/jump-pages_best-products.content.html",
+                                    link: "http://www.whirlpool.ca/fr_CA/2_3_90/jump-pages_best-products.content.html#Ovens",
                                     type: "star"
                                 },
                                 {
@@ -321,7 +321,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                             title: 'Choisissez votre style',
                             nav: {
                                 text: 'Tout<br/>Voir',
-                                link: 'http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back'
+                                link: 'http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/'
                             },
                             products: [
                                 {

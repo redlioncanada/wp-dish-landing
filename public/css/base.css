@@ -1164,8 +1164,10 @@ rl-wp-cooking-landing {
   rl-wp-cooking-landing more-features-feature {
     width: 33.33333333333%;
     float: left; }
-    rl-wp-cooking-landing more-features-feature > a > div {
+    rl-wp-cooking-landing more-features-feature > a > div, rl-wp-cooking-landing more-features-feature > div > div {
       margin: 0 5px; }
+    rl-wp-cooking-landing more-features-feature > div, rl-wp-cooking-landing more-features-feature > div > div * {
+      cursor: default; }
     rl-wp-cooking-landing more-features-feature .hover {
       position: relative; }
     rl-wp-cooking-landing more-features-feature .text-container:hover {

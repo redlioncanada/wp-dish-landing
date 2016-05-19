@@ -28,8 +28,12 @@ more-features-feature {
 	width: 33.33333333333%;
 	float: left;
 
-	> a > div {
+	> a > div, > div > div {
 		margin: 0 5px;
+	}
+
+	> div, > div > div * {	//no clickthrough link
+		cursor: default;
 	}
 
 	.hover {
