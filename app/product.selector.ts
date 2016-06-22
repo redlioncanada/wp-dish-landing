@@ -36,6 +36,7 @@ export class ProductSelector {
             this.products.push(
                 new ProductModel(
                     product.image,
+                    product.thumb,
                     product.title,
                     product.desc,
                     product.link,

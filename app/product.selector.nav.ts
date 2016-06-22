@@ -8,7 +8,7 @@ import {InsertBreakPipe} from './insertBreak.pipe'
     template: `
     	<div class="row {{!enabled ? 'hide' : ''}}">
 			<div class="wp-cooking-landing-product {{selectedProduct.prodId == product.prodId ? 'selected' : ''}}" *ngFor="#product of products; #i = index" (click)="select(product)">
-				<img src="{{product.prodImage}}"/>
+				<img src="{{product.prodThumb}}"/>
 				<div class="wp-cooking-landing-button">
 					<div class="wp-cooking-landing-button-circle"><div></div></div>
 					<p [innerHtml]="product.prodName | insertBreak"></p>

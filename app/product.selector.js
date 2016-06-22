@@ -40,7 +40,7 @@ System.register(['angular2/core', './product.selector.slides', './product.select
                     this.products = new Array();
                     for (var i in data.productselector.products) {
                         var product = data.productselector.products[i];
-                        this.products.push(new products_model_1.ProductModel(product.image, product.title, product.desc, product.link, product.id, product.ctaText, product.alt));
+                        this.products.push(new products_model_1.ProductModel(product.image, product.thumb, product.title, product.desc, product.link, product.id, product.ctaText, product.alt));
                     }
                     this.selectedProduct = this.products[0];
                     this.animating = false;

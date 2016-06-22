@@ -129,6 +129,7 @@ export class AppDataService {
 				products: [
 					{
 						image: "./public/images/products/fcr.png",
+						thumb: "./public/images/products/thumbs/fcr.png",
                         title: "Front Control Ranges",
                         alt: "Front Control Ranges",
                         desc: "Front Control gives everyone in your home safer and easier access to controls, while providing a built-in look that fits seamlessly into every kitchen. Since the sides are finished, it looks great at the end of the countertop run too.",
@@ -138,6 +139,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/rcr.png",
+						thumb: "./public/images/products/thumbs/rcr.png",
                         title: "Rear Control Ranges",
                         alt: "Rear Control Ranges",
                         desc: "Oven controls are located on the back panel and the style is flexible for your family’s needs– it can fit between cabinets/countertops, at the end of a cabinet run or all by itself.  Ranges can be found in all price points from entry level to premium.",
@@ -147,6 +149,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/dor.png",
+						thumb: "./public/images/products/thumbs/dor.png",
                         title: "Double Oven Ranges",
                         alt: "Double Oven Ranges",
                         desc: "Double ovens come in several shapes and sizes; a smaller top oven paired with a larger one on the bottom and vise versa. When deciding, consider: What kind of things are you usually cooking and how often? How many people are in your household? With two ovens, it’s a piece of cake getting bake sale ready while cooking dinner for the entire family.",
@@ -156,6 +159,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/wall-oven.png",
+						thumb: "./public/images/products/thumbs/wall-oven.png",
                         title: "Wall Ovens",
                         alt: "Wall Ovens",
                         desc: "Built-in wall ovens offer a little more flexibility in busy kitchens. The wall oven is usually installed at chest height for safe transfers of heavier dishes. There are many different options available to choose from; single wall oven, double wall oven, microwave Combination and Built-In Microwave.",
@@ -165,6 +169,7 @@ export class AppDataService {
                     },
                     {
 						image: "./public/images/products/cooktop.png",
+						thumb: "./public/images/products/thumbs/cooktop.png",
                         title: "Cooktops",
                         alt: "Cooktops",
                         desc: "This flat surface with burners or elements can be built into an existing countertop or as a separate appliance. It doesn’t matter if you’re boiling, simmering or pan-frying a quick morning scramble, the technology choices are the same for both.",
@@ -174,6 +179,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/microwave.png",
+						thumb: "./public/images/products/thumbs/microwave.png",
                         title: "Microwaves",
                         alt: "Microwaves",
                         desc: "Over-the-range microwave models are installed above your cooking area and come equipped with a built-in hood fan for ventilation. Enhanced models include a convection microwave which uses an interior fan and separate heating element to evenly circulate hot air over the food, giving you that fresh straight-out-of-the-oven effect.",
@@ -183,6 +189,7 @@ export class AppDataService {
                     },
                     {
 						image: "./public/images/products/hood.png",
+						thumb: "./public/images/products/thumbs/hood.png",
                         title: "Hoods",
                         alt: "Hoods",
                         desc: "Range hoods are a stylish way to ventilate the kitchen. Configurations include under cabinet range hoods, island range hoods and wall mounted range hoods. Many hoods offer lighting to illuminate your cooktop.",
