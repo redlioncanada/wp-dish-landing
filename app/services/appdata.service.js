@@ -146,7 +146,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/products/fcr.png",
                                     title: "Front Control Ranges",
                                     alt: "test",
-                                    desc: "View our versatile and unique design. The Double Drawer style delivers optimal organization, including two soft-close drawers – one with 5 unique temperature settings.",
+                                    desc: "Front Control gives everyone in your home safer and easier access to controls, while providing a built-in look that fits seamlessly into every kitchen. Since the sides are finished, it looks great at the end of the countertop run too.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
                                     id: "front-control-ranges",
                                     ctaText: "Learn More"
@@ -155,7 +155,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/products/rcr.png",
                                     title: "Rear Control Ranges",
                                     alt: "test",
-                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                                    desc: "Oven controls are located on the back panel and the style is flexible for your family’s needs– it can fit between cabinets/countertops, at the end of a cabinet run or all by itself.  Ranges can be found in all price points from entry level to premium.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/",
                                     id: "rear-control-ranges",
                                     ctaText: "Learn More"
@@ -164,7 +164,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/products/dor.png",
                                     title: "Double Oven Ranges",
                                     alt: "test",
-                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                                    desc: "Double ovens come in several shapes and sizes; a smaller top oven paired with a larger one on the bottom and vise versa. When deciding, consider: What kind of things are you usually cooking and how often? How many people are in your household? With two ovens, it’s a piece of cake getting bake sale ready while cooking dinner for the entire family.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
                                     id: "double-oven-ranges",
                                     ctaText: "Learn More"
@@ -173,7 +173,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/products/wall-oven.png",
                                     title: "Wall Ovens",
                                     alt: "test",
-                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                                    desc: "Built-in wall ovens offer a little more flexibility in busy kitchens. The wall oven is usually installed at chest height for safe transfers of heavier dishes. There are many different options available to choose from; single wall oven, double wall oven, microwave Combination and Built-In Microwave.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102280007/",
                                     id: "wall-oven",
                                     ctaText: "Learn More"
@@ -182,7 +182,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/products/cooktop.png",
                                     title: "Cooktops",
                                     alt: "test",
-                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                                    desc: "This flat surface with burners or elements can be built into an existing countertop or as a separate appliance. It doesn’t matter if you’re boiling, simmering or pan-frying a quick morning scramble, the technology choices are the same for both.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102280011/",
                                     id: "cooktops",
                                     ctaText: "Learn More"
@@ -191,7 +191,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/products/microwave.png",
                                     title: "Microwaves",
                                     alt: "test",
-                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                                    desc: "Over-the-range microwave models are installed above your cooking area and come equipped with a built-in hood fan for ventilation. Enhanced models include a convection microwave which uses an interior fan and separate heating element to evenly circulate hot air over the food, giving you that fresh straight-out-of-the-oven effect.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102280018/",
                                     id: "microwaves",
                                     ctaText: "Learn More"
@@ -200,7 +200,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/products/hood.png",
                                     title: "Hoods",
                                     alt: "test",
-                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque orci eget nibh ultrices, sit amet semper massa molestie. Vestibulum id ex sem. Integer eleifend urna ut magna hendrerit, ac maximus tortor ullamcorper.",
+                                    desc: "Range hoods are a stylish way to ventilate the kitchen. Configurations include under cabinet range hoods, island range hoods and wall mounted range hoods. Many hoods offer lighting to illuminate your cooktop.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Hoods-3/102280014/",
                                     id: "hoods",
                                     ctaText: "Learn More"
