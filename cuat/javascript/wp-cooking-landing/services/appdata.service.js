@@ -45,7 +45,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/wp-cooking-landing/refer-landing-shopping-cart.png",
                                     title: "Buying Guide",
-                                    alt: "test",
+                                    alt: "Buying Guide",
                                     desc: "What to look for when buying",
                                     cta: "Click Here",
                                     link: "http://blog.whirlpool.ca/whirlpool-refrigerator-buying-guide/",
@@ -54,7 +54,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/wp-cooking-landing/refer-landing-star.png",
                                     title: "Ratings and Reviews",
-                                    alt: "test",
+                                    alt: "Ratings and Reviews",
                                     desc: "See what others are saying",
                                     cta: "Click Here",
                                     link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html#Ovens",
@@ -63,7 +63,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/wp-cooking-landing/refer-landing-mag-glass.png",
                                     title: "Find Your Whirlpool",
-                                    alt: "test",
+                                    alt: "Find Your Whirlpool",
                                     desc: "Need help finding your range?",
                                     cta: "Click Here",
                                     link: "http://findmy.whirlpool.ca",
@@ -109,7 +109,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     id: 'GO_B6SOOaHU',
                                     thumb: '/images/wp-cooking-landing/video-select-1.jpg',
                                     title: 'Electric and Gas Ranges',
-                                    alt: "test",
+                                    alt: "Electric and Gas Ranges",
                                     ctaTitle: 'Electric and Gas Ranges',
                                     cta: 'Play Video',
                                     desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the time saver system.'
@@ -118,7 +118,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     image: '/images/wp-cooking-landing/video-thumb-2.jpg',
                                     thumb: '/images/wp-cooking-landing/video-select-2.jpg',
                                     title: 'Frozen Bake<sup>&trade;</sup> Technology',
-                                    alt: "test",
+                                    alt: "Frozen Bake Technology",
                                     ctaTitle: 'Frozen Bake<sup>&trade;</sup> Technology',
                                     cta: 'View',
                                     desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster2 by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
@@ -127,7 +127,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     image: '/images/wp-cooking-landing/video-thumb-3.jpg',
                                     thumb: '/images/wp-cooking-landing/video-select-3.jpg',
                                     title: 'Fan Convection Cooking',
-                                    alt: "test",
+                                    alt: "Fan Convection Cooking",
                                     ctaTitle: 'Fan Convection Cooking',
                                     cta: 'View',
                                     desc: 'Bake on any rack with fan convection cooking. It fills the entire oven with heat, so no matter which rack you use, you still get great results.'
@@ -144,8 +144,9 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                             products: [
                                 {
                                     image: "/images/wp-cooking-landing/products/fcr.png",
+                                    thumb: "/images/wp-cooking-landing/products/thumbs/fcr.png",
                                     title: "Front Control Ranges",
-                                    alt: "test",
+                                    alt: "Front Control Ranges",
                                     desc: "Front Control gives everyone in your home safer and easier access to controls, while providing a built-in look that fits seamlessly into every kitchen. Since the sides are finished, it looks great at the end of the countertop run too.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
                                     id: "front-control-ranges",
@@ -153,8 +154,9 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/rcr.png",
+                                    thumb: "/images/wp-cooking-landing/products/thumbs/rcr.png",
                                     title: "Rear Control Ranges",
-                                    alt: "test",
+                                    alt: "Rear Control Ranges",
                                     desc: "Oven controls are located on the back panel and the style is flexible for your family’s needs– it can fit between cabinets/countertops, at the end of a cabinet run or all by itself.  Ranges can be found in all price points from entry level to premium.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/",
                                     id: "rear-control-ranges",
@@ -162,8 +164,9 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/dor.png",
+                                    thumb: "/images/wp-cooking-landing/products/thumbs/dor.png",
                                     title: "Double Oven Ranges",
-                                    alt: "test",
+                                    alt: "Double Oven Ranges",
                                     desc: "Double ovens come in several shapes and sizes; a smaller top oven paired with a larger one on the bottom and vise versa. When deciding, consider: What kind of things are you usually cooking and how often? How many people are in your household? With two ovens, it’s a piece of cake getting bake sale ready while cooking dinner for the entire family.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
                                     id: "double-oven-ranges",
@@ -171,8 +174,9 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/wall-oven.png",
+                                    thumb: "/images/wp-cooking-landing/products/thumbs/wall-oven.png",
                                     title: "Wall Ovens",
-                                    alt: "test",
+                                    alt: "Wall Ovens",
                                     desc: "Built-in wall ovens offer a little more flexibility in busy kitchens. The wall oven is usually installed at chest height for safe transfers of heavier dishes. There are many different options available to choose from; single wall oven, double wall oven, microwave Combination and Built-In Microwave.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102280007/",
                                     id: "wall-oven",
@@ -180,8 +184,9 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/cooktop.png",
+                                    thumb: "/images/wp-cooking-landing/products/thumbs/cooktop.png",
                                     title: "Cooktops",
-                                    alt: "test",
+                                    alt: "Cooktops",
                                     desc: "This flat surface with burners or elements can be built into an existing countertop or as a separate appliance. It doesn’t matter if you’re boiling, simmering or pan-frying a quick morning scramble, the technology choices are the same for both.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102280011/",
                                     id: "cooktops",
@@ -189,8 +194,9 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/microwave.png",
+                                    thumb: "/images/wp-cooking-landing/products/thumbs/microwave.png",
                                     title: "Microwaves",
-                                    alt: "test",
+                                    alt: "Microwaves",
                                     desc: "Over-the-range microwave models are installed above your cooking area and come equipped with a built-in hood fan for ventilation. Enhanced models include a convection microwave which uses an interior fan and separate heating element to evenly circulate hot air over the food, giving you that fresh straight-out-of-the-oven effect.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102280018/",
                                     id: "microwaves",
@@ -198,8 +204,9 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/hood.png",
+                                    thumb: "/images/wp-cooking-landing/products/thumbs/hood.png",
                                     title: "Hoods",
-                                    alt: "test",
+                                    alt: "Hoods",
                                     desc: "Range hoods are a stylish way to ventilate the kitchen. Configurations include under cabinet range hoods, island range hoods and wall mounted range hoods. Many hoods offer lighting to illuminate your cooktop.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Hoods-3/102280014/",
                                     id: "hoods",

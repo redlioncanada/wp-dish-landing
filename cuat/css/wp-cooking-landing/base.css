@@ -831,7 +831,9 @@ rl-wp-cooking-landing {
       top: 150px; } }
   rl-wp-cooking-landing product-selector {
     width: 80%;
-    position: relative; }
+    position: relative;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
     rl-wp-cooking-landing product-selector h2 {
       font-size: 3em;
       text-align: center;
@@ -849,39 +851,69 @@ rl-wp-cooking-landing {
     rl-wp-cooking-landing product-selector #french-door, rl-wp-cooking-landing product-selector #side-by-side, rl-wp-cooking-landing product-selector #bottom-freezer, rl-wp-cooking-landing product-selector #under-counter, rl-wp-cooking-landing product-selector #built-in {
       opacity: 0; }
     rl-wp-cooking-landing product-selector product-slides {
-      display: block;
-      width: 100%; }
+      display: inline-block;
+      width: 100%;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
     rl-wp-cooking-landing product-selector .wp-cooking-landing-product-slide {
-      position: absolute;
-      width: 943px; }
+      position: relative; }
     rl-wp-cooking-landing product-selector product-slide {
-      height: 420px;
       display: inline-block;
       position: relative;
-      top: -170px;
-      left: -470px; }
-      @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector product-slide {
-          position: absolute;
-          height: initial;
-          top: initial;
-          width: 100%;
-          left: 0; } }
+      padding-top: 20px;
+      padding-bottom: 20px;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
       rl-wp-cooking-landing product-selector product-slide #freezers img {
         margin-left: -50px; }
         @media screen and (max-width: 820px) {
           rl-wp-cooking-landing product-selector product-slide #freezers img {
             margin: 0 auto; } }
+      @media screen and (max-width: 820px) {
+        rl-wp-cooking-landing product-selector product-slide {
+          width: 100%; } }
+    rl-wp-cooking-landing product-selector product-slide:not(.selected) {
+      display: none; }
     @media screen and (max-width: 820px) {
       rl-wp-cooking-landing product-selector product-slide:first-of-type {
         position: relative; } }
     rl-wp-cooking-landing product-selector > .row {
       background-image: url("/images/wp-cooking-landing/refer-select-shadow.png");
       background-repeat: no-repeat;
-      background-position-y: 100px; }
+      background-position-y: 100px;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing product-selector > .row {
           background-position-y: -30px; } }
+    rl-wp-cooking-landing product-selector .rl-wp-lndng-prodLeft {
+      width: 50%;
+      position: relative;
+      float: left;
+      text-align: right;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
+      @media screen and (max-width: 820px) {
+        rl-wp-cooking-landing product-selector .rl-wp-lndng-prodLeft {
+          float: none;
+          width: 100%; } }
+    rl-wp-cooking-landing product-selector .rl-wp-lndng-prodRight {
+      width: 35%;
+      position: relative;
+      float: left;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
+      @media screen and (max-width: 820px) {
+        rl-wp-cooking-landing product-selector .rl-wp-lndng-prodRight {
+          float: none;
+          width: 100%; } }
+    rl-wp-cooking-landing product-selector .rl-wp-lndng-side {
+      display: none;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
+      @media screen and (max-width: 820px) {
+        rl-wp-cooking-landing product-selector .rl-wp-lndng-side {
+          width: 100%; } }
     rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-title.mobile {
       display: none;
       margin-bottom: 20px; }
@@ -894,35 +926,30 @@ rl-wp-cooking-landing {
           text-align: center;
           margin: 0 auto;
           display: inline-block;
-          width: 100%;
           margin-bottom: 10px;
-          color: #000000 !important; } }
+          color: #000000 !important;
+          width: 100%; } }
     rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-title {
-      position: absolute;
-      left: 490px;
-      top: 170px;
-      width: 300px;
+      position: relative;
       font-weight: 300;
       font-size: 32px;
       color: #000000 !important;
       opacity: 0;
       line-height: 30px;
-      text-align: left; }
+      text-align: left;
+      padding-bottom: 10px; }
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-title {
           display: none; } }
     rl-wp-cooking-landing product-selector learn-more-button {
-      position: absolute;
-      left: 490px;
-      top: 325px;
+      position: relative;
       width: 115px;
       height: 30px;
       opacity: 0; }
       @media screen and (max-width: 1366px) {
         rl-wp-cooking-landing product-selector learn-more-button {
-          transform: scale(1.5, 1.5);
-          -webkit-transform: scale(1.5, 1.5);
-          left: 515px;
+          transform: scale(1, 1);
+          -webkit-transform: scale(1, 1);
           font-size: .7em; } }
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing product-selector learn-more-button {
@@ -933,8 +960,7 @@ rl-wp-cooking-landing {
           text-align: center;
           margin: 0 auto; } }
     rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge {
-      left: 165px;
-      position: absolute;
+      position: relative;
       opacity: 0; }
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge {
@@ -942,26 +968,26 @@ rl-wp-cooking-landing {
           position: relative;
           display: block;
           top: 0;
-          margin-bottom: 20px; } }
+          margin-bottom: 20px;
+          width: 100%; } }
     rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge img {
-      height: 420px; }
+      width: 350px; }
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge img {
           height: 200px;
-          display: block;
-          margin: 0 auto; } }
+          margin-left: 50%;
+          transform: translateX(-50%);
+          width: initial; } }
     rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-desc {
-      position: absolute;
-      left: 490px;
-      top: 215px;
-      width: 300px;
+      position: relative;
       font-size: 18.5px;
       font-weight: 100;
       line-height: 24px;
       letter-spacing: 1px;
       text-rendering: optimizeSpeed;
       opacity: 0;
-      text-align: left; }
+      text-align: left;
+      padding-bottom: 20px; }
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-desc {
           position: relative;
@@ -970,7 +996,6 @@ rl-wp-cooking-landing {
           display: block;
           text-align: center;
           margin: 0 auto;
-          margin-bottom: 30px;
           font-size: 14px !important;
           line-height: 18px !important; } }
       @media screen and (max-width: 1366px) {
@@ -979,8 +1004,10 @@ rl-wp-cooking-landing {
           line-height: 24px; } }
   rl-wp-cooking-landing product-selector-nav {
     position: relative;
-    top: 70px;
-    height: 300px; }
+    display: inline-block;
+    padding-top: 7.5%;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
     rl-wp-cooking-landing product-selector-nav .row {
       position: relative;
       display: inline-block; }
@@ -1096,7 +1123,8 @@ rl-wp-cooking-landing {
   @media screen and (max-width: 820px) {
     rl-wp-cooking-landing product-selector.fr product-selector-nav div .wp-cooking-landing-button p {
       font-size: 0.6em;
-      font-weight: 200; } }
+      font-weight: 200;
+      line-height: 11px; } }
   rl-wp-cooking-landing product-selector.fr product-slides product-slide .rl-wp-lndng-fridge-title.mobile {
     font-size: 18px;
     line-height: 20px; }
@@ -1116,11 +1144,9 @@ rl-wp-cooking-landing {
         left: 0; } }
   rl-wp-cooking-landing learn-more-button {
     display: block;
-    position: absolute;
-    top: 50%;
+    position: relative;
     width: 180px;
     height: 40px;
-    margin-top: -20px;
     color: #FFFFFF;
     background-color: #eeb111;
     -webkit-transition: all 0.2s ease;
@@ -1223,6 +1249,7 @@ rl-wp-cooking-landing {
     rl-wp-cooking-landing banner img {
       width: 100%; }
     rl-wp-cooking-landing banner learn-more-button {
+      position: absolute;
       top: 80%;
       right: 38%;
       width: 18%;
