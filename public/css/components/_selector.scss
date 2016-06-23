@@ -377,10 +377,15 @@ product-selector.fr {
 
         @media screen and (max-width: $mobileBreakpoint) {
             width: 100%;
+            padding: 0 10px 13px 10px;
         }
     }
 
     product-selector-nav {
+        .wp-cooking-landing-product:nth-child(4) {
+            margin-bottom: 8px;
+        }
+
         @media screen and (max-width: $mobileBreakpoint) {
             div .wp-cooking-landing-button p {
                 font-size: 0.6em;

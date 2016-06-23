@@ -68,12 +68,6 @@ System.register(['angular2/core', './product.selector.slide.js', './services/log
                     var self = this;
                     if ("selectedProduct" in changes && !this.animating) {
                         this.playOut(changes.selectedProduct.previousValue.prodId, function () {
-                            //just get it done
-                            // if ((changes.selectedProduct.currentValue.prodId == 'four-door' || changes.selectedProduct.currentValue.prodId == 'top-freezer') && $('product-selector').hasClass('fr') && $(window).innerWidth() > 820) {
-                            //   self.learnTop = 580;
-                            // } else {
-                            //   self.learnTop = 520;
-                            // }
                             self.playIn(self, false, changes.selectedProduct.currentValue.prodId);
                         });
                     }

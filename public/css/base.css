@@ -22,7 +22,8 @@ rl-wp-cooking-landing {
   font-size: 12pt;
   position: relative;
   display: block;
-  margin-top: 118px; }
+  margin-top: 118px;
+  overflow-x: hidden; }
   rl-wp-cooking-landing html, rl-wp-cooking-landing body, rl-wp-cooking-landing div, rl-wp-cooking-landing span, rl-wp-cooking-landing applet, rl-wp-cooking-landing object, rl-wp-cooking-landing iframe, rl-wp-cooking-landing h1, rl-wp-cooking-landing h2, rl-wp-cooking-landing h3, rl-wp-cooking-landing h4, rl-wp-cooking-landing h5, rl-wp-cooking-landing h6, rl-wp-cooking-landing p, rl-wp-cooking-landing blockquote, rl-wp-cooking-landing pre, rl-wp-cooking-landing a, rl-wp-cooking-landing abbr, rl-wp-cooking-landing acronym, rl-wp-cooking-landing address, rl-wp-cooking-landing big, rl-wp-cooking-landing cite, rl-wp-cooking-landing code, rl-wp-cooking-landing del, rl-wp-cooking-landing dfn, rl-wp-cooking-landing em, rl-wp-cooking-landing img, rl-wp-cooking-landing ins, rl-wp-cooking-landing kbd, rl-wp-cooking-landing q, rl-wp-cooking-landing s, rl-wp-cooking-landing samp, rl-wp-cooking-landing small, rl-wp-cooking-landing strike, rl-wp-cooking-landing strong, rl-wp-cooking-landing sub, rl-wp-cooking-landing sup, rl-wp-cooking-landing tt, rl-wp-cooking-landing var, rl-wp-cooking-landing b, rl-wp-cooking-landing u, rl-wp-cooking-landing i, rl-wp-cooking-landing center, rl-wp-cooking-landing dl, rl-wp-cooking-landing dt, rl-wp-cooking-landing dd, rl-wp-cooking-landing ol, rl-wp-cooking-landing ul, rl-wp-cooking-landing li, rl-wp-cooking-landing fieldset, rl-wp-cooking-landing form, rl-wp-cooking-landing label, rl-wp-cooking-landing legend, rl-wp-cooking-landing table, rl-wp-cooking-landing caption, rl-wp-cooking-landing tbody, rl-wp-cooking-landing tfoot, rl-wp-cooking-landing thead, rl-wp-cooking-landing tr, rl-wp-cooking-landing th, rl-wp-cooking-landing td, rl-wp-cooking-landing article, rl-wp-cooking-landing aside, rl-wp-cooking-landing canvas, rl-wp-cooking-landing details, rl-wp-cooking-landing embed, rl-wp-cooking-landing figure, rl-wp-cooking-landing figcaption, rl-wp-cooking-landing footer, rl-wp-cooking-landing header, rl-wp-cooking-landing hgroup, rl-wp-cooking-landing menu, rl-wp-cooking-landing nav, rl-wp-cooking-landing output, rl-wp-cooking-landing ruby, rl-wp-cooking-landing section, rl-wp-cooking-landing summary, rl-wp-cooking-landing time, rl-wp-cooking-landing mark, rl-wp-cooking-landing audio, rl-wp-cooking-landing video {
     margin: 0;
     padding: 0;
@@ -686,7 +687,8 @@ rl-wp-cooking-landing {
       @media screen and (max-width: 820px) {
         rl-wp-cooking-landing features .wp-landing-over-copy {
           font-size: 0.5em;
-          top: 135px; } }
+          top: 135px;
+          padding: 0 2px; } }
     rl-wp-cooking-landing features .wp-landing-over-copy, rl-wp-cooking-landing features .wp-landing-over-cta {
       width: 100%;
       text-align: center;
@@ -1099,7 +1101,10 @@ rl-wp-cooking-landing {
     width: 450px; }
     @media screen and (max-width: 820px) {
       rl-wp-cooking-landing product-selector.fr .rl-wp-lndng-fridge-desc {
-        width: 100%; } }
+        width: 100%;
+        padding: 0 10px 13px 10px; } }
+  rl-wp-cooking-landing product-selector.fr product-selector-nav .wp-cooking-landing-product:nth-child(4) {
+    margin-bottom: 8px; }
   @media screen and (max-width: 820px) {
     rl-wp-cooking-landing product-selector.fr product-selector-nav div .wp-cooking-landing-button p {
       font-size: 0.6em;

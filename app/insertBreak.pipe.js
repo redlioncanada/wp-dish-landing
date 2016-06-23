@@ -21,8 +21,21 @@ System.register(['angular2/core'], function(exports_1, context_1) {
             InsertBreakPipe = (function () {
                 function InsertBreakPipe() {
                 }
+                //replaces all spaces with <br/> unless it's preceded by a word with length 1
                 InsertBreakPipe.prototype.transform = function (str) {
-                    return str.replace(/\s/g, '<br/>');
+                    var arr = str.split(' ');
+                    str = '';
+                    for (var i in arr) {
+                        if (arr[i].length == 1) {
+                            if (Number(i) == arr.length - 1)
+                                str += arr[i];
+                            else
+                                str += arr[i] + ' ';
+                        }
+                        else
+                            str += arr[i] + '<br/>';
+                    }
+                    return str;
                 };
                 InsertBreakPipe = __decorate([
                     core_1.Pipe({

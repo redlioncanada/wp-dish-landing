@@ -71,7 +71,7 @@ export class AppDataService {
 					{
 						title: "Temperature Sensor",
 						image: "./public/images/more-features-2.jpg",
-						link: "http://www.whirlpool.ca/en_CA/Accessories-1/Accessories_Kitchen_Accessories_Oven__Range-3/102280109/",
+						link: "",
 						alt: "test",
 						text: "A built-in sensor monitors oven temperature and controls the cooking elements to deliver consistent, delicious results every time.",
 						cta: ""
@@ -91,13 +91,13 @@ export class AppDataService {
 				title: "Must-See Innovation",
 				videos: [
 					{
-						id: 'GO_B6SOOaHU',
+						id: 'Fxxny2lMDhQ',
 						thumb: './public/images/video-select-1.jpg',
 						title: 'Electric and Gas Ranges',
 						alt: "Electric and Gas Ranges",
 						ctaTitle: 'Electric and Gas Ranges',
 						cta: 'Play Video',
-						desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the time saver system.'
+						desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the TimeSavor<sup>&trade;</sup> system.'
 					},
 					{
 						image: './public/images/video-thumb-2.jpg',
@@ -106,7 +106,7 @@ export class AppDataService {
 						alt: "Frozen Bake Technology",
 						ctaTitle: 'Frozen Bake<sup>&trade;</sup> Technology',
 						cta: 'View',
-						desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster2 by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
+						desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster<sup>2</sup> by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
 					},
 					{
 						image: './public/images/video-thumb-3.jpg',
@@ -217,15 +217,15 @@ export class AppDataService {
 			features: {
 				enabled: true,
 				features: [
-					// {
-					// 	image: "./public/images/refer-landing-shopping-cart.png",
-					// 	title: "Guide D'achat",
-					// 	desc: "Éléments à considérer lorsque vous magasinez",
-					// 	alt: "test",
-					// 	cta: "Cliquez ici",
-					// 	link: "http://whirlpool.ca/fr_CA/",
-					// 	type: "cart"
-					// },
+					{
+						image: "./public/images/refer-landing-shopping-cart.png",
+						title: "Guide D'achat",
+						desc: "Éléments à considérer lorsque vous magasinez",
+						alt: "test",
+						cta: "Cliquez ici",
+						link: "http://whirlpool.ca/fr_CA/",
+						type: "cart"
+					},
 					{
 						image: "./public/images/refer-landing-star.png",
 						title: "Classements et Évaluations",
@@ -238,7 +238,7 @@ export class AppDataService {
 					{
 						image: "./public/images/refer-landing-mag-glass.png",
 						title: "Trouvez Votre Électroménager Whirlpool",
-						desc: "Vous avez besoin d'aide pour trouver un réfrigérateur?",
+						desc: "Vous avez besoin d’aide pour trouver un cuisinière",
 						alt: "test",
 						cta: "Cliquez ici",
 						link: "http://trouvermon.whirlpool.ca",
@@ -251,23 +251,23 @@ export class AppDataService {
 				title: "Fonctions supplémentaires",
 				features: [
 					{
-						title: "Accessoires supplémentaires",
+						title: "Élément Flex Heat",
 						image: "./public/images/more-features-1.jpg",
-						link: "http://www.whirlpool.ca/fr_CA/Accessories-1/Accessories_Kitchen_Accessories_Refrigerator-3/102280119/",
-						alt: "test",
-						text: "",
+						link: "",
+						alt: "Élément Flex Heat",
+						text: "L'élément FlexHeat™ permet d'avoir deux ou trois éléments en un seul. L’anneau intérieur de 6 po est idéal pour les petites casseroles et les anneaux extérieurs permettent d'accueillir de plus grandes batteries de cuisine.",
 						cta: ""
 					},
 					{
-						title: "Filtres à eau",
+						title: "Capteur de température",
 						image: "./public/images/more-features-2.jpg",
-						link: "http://www.whirlpool.ca/fr_CA/2_3_80/jump-pages_water-filters.content.html",
-						alt: "test",
-						text: "",
+						link: "",
+						alt: "Capteur de température",
+						text: "Un capteur intégré surveille la température du four et contrôle les éléments de cuisson pour assurer des résultats uniformes et délicieux à chaque fois.",
 						cta: ""
 					},
 					{
-						title: "Entretien autorisé",
+						title: "Garantie d’installation FIT",
 						image: "./public/images/more-features-3.jpg",
 						link: "/other-assets/fr_CA/pdf/WHR_FIT_Front Control_Guarantee_2016_FR.pdf",
 						alt: "test",
@@ -283,29 +283,29 @@ export class AppDataService {
 					{
 						image: './public/images/video-thumb-1.jpg',
 						thumb: './public/images/video-select-1.jpg',
-						title: 'Système de rangement Perfect Places<sup>&trade;</sup>',
-						ctaTitle: 'Système de rangement Perfect Places<sup>&trade;</sup>',
-						alt: "test",
+						title: 'Cuisinières électriques et au gaz ',
+						alt: "Cuisinières électriques et au gaz ",
+						ctaTitle: 'Cuisinières électriques et au gaz',
 						cta: 'Voir',
-						desc: 'La conception Whirlpool à double tiroir  offre cinq zones de rangement uniques pour mieux organiser vos articles. Il s\'agit de notre réfrigérateur le plus flexible à ce jour.'
+						desc: 'Préparez votre souper plus rapidement et regagnez ainsi du temps dans votre journée bien occupée, grâce aux cuisinières équipées du système TimeSavor<sup>&trade;</sup>.'
 					},
 					{
 						image: './public/images/video-thumb-2.jpg',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Fonctions Resource Saver<sup>&trade;</sup> et EasyView<sup>&trade;</sup>',
-						ctaTitle: 'Fonctions Resource Saver<sup>&trade;</sup><br/>et EasyView<sup>&trade;</sup>',
-						alt: "test",
+						title: 'Technologie Frozen Bake<sup>&trade;</sup>',
+						alt: "Technologie Frozen Bake",
+						ctaTitle: 'Technologie<br/>Frozen Bake<sup>&trade;</sup>',
 						cta: 'Voir',
-						desc: 'Les réfrigérateurs les plus efficaces de l’industrie dans leur catégorie respective. Augmentez la souplesse de rangement de votre réfrigérateur et préservez la fraîcheur et le bon goût de vos fruits et légumes grâce au système de bacs à légumes triples EasyView™. Désormais, vous pouvez facilement accéder aux aliments grâce à la visibilité totale à travers le bac à légumes. De plus, vous pourrez ranger une grande variété d\'articles grâce aux trois tiroirs. Le contrôle automatique d\'humidité contribue également à maintenir la fraîcheur.',
+						desc: 'La technologie Frozen Bake™ cuit les aliments plus rapidement, éliminant le besoin de préchauffer le four pour vos aliments favoris, tels que les pizzas, lasagnes, pépites de poulet, frites ou tartes. Il suffit de sélectionner le type d\'aliment, la température et le temps de cuisson indiqué sur l\'emballage du produit congelé, puis le four personnalisera la cuisson.',
 					},
 					{
 						image: './public/images/video-thumb-3.jpg',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'Système de rangement StoreRight<sup>&trade;</sup>',
-						ctaTitle: 'Système de rangement StoreRight<sup>&trade;</sup>',
-						alt: "test",
+						title: 'Cuisson par convection à ventilation',
+						alt: "Cuisson par convection à ventilation",
+						ctaTitle: 'Cuisson par convection à ventilation',
 						cta: 'Voir',
-						desc: 'Le système de rangement StoreRight™ préserve la fraîcheur des aliments et réduit les brûlures de congélation, grâce à une technologie de refroidissement perfectionnée et ajuste automatiquement les niveaux d\'humidité.'
+						desc: 'Obtenez une cuisson uniforme sur toutes les grilles grâce à la convection par ventilateur. La chaleur se propage dans tout le four, vous obtiendrez ainsi des résultats optimaux, quelle que soit la grille utilisée.'
 					}
 				]
 			},
@@ -318,57 +318,73 @@ export class AppDataService {
 				},
 				products: [
 					{
-						image: "./public/images/products/double-drawer.png",
-                        title: "Tiroir double",
-                        desc: "Devenez le champion de l’organisation grâce à notre réfrigérateur polyvalent à double tiroir, conçu pour tous les besoins de votre famille. Son style unique offre 9 espaces de rangement, optimisés par notre système PerfectPlaces™, avec le tiroir à température contrôlée et le bac pour petits articles.",
-                        link: "http://www.whirlpool.ca/fr_CA/kitchen-1/refrigeration-2/refrigerators-3/-%5BWRV986FDEM%5D-5552596/WRV986FDEM/",
-                        alt: "test",
-                        id: "double-drawer",
+						image: "./public/images/products/fcr.png",
+						thumb: "./public/images/products/thumbs/fcr.png",
+                        title: "Cuisinières à commandes frontales",
+                        alt: "Cuisinières à commandes frontales",
+                        desc: "Les commandes frontales sont plus sécuritaires et faciles d'accès, et leur allure intégrée s'agence à toute cuisine. Vous pouvez installer ces cuisinières au bout du comptoir, grâce aux parois finies.",
+                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000374/",
+                        id: "front-control-ranges",
                         ctaText: "En savoir plus"
                     },
 					{
-						image: "./public/images/products/french-door.png",
-                        title: "Portes françaises",
-                        desc: "Nos réfrigérateurs à portes françaises procurent un rangement polyvalent, maintiennent vos produits frais à hauteur des yeux et vous permettent de conserver facilement vos produits congelés favoris. Leur élégance et capacité optimale font de ces réfrigérateurs un élément idéal de votre cuisine familiale.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back",
-                        alt: "test",
-                        id: "french-door",
+						image: "./public/images/products/rcr.png",
+						thumb: "./public/images/products/thumbs/rcr.png",
+                        title: "Cuisinières à commandes arrière",
+                        alt: "Cuisinières à commandes arrière",
+                        desc: "Ces cuisinières peuvent se placer entre les placards/comptoirs, au bout d'un comptoir ou même séparément; et les commandes sont placées sur le panneau arrière. Les prix varient, du modèle de base au modèle supérieur.",
+                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+4294965600/",
+                        id: "rear-control-ranges",
                         ctaText: "En savoir plus"
                     },
 					{
-						image: "./public/images/products/side-by-side.png",
-                        title: "Côte à côte",
-                        desc: "Découvrez l’avantage d’un espace supplémentaire dans les balconnets de porte qui facilitent le rangement et l'accès aux petits ou grands articles. Ce style classique offre un rangement parfaitement équilibré entre les aliments frais et surgelés, avec la possibilité de choisir différentes tailles.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back",
-                        alt: "test",
-                        id: "side-by-side",
+						image: "./public/images/products/dor.png",
+						thumb: "./public/images/products/thumbs/dor.png",
+                        title: "Cuisinières à four double",
+                        alt: "Cuisinières à four double",
+                        desc: "Les fours doubles sont de tailles et formes variées. Réfléchissez à ce que vous cuisinez le plus fréquemment et pour combien de personnes. Les deux fours permettent de cuire vos pâtisseries et le souper en même temps.",
+                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+102280334/",
+                        id: "double-oven-ranges",
                         ctaText: "En savoir plus"
                     },
 					{
-						image: "./public/images/products/bottom-freezer.png",
-                        title: "Congélateur inférieur",
-                        desc: "Bénéficiez d’un accès pratique aux aliments frais et aux collations sur le pouce ou après l'école. Vous avez le choix entre le congélateur-tiroir ou à porte, ainsi qu'une variété de tailles s'agençant à tout espace de votre maison.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023/",
-                        alt: "test",
-                        id: "bottom-freezer",
+						image: "./public/images/products/wall-oven.png",
+						thumb: "./public/images/products/thumbs/wall-oven.png",
+                        title: "Fours muraux",
+                        alt: "Fours muraux",
+                        desc: "Les fours muraux encastrés sont très polyvalents. Situés à hauteur de poitrine, les plats lourds sont faciles à transférer sur le comptoir. Choix variés : four à micro-ondes encastré, four mural simple, double, ou combiné avec un four à micro-ondes.",
+                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102280007/",
+                        id: "wall-oven",
                         ctaText: "En savoir plus"
                     },
                     {
-						image: "./public/images/products/top-freezer.png",
-                        title: "Congélateur supérieur",
-                        desc: "Il y aura toujours une place pour vos aliments frais ou surgelés favoris dans ce réfrigérateur au style simple et classique à la fois. Notre réfrigérateur à congélateur supérieur offre un excellent rapport qualité/prix et est aussi disponible en tailles plus petites.",
-                        link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023/",
-                        alt: "test",
-                        id: "top-freezer",
+						image: "./public/images/products/cooktop.png",
+						thumb: "./public/images/products/thumbs/cooktop.png",
+                        title: "Tables de cuisson",
+                        alt: "Tables de cuisson",
+                        desc: "Cette surface de cuisson à brûleurs ou éléments peut se placer sur un comptoir existant ou séparément. Excellente technologie pour porter à ébullition, mijoter ou frire des œufs brouillés rapidement.",
+                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102280011/",
+                        id: "cooktops",
                         ctaText: "En savoir plus"
                     },
 					{
-						image: "./public/images/products/freezer.png",
-                        title: "Congélateurs",
-                        desc: "Découvrez tout l'espace supplémentaire pour les aliments congelés, tels que les pizzas ou les suçons glacés. Nos modèles horizontaux ou verticaux assurent l'ajustement idéal pour tout espace.",
-                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/",
-                        alt: "test",
-                        id: "freezers",
+						image: "./public/images/products/microwave.png",
+						thumb: "./public/images/products/thumbs/microwave.png",
+                        title: "Fours à micro-ondes",
+                        alt: "Fours à micro-ondes",
+                        desc: "Les fours à micro-ondes à hotte intégrée s’installent au dessus de votre surface de cuisson. Certains modèles sont dotés de la cuisson à convection, utilisant des ventilateurs internes et des éléments chauffants séparés faisant circuler uniformément l'air chaud.",
+                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102280018/",
+                        id: "microwaves",
+                        ctaText: "En savoir plus"
+                    },
+                    {
+						image: "./public/images/products/hood.png",
+						thumb: "./public/images/products/thumbs/hood.png",
+                        title: "Hottes",
+                        alt: "Hottes",
+                        desc: "Les hottes de ventilation sont une façon élégante d'aérer votre cuisine. Choix de hottes sous armoire, hottes montées sur îlot et hottes murales. Certaines sont aussi dotées d'un éclairage de surface de cuisson.",
+                        link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Hoods-3/102280014/",
+                        id: "hoods",
                         ctaText: "En savoir plus"
                     }
 				]
