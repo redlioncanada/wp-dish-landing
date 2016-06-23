@@ -37,7 +37,6 @@ product-selector {
     product-slide {
         display: inline-block;
         position: relative;
-        padding-top: 20px;
         padding-bottom: 20px;
         -webkit-transition: all 1s;
         transition: all 1s;
@@ -213,7 +212,7 @@ product-selector {
 product-selector-nav {
     position: relative;
     display: inline-block;
-    padding-top: 7.5%;
+    padding-top: 4%;
     -webkit-transition: all 1s;
     transition: all 1s;
 
@@ -225,7 +224,7 @@ product-selector-nav {
     .wp-cooking-landing-product,.see-all {
         float: left;
         width: 25%;
-        padding: 0 2px;
+        padding: 0 12px;
         
 
         img {
@@ -259,12 +258,12 @@ product-selector-nav {
 
         .wp-cooking-landing-button-circle {
             width: 100%;
-            height: 18px;
-            margin-bottom: 10px;
+            height: 15px;
+            margin-bottom: 6px;
 
             div {
                 height: inherit;
-                width: 18px;
+                width: 15px;
                 margin: 0 auto;
                 display: block;
                 background-color: $selectorTextColor;
@@ -274,7 +273,7 @@ product-selector-nav {
 
         p {
             width: 100%;
-            line-height: 13px;
+            line-height: 14px;
             font-size: 1em;
             font-weight: 400;
             text-align: center;
@@ -315,6 +314,7 @@ product-selector-nav {
     }
 
     .see-all {
+        display:none !important;
         height: 300px;
         width: 25%;
         color: $selectorCTAColor;
@@ -344,7 +344,6 @@ product-selector-nav {
         @media screen and (max-width: $mobileBreakpoint) {
             height: 130px;
             margin-top: 70px;
-            display: initial;
             padding: initial;
 
             div {

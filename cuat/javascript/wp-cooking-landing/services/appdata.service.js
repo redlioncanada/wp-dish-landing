@@ -148,7 +148,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     title: "Front Control Ranges",
                                     alt: "Front Control Ranges",
                                     desc: "Front Control gives everyone in your home safer and easier access to controls, while providing a built-in look that fits seamlessly into every kitchen. Since the sides are finished, it looks great at the end of the countertop run too.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
+                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+10000151/",
                                     id: "front-control-ranges",
                                     ctaText: "Learn More"
                                 },
@@ -158,7 +158,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     title: "Rear Control Ranges",
                                     alt: "Rear Control Ranges",
                                     desc: "Oven controls are located on the back panel and the style is flexible for your family’s needs– it can fit between cabinets/countertops, at the end of a cabinet run or all by itself.  Ranges can be found in all price points from entry level to premium.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/",
+                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000374/",
                                     id: "rear-control-ranges",
                                     ctaText: "Learn More"
                                 },
@@ -168,7 +168,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     title: "Double Oven Ranges",
                                     alt: "Double Oven Ranges",
                                     desc: "Double ovens come in several shapes and sizes; a smaller top oven paired with a larger one on the bottom and vise versa. When deciding, consider: What kind of things are you usually cooking and how often? How many people are in your household? With two ovens, it’s a piece of cake getting bake sale ready while cooking dinner for the entire family.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/#back",
+                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000375/",
                                     id: "double-oven-ranges",
                                     ctaText: "Learn More"
                                 },

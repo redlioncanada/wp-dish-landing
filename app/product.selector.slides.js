@@ -36,6 +36,7 @@ System.register(['angular2/core', './product.selector.slide', './services/logger
                     this.logger = logger;
                     this.breakpoint = breakpoint;
                     this.isAnimating = new core_1.EventEmitter();
+                    this.init = false;
                     this.elementRef = elementRef;
                     this.animating = false;
                     this.imageTop = 155;
@@ -105,9 +106,10 @@ System.register(['angular2/core', './product.selector.slide', './services/logger
                     $(self.rootElement).find('product-slide').css('zIndex', 1);
                     $(target).parent().css('zIndex', 2);
                     $('product-slides').css('height', $('.selected').css('height'));
-                    $('html,body').animate({
-                        scrollTop: $('product-slides').offset().top
-                    });
+                    if (self.init)
+                        $('html,body').animate({
+                            scrollTop: $('product-slides').offset().top
+                        });
                     var image = ($(target).find('.rl-wp-lndng-fridge'));
                     var title = ($(target).find('.rl-wp-lndng-fridge-title'));
                     var desc = ($(target).find('.rl-wp-lndng-fridge-desc'));
@@ -158,6 +160,7 @@ System.register(['angular2/core', './product.selector.slide', './services/logger
                             });
                         }
                     }
+                    self.init = true;
                 };
                 __decorate([
                     core_1.Input(), 

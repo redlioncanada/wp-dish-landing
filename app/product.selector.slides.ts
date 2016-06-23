@@ -32,6 +32,8 @@ export class ProductSlides {
   private descTop
   private learnTop
 
+  private init:boolean = false
+
   set animating(a: boolean) {
     if (this._animating != a) {
       this._animating = a
@@ -109,7 +111,7 @@ export class ProductSlides {
     $(target).parent().css('zIndex', 2)
     $('product-slides').css('height', $('.selected').css('height'));
 
-    $('html,body').animate({ 
+    if (self.init) $('html,body').animate({
       scrollTop: $('product-slides').offset().top
     })
 
@@ -165,5 +167,6 @@ export class ProductSlides {
         });
       }
     }
+    self.init = true
   }
 }

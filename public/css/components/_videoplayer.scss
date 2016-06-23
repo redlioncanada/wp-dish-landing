@@ -83,17 +83,16 @@ videoplayer-selector {
 	width: 100%;
 
 	.wp-cooking-landing-videoplayer-text {
-		height: 100%;
 		width: 100%;
 		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 		z-index: 2;
-        @media screen and (max-width: $mobileBreakpoint) {
-            top: -5px;
-        }
 
 
 		.wp-cooking-landing-videoplayer-title, .wp-cooking-landing-videoplayer-button {
-			top: 50%;
+			position: relative;
 			text-align: center;
 			color: $videoPlayer-copyColor;
 			border-radius: 15px;
@@ -101,12 +100,10 @@ videoplayer-selector {
 
 		.wp-cooking-landing-videoplayer-title {
 			font-size: 2em;
-			margin-top: -65px;
 			width: 100%;
 			color: $videoPlayer-copyColor !important;
 
 			@media screen and (max-width: $mobileBreakpoint) {
-				margin-top: -23px;
 	        	font-size: 1.0em;
 	        }
 		}
@@ -114,9 +111,9 @@ videoplayer-selector {
 		.wp-cooking-landing-videoplayer-button {
 			font-size: 0.8em;
 			position: relative;
-			top: 60%;
 			width: 32%;
 			margin: 0 auto;
+			margin-top: 5px;
 			background-color: $accentColor;
 			line-height: 25px;
 			@include transition(0.2s);
@@ -177,47 +174,10 @@ videoplayer.fr {
 		}
 	}
 
-	ul li:nth-child(1) {
-		videoplayer-selector {
-			.wp-cooking-landing-videoplayer-title {
-				margin-top: -92px;
-
-				@media screen and (max-width: $mobileBreakpoint) {
-		        	margin-top: -23px;
-		        }
-			}
-		}
-	}
-
-	ul li:nth-child(2) {
-		videoplayer-selector {
-			.wp-cooking-landing-videoplayer-title {
-				margin-top: -92px;
-
-				@media screen and (max-width: $mobileBreakpoint) {
-		        	margin-top: -23px;
-		        }
-			}
-		}
-	}
-
-	ul li:nth-child(3) {
-		videoplayer-selector {
-			.wp-cooking-landing-videoplayer-title {
-				margin-top: -92px;
-
-				@media screen and (max-width: $mobileBreakpoint) {
-		        	margin-top: -23px;
-		        }
-			}
-		}
-	}
-
 	videoplayer-selector {
 		@media screen and (max-width: $mobileBreakpoint) {
 			.wp-cooking-landing-videoplayer-title {
 				font-size: 1em;
-				margin-top: -8px;
 			}
 		}
 	}
