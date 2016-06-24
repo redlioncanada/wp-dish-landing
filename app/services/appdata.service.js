@@ -48,7 +48,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     alt: "Buying Guide",
                                     desc: "What to look for when buying",
                                     cta: "Click Here",
-                                    link: "http://blog.whirlpool.ca/whirlpool-refrigerator-buying-guide/",
+                                    link: "http://blog.whirlpool.ca/look-buying-range/",
                                     type: "cart"
                                 },
                                 {
@@ -237,7 +237,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: "Éléments à considérer lorsque vous magasinez",
                                     alt: "test",
                                     cta: "Cliquez ici",
-                                    link: "http://whirlpool.ca/fr_CA/",
+                                    link: "/other-assets/fr_CA/WHR_FIT_Front Control_Guarantee_2016_FR.pdf",
                                     type: "cart"
                                 },
                                 {
@@ -283,7 +283,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     title: "Garantie d’installation FIT",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "/other-assets/fr_CA/pdf/WHR_FIT_Front Control_Guarantee_2016_FR.pdf",
+                                    link: "/fr_CA/pdf/FIT_Front_Control_Guarantee_WP_FR_2016_FINAL.pdf",
                                     alt: "test",
                                     text: "",
                                     cta: ""
