@@ -237,7 +237,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: "Éléments à considérer lorsque vous magasinez",
                                     alt: "test",
                                     cta: "Cliquez ici",
-                                    link: "/other-assets/fr_CA/WHR_FIT_Front Control_Guarantee_2016_FR.pdf",
+                                    link: "/other-assets/fr_CA/pdf/WP_Cooking_Buying_Guide_FR.pdf",
                                     type: "cart"
                                 },
                                 {
@@ -252,7 +252,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     image: "./public/images/refer-landing-mag-glass.png",
                                     title: "Trouvez Votre Électroménager Whirlpool",
-                                    desc: "Vous avez besoin d’aide pour trouver un cuisinière",
+                                    desc: "Vous avez besoin d’aide pour trouver une cuisinière ?",
                                     alt: "test",
                                     cta: "Cliquez ici",
                                     link: "http://trouvermon.whirlpool.ca",
@@ -265,7 +265,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             title: "Fonctions supplémentaires",
                             features: [
                                 {
-                                    title: "Élément Flex Heat",
+                                    title: "Élément FlexHeat<sup>&trade;</sup>",
                                     image: "./public/images/more-features-1.jpg",
                                     link: "",
                                     alt: "Élément Flex Heat",
@@ -283,7 +283,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     title: "Garantie d’installation FIT",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "/fr_CA/pdf/FIT_Front_Control_Guarantee_WP_FR_2016_FINAL.pdf",
+                                    link: "/other-assets/fr_CA/WHR_FIT_Front Control_Guarantee_2016_FR.pdf",
                                     alt: "test",
                                     text: "",
                                     cta: ""
