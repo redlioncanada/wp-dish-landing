@@ -252,7 +252,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     image: "./public/images/refer-landing-mag-glass.png",
                                     title: "Trouvez Votre Électroménager Whirlpool",
-                                    desc: "Vous avez besoin d’aide pour trouver une cuisinière ?",
+                                    desc: "Vous avez besoin d’aide pour trouver une cuisinière?",
                                     alt: "test",
                                     cta: "Cliquez ici",
                                     link: "http://trouvermon.whirlpool.ca",

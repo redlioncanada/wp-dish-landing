@@ -238,7 +238,7 @@ export class AppDataService {
 					{
 						image: "./public/images/refer-landing-mag-glass.png",
 						title: "Trouvez Votre Électroménager Whirlpool",
-						desc: "Vous avez besoin d’aide pour trouver une cuisinière ?",
+						desc: "Vous avez besoin d’aide pour trouver une cuisinière?",
 						alt: "test",
 						cta: "Cliquez ici",
 						link: "http://trouvermon.whirlpool.ca",
