@@ -5,12 +5,13 @@ import {LoggerService} from './services/logger.service'
 	selector: 'videoplayer-video',
     template: `
     	<iframe *ngIf="hasVideo()" id="{{id}}" src="http://www.youtube.com/embed/{{id}}?enablejsapi=1&playerapiid={{id}}&rel=0" width="100%" height="425" allowfullscreen frameborder="0"></iframe>
-		<img *ngIf="hasImage()" src="{{image}}"/>
+		<img *ngIf="hasImage()" alt="{{alt}}" src="{{image}}"/>
     `
 })
 export class VideoPlayerVideo {
 	@Input() id: string
 	@Input() image: string
+	@Input() alt:string
 	@Input() selected: boolean
 	public player
 	public ready: boolean

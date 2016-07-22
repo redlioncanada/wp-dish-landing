@@ -128,6 +128,7 @@ export class AppDataService {
 					{
 						id: 'Fxxny2lMDhQ',
 						thumb: './public/images/video-select-1.jpg',
+						thumbAlt: 'felngronagrea',
 						title: 'Electric and Gas Ranges',
 						alt: "Electric and Gas Ranges",
 						ctaTitle: 'Electric and Gas Ranges',
@@ -142,6 +143,7 @@ export class AppDataService {
 					{
 						image: './public/images/video-thumb-2.jpg',
 						thumb: './public/images/video-select-2.jpg',
+						thumbAlt: 'felngronagrea',
 						title: 'Frozen Bake<sup>&trade;</sup> Technology',
 						alt: "Frozen Bake Technology",
 						ctaTitle: 'Frozen Bake<sup>&trade;</sup> Technology',
@@ -156,6 +158,7 @@ export class AppDataService {
 					{
 						image: './public/images/video-thumb-3.jpg',
 						thumb: './public/images/video-select-3.jpg',
+						thumbAlt: 'felngronagrea',
 						title: 'Fan Convection Cooking',
 						alt: "Fan Convection Cooking",
 						ctaTitle: 'Fan Convection Cooking',
@@ -410,6 +413,7 @@ export class AppDataService {
 						thumb: './public/images/video-select-1.jpg',
 						title: 'Cuisinières électriques et au gaz ',
 						alt: "Cuisinières électriques et au gaz ",
+						thumbAlt: 'felngronagrea',
 						ctaTitle: 'Cuisinières électriques et au gaz',
 						cta: 'Voir',
 						desc: 'Préparez votre souper plus rapidement et regagnez ainsi du temps dans votre journée bien occupée, grâce aux cuisinières équipées du système TimeSavor<sup>&trade;</sup>.',
@@ -424,6 +428,7 @@ export class AppDataService {
 						thumb: './public/images/video-select-2.jpg',
 						title: 'Technologie Frozen Bake<sup>&trade;</sup>',
 						alt: "Technologie Frozen Bake",
+						thumbAlt: 'felngronagrea',
 						ctaTitle: 'Technologie<br/>Frozen Bake<sup>&trade;</sup>',
 						cta: 'Voir',
 						desc: 'La technologie Frozen Bake™ cuit les aliments plus rapidement, éliminant le besoin de préchauffer le four pour vos aliments favoris, tels que les pizzas, lasagnes, pépites de poulet, frites ou tartes. Il suffit de sélectionner le type d\'aliment, la température et le temps de cuisson indiqué sur l\'emballage du produit congelé, puis le four personnalisera la cuisson.',
@@ -438,6 +443,7 @@ export class AppDataService {
 						thumb: './public/images/video-select-3.jpg',
 						title: 'Cuisson par convection à ventilation',
 						alt: "Cuisson par convection à ventilation",
+						thumbAlt: 'felngronagrea',
 						ctaTitle: 'Cuisson par convection à ventilation',
 						cta: 'Voir',
 						desc: 'Obtenez une cuisson uniforme sur toutes les grilles grâce à la convection par ventilateur. La chaleur se propage dans tout le four, vous obtiendrez ainsi des résultats optimaux, quelle que soit la grille utilisée.',
