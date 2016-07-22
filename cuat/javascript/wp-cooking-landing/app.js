@@ -73,6 +73,7 @@ System.register(['angular2/platform/browser', 'angular2/http', './services/logge
                     this.breakpoint = breakpoint;
                     this.env = env;
                     this.language = appdata.language;
+                    analytics.setUA('UA-39471211-1');
                     analytics.bind('language', function (str) {
                         return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN';
                     });
@@ -87,10 +88,16 @@ System.register(['angular2/platform/browser', 'angular2/http', './services/logge
                     this.breakpoint.afterViewInit();
                     this.env.afterViewInit();
                     this.analytics.afterViewInit();
-                    if (this.env.isDev()) {
+                    if (this.env.isDev() || this.env.isStaging()) {
                         this.analytics.debugMode(true);
                         this.breakpoint.debugMode(true);
                     }
+                    window.__RL_DEBUG = {
+                        environment: this.env,
+                        analytics: this.analytics,
+                        breakpoint: this.breakpoint,
+                        appdata: this.appdata
+                    };
                 };
                 AppComponent = __decorate([
                     core_1.Component({

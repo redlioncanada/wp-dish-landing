@@ -37,7 +37,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                             enabled: true,
                             link: 'http://www.whirlpool.ca/en_CA/everydaycare/',
                             image: '/images/wp-cooking-landing/banner.jpg',
-                            ctaText: 'Learn More'
+                            ctaText: 'Learn More',
+                            analytics: {
+                                "category": "@category",
+                                "action": "Clicked Bottom Banner",
+                                "label": "Every Day Care-Learn More"
+                            }
                         },
                         features: {
                             enabled: true,
@@ -49,7 +54,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "What to look for when buying",
                                     cta: "Click Here",
                                     link: "http://blog.whirlpool.ca/look-buying-range/",
-                                    type: "cart"
+                                    type: "cart",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking Resources",
+                                        "label": "Cooking Buying Guide"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/refer-landing-star.png",
@@ -58,7 +68,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "See what others are saying",
                                     cta: "Click Here",
                                     link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html#Ovens",
-                                    type: "star"
+                                    type: "star",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking Resources",
+                                        "label": "Cooking Ratings & Reviews"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/refer-landing-mag-glass.png",
@@ -67,7 +82,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Need help finding your range?",
                                     cta: "Click Here",
                                     link: "http://findmy.whirlpool.ca",
-                                    type: "magnifier"
+                                    type: "magnifier",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking Resources",
+                                        "label": "Cooking Find Your WP"
+                                    }
                                 }
                             ]
                         },
@@ -81,7 +101,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     link: "",
                                     alt: "test",
                                     text: "The FlexHeat™ element is like having two or three elements in one. A 6\" inner ring is great for smaller pots and pans, while expandable outer rings make room to heat larger cookware.",
-                                    cta: ""
+                                    cta: "",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Hovered Over Cooking-Additional Features",
+                                        "label": "Flex Heat Element"
+                                    }
                                 },
                                 {
                                     title: "Temperature Sensor",
@@ -89,7 +114,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     link: "",
                                     alt: "test",
                                     text: "A built-in sensor monitors oven temperature and controls the cooking elements to deliver consistent, delicious results every time.",
-                                    cta: ""
+                                    cta: "",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Hovered Over Cooking-Additional Features",
+                                        "label": "Temperature Sensor"
+                                    }
                                 },
                                 {
                                     title: "FIT System Guarantee",
@@ -97,7 +127,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     link: "/other-assets/en_CA/pdf/WHR_FIT_Front Control_Guarantee_2016_EN.pdf",
                                     alt: "test",
                                     text: "",
-                                    cta: ""
+                                    cta: "",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Hovered Over Cooking-Additional Features",
+                                        "label": "FIT System Guarantee"
+                                    }
                                 }
                             ]
                         },
@@ -112,7 +147,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "Electric and Gas Ranges",
                                     ctaTitle: 'Electric and Gas Ranges',
                                     cta: 'Play Video',
-                                    desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the TimeSavor<sup>&trade;</sup> system.'
+                                    desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the TimeSavor<sup>&trade;</sup> system.',
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking-Must-See Innovation",
+                                        "label": "Electric and Gas Ranges Video"
+                                    }
                                 },
                                 {
                                     image: '/images/wp-cooking-landing/video-thumb-2.jpg',
@@ -122,6 +162,11 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     ctaTitle: 'Frozen Bake<sup>&trade;</sup> Technology',
                                     cta: 'View',
                                     desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster<sup>2</sup> by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking-Must-See Innovation",
+                                        "label": "Cooking Frozen-Bake Tech Video"
+                                    }
                                 },
                                 {
                                     image: '/images/wp-cooking-landing/video-thumb-3.jpg',
@@ -130,7 +175,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "Fan Convection Cooking",
                                     ctaTitle: 'Fan Convection Cooking',
                                     cta: 'View',
-                                    desc: 'Bake on any rack with fan convection cooking. It fills the entire oven with heat, so no matter which rack you use, you still get great results.'
+                                    desc: 'Bake on any rack with fan convection cooking. It fills the entire oven with heat, so no matter which rack you use, you still get great results.',
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking-Must-See Innovation",
+                                        "label": "Fan Convection Cooking Video"
+                                    }
                                 }
                             ]
                         },
@@ -139,7 +189,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                             title: 'Choose Your Style',
                             nav: {
                                 text: 'See<br/>All',
-                                link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/'
+                                link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/',
+                                analytics: {
+                                    "category": "@category",
+                                    "action": "Clicked Choose Your Cooking Style",
+                                    "label": "See all"
+                                }
                             },
                             products: [
                                 {
@@ -150,7 +205,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Front Control gives everyone in your home safer and easier access to controls, while providing a built-in look that fits seamlessly into every kitchen. Since the sides are finished, it looks great at the end of the countertop run too.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+10000151/",
                                     id: "front-control-ranges",
-                                    ctaText: "Learn More"
+                                    ctaText: "Learn More",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Front Control Range"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/rcr.png",
@@ -160,7 +220,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Oven controls are located on the back panel and the style is flexible for your family’s needs– it can fit between cabinets/countertops, at the end of a cabinet run or all by itself.  Ranges can be found in all price points from entry level to premium.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000374/",
                                     id: "rear-control-ranges",
-                                    ctaText: "Learn More"
+                                    ctaText: "Learn More",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Rear Control Range"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/dor.png",
@@ -170,7 +235,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Double ovens come in several shapes and sizes; a smaller top oven paired with a larger one on the bottom and vise versa. When deciding, consider: What kind of things are you usually cooking and how often? How many people are in your household? With two ovens, it’s a piece of cake getting bake sale ready while cooking dinner for the entire family.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000375/",
                                     id: "double-oven-ranges",
-                                    ctaText: "Learn More"
+                                    ctaText: "Learn More",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Double Oven Range"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/wall-oven.png",
@@ -180,7 +250,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Built-in wall ovens offer a little more flexibility in busy kitchens. The wall oven is usually installed at chest height for safe transfers of heavier dishes. There are many different options available to choose from; single wall oven, double wall oven, microwave Combination and Built-In Microwave.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102280007/",
                                     id: "wall-oven",
-                                    ctaText: "Learn More"
+                                    ctaText: "Learn More",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Wall Oven"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/cooktop.png",
@@ -190,7 +265,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "This flat surface with burners or elements can be built into an existing countertop or as a separate appliance. It doesn’t matter if you’re boiling, simmering or pan-frying a quick morning scramble, the technology choices are the same for both.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102280011/",
                                     id: "cooktops",
-                                    ctaText: "Learn More"
+                                    ctaText: "Learn More",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Cooktop"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/microwave.png",
@@ -200,7 +280,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Over-the-range microwave models are installed above your cooking area and come equipped with a built-in hood fan for ventilation. Enhanced models include a convection microwave which uses an interior fan and separate heating element to evenly circulate hot air over the food, giving you that fresh straight-out-of-the-oven effect.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102280018/",
                                     id: "microwaves",
-                                    ctaText: "Learn More"
+                                    ctaText: "Learn More",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Microwaves"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/hood.png",
@@ -210,7 +295,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Range hoods are a stylish way to ventilate the kitchen. Configurations include under cabinet range hoods, island range hoods and wall mounted range hoods. Many hoods offer lighting to illuminate your cooktop.",
                                     link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Hoods-3/102280014/",
                                     id: "hoods",
-                                    ctaText: "Learn More"
+                                    ctaText: "Learn More",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Hoods"
+                                    }
                                 }
                             ]
                         }
@@ -226,7 +316,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                             enabled: true,
                             link: 'http://www.whirlpool.ca/fr_CA/everydaycare/',
                             image: '/images/wp-cooking-landing/banner_fr.jpg',
-                            ctaText: 'En savoir plus'
+                            ctaText: 'En savoir plus',
+                            analytics: {
+                                "category": "@category",
+                                "action": "Clicked Bottom Banner",
+                                "label": "Every Day Care-Learn More"
+                            }
                         },
                         features: {
                             enabled: true,
@@ -238,7 +333,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "test",
                                     cta: "Cliquez ici",
                                     link: "/other-assets/fr_CA/pdf/WP_Cooking_Buying_Guide_FR.pdf",
-                                    type: "cart"
+                                    type: "cart",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking Resources",
+                                        "label": "Cooking Buying Guide"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/refer-landing-star.png",
@@ -247,7 +347,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "test",
                                     cta: "Cliquez ici",
                                     link: "http://www.whirlpool.ca/fr_CA/2_3_90/jump-pages_best-products.content.html#Ovens",
-                                    type: "star"
+                                    type: "star",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking Resources",
+                                        "label": "Cooking Ratings & Reviews"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/refer-landing-mag-glass.png",
@@ -256,7 +361,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "test",
                                     cta: "Cliquez ici",
                                     link: "http://trouvermon.whirlpool.ca",
-                                    type: "magnifier"
+                                    type: "magnifier",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking Resources",
+                                        "label": "Cooking Find Your WP"
+                                    }
                                 }
                             ]
                         },
@@ -270,7 +380,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     link: "",
                                     alt: "Élément Flex Heat",
                                     text: "L'élément FlexHeat™ permet d'avoir deux ou trois éléments en un seul. L’anneau intérieur de 6 po est idéal pour les petites casseroles et les anneaux extérieurs permettent d'accueillir de plus grandes batteries de cuisine.",
-                                    cta: ""
+                                    cta: "",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Hovered Over Cooking-Additional Features",
+                                        "label": "Flex Heat Element"
+                                    }
                                 },
                                 {
                                     title: "Capteur de température",
@@ -278,7 +393,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     link: "",
                                     alt: "Capteur de température",
                                     text: "Un capteur intégré surveille la température du four et contrôle les éléments de cuisson pour assurer des résultats uniformes et délicieux à chaque fois.",
-                                    cta: ""
+                                    cta: "",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Hovered Over Cooking-Additional Features",
+                                        "label": "Temperature Sensor"
+                                    }
                                 },
                                 {
                                     title: "Garantie d’installation FIT",
@@ -286,7 +406,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     link: "/other-assets/fr_CA/WHR_FIT_Front Control_Guarantee_2016_FR.pdf",
                                     alt: "test",
                                     text: "",
-                                    cta: ""
+                                    cta: "",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Hovered Over Cooking-Additional Features",
+                                        "label": "FIT System Guarantee"
+                                    }
                                 }
                             ]
                         },
@@ -301,7 +426,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "Cuisinières électriques et au gaz ",
                                     ctaTitle: 'Cuisinières électriques et au gaz',
                                     cta: 'Voir',
-                                    desc: 'Préparez votre souper plus rapidement et regagnez ainsi du temps dans votre journée bien occupée, grâce aux cuisinières équipées du système TimeSavor<sup>&trade;</sup>.'
+                                    desc: 'Préparez votre souper plus rapidement et regagnez ainsi du temps dans votre journée bien occupée, grâce aux cuisinières équipées du système TimeSavor<sup>&trade;</sup>.',
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking-Must-See Innovation",
+                                        "label": "Electric and Gas Ranges Video"
+                                    }
                                 },
                                 {
                                     image: '/images/wp-cooking-landing/video-thumb-2.jpg',
@@ -311,6 +441,11 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     ctaTitle: 'Technologie<br/>Frozen Bake<sup>&trade;</sup>',
                                     cta: 'Voir',
                                     desc: 'La technologie Frozen Bake™ cuit les aliments plus rapidement, éliminant le besoin de préchauffer le four pour vos aliments favoris, tels que les pizzas, lasagnes, pépites de poulet, frites ou tartes. Il suffit de sélectionner le type d\'aliment, la température et le temps de cuisson indiqué sur l\'emballage du produit congelé, puis le four personnalisera la cuisson.',
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking-Must-See Innovation",
+                                        "label": "Cooking Frozen-Bake Tech Video"
+                                    }
                                 },
                                 {
                                     image: '/images/wp-cooking-landing/video-thumb-3.jpg',
@@ -319,7 +454,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     alt: "Cuisson par convection à ventilation",
                                     ctaTitle: 'Cuisson par convection à ventilation',
                                     cta: 'Voir',
-                                    desc: 'Obtenez une cuisson uniforme sur toutes les grilles grâce à la convection par ventilateur. La chaleur se propage dans tout le four, vous obtiendrez ainsi des résultats optimaux, quelle que soit la grille utilisée.'
+                                    desc: 'Obtenez une cuisson uniforme sur toutes les grilles grâce à la convection par ventilateur. La chaleur se propage dans tout le four, vous obtiendrez ainsi des résultats optimaux, quelle que soit la grille utilisée.',
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Cooking-Must-See Innovation",
+                                        "label": "Fan Convection Cooking Video"
+                                    }
                                 }
                             ]
                         },
@@ -328,7 +468,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                             title: 'Choisissez votre style',
                             nav: {
                                 text: 'Tout<br/>Voir',
-                                link: 'http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/'
+                                link: 'http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/',
+                                analytics: {
+                                    "category": "@category",
+                                    "action": "Clicked Choose Your Cooking Style",
+                                    "label": "See all"
+                                }
                             },
                             products: [
                                 {
@@ -339,7 +484,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Les commandes frontales sont plus sécuritaires et faciles d'accès, et leur allure intégrée s'agence à toute cuisine. Vous pouvez installer ces cuisinières au bout du comptoir, grâce aux parois finies.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000374/",
                                     id: "front-control-ranges",
-                                    ctaText: "En savoir plus"
+                                    ctaText: "En savoir plus",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Front Control Range"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/rcr.png",
@@ -349,7 +499,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Ces cuisinières peuvent se placer entre les placards/comptoirs, au bout d'un comptoir ou même séparément; et les commandes sont placées sur le panneau arrière. Les prix varient, du modèle de base au modèle supérieur.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+4294965600/",
                                     id: "rear-control-ranges",
-                                    ctaText: "En savoir plus"
+                                    ctaText: "En savoir plus",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Rear Control Range"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/dor.png",
@@ -359,7 +514,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Les fours doubles sont de tailles et formes variées. Réfléchissez à ce que vous cuisinez le plus fréquemment et pour combien de personnes. Les deux fours permettent de cuire vos pâtisseries et le souper en même temps.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+102280334/",
                                     id: "double-oven-ranges",
-                                    ctaText: "En savoir plus"
+                                    ctaText: "En savoir plus",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Double Oven Range"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/wall-oven.png",
@@ -369,7 +529,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Les fours muraux encastrés sont très polyvalents. Situés à hauteur de poitrine, les plats lourds sont faciles à transférer sur le comptoir. Choix variés : four à micro-ondes encastré, four mural simple, double, ou combiné avec un four à micro-ondes.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102280007/",
                                     id: "wall-oven",
-                                    ctaText: "En savoir plus"
+                                    ctaText: "En savoir plus",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Wall Oven"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/cooktop.png",
@@ -379,7 +544,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Cette surface de cuisson à brûleurs ou éléments peut se placer sur un comptoir existant ou séparément. Excellente technologie pour porter à ébullition, mijoter ou frire des œufs brouillés rapidement.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102280011/",
                                     id: "cooktops",
-                                    ctaText: "En savoir plus"
+                                    ctaText: "En savoir plus",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Cooktop"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/microwave.png",
@@ -389,7 +559,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Les fours à micro-ondes à hotte intégrée s’installent au dessus de votre surface de cuisson. Certains modèles sont dotés de la cuisson à convection, utilisant des ventilateurs internes et des éléments chauffants séparés faisant circuler uniformément l'air chaud.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102280018/",
                                     id: "microwaves",
-                                    ctaText: "En savoir plus"
+                                    ctaText: "En savoir plus",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Microwaves"
+                                    }
                                 },
                                 {
                                     image: "/images/wp-cooking-landing/products/hood.png",
@@ -399,7 +574,12 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     desc: "Les hottes de ventilation sont une façon élégante d'aérer votre cuisine. Choix de hottes sous armoire, hottes montées sur îlot et hottes murales. Certaines sont aussi dotées d'un éclairage de surface de cuisson.",
                                     link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Cooking_Hoods-3/102280014/",
                                     id: "hoods",
-                                    ctaText: "En savoir plus"
+                                    ctaText: "En savoir plus",
+                                    analytics: {
+                                        "category": "@category",
+                                        "action": "Clicked Choose Your Cooking Style",
+                                        "label": "Hoods"
+                                    }
                                 }
                             ]
                         }

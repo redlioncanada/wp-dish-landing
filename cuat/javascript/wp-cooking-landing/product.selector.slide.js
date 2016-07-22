@@ -56,6 +56,10 @@ System.register(['angular2/core', './landing.learn-more.button.js'], function(ex
                     core_1.Input(), 
                     __metadata('design:type', Object)
                 ], ProductSlide.prototype, "fridgeAlt", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], ProductSlide.prototype, "analytics", void 0);
                 ProductSlide = __decorate([
                     core_1.Component({
                         selector: 'product-slide',

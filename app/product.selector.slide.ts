@@ -30,4 +30,5 @@ export class ProductSlide {
     @Input() selected
     @Input() ctaText
     @Input() fridgeAlt
+    @Input() analytics
 }

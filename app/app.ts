@@ -18,6 +18,7 @@ import {Banner} from './landing.banner'
 import {Header} from './landing.header'
 import {Footer} from './landing.footer'
 
+declare var window
 
 @Component({
     selector: 'rl-wp-cooking-landing',
@@ -40,6 +41,7 @@ class AppComponent {
 		private env: EnvironmentService) {
 		this.language = appdata.language
 
+		analytics.setUA('UA-39471211-1')
 		analytics.bind('language', function(str) {
 			return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
 		})
@@ -57,10 +59,17 @@ class AppComponent {
 		this.env.afterViewInit()
 		this.analytics.afterViewInit()
 
-		if (this.env.isDev()) {
+		if (this.env.isDev() || this.env.isStaging()) {
 			this.analytics.debugMode(true)
 			this.breakpoint.debugMode(true)
 		}
+
+		window.__RL_DEBUG = { 
+            environment: this.env,
+            analytics: this.analytics,
+            breakpoint: this.breakpoint,
+            appdata: this.appdata
+        }
     }
  }
 

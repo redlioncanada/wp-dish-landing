@@ -44,4 +44,5 @@ export class MoreFeaturesFeature {
     @Input() text
     @Input() cta
     @Input() alt
+    @Input() analytics
 }
