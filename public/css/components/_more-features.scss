@@ -49,6 +49,7 @@ more-features-feature {
 	}
 
 	.text-container {
+	pointer-events: none;
 	  display: flex;
 	  display: -webkit-flex;
 	  align-items: center;

@@ -1187,6 +1187,7 @@ rl-wp-cooking-landing {
         rl-wp-cooking-landing more-features-feature .text-container:hover {
           opacity: 0; } }
     rl-wp-cooking-landing more-features-feature .text-container {
+      pointer-events: none;
       display: flex;
       display: -webkit-flex;
       align-items: center;
