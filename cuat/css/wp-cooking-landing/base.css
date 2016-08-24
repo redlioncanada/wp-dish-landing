@@ -1202,6 +1202,8 @@ rl-wp-cooking-landing {
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
       background-color: #eab018; }
+    rl-wp-cooking-landing more-features-feature .text-container * {
+      pointer-events: none; }
     rl-wp-cooking-landing more-features-feature .text-container-cell {
       max-width: 50%; }
       rl-wp-cooking-landing more-features-feature .text-container-cell .cta {
