@@ -2,6 +2,16 @@ $featureButtonHeight: 285px;
 $featureButtonHeightMobile: 220px;
 
 features {
+    /*hide buying guide for now*/
+    div.wp-landing-feature-button {
+        width: 49.8%;
+    }
+
+    feature-button:first-child {
+        display: none;
+    }
+    /*end hide buying guide for now*/
+
     @include transition(0.5s);
     .row{
         width: 100%;

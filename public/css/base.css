@@ -604,10 +604,16 @@ rl-wp-dish-landing {
       width: 100%;
       margin-top: 13px; }
   rl-wp-dish-landing features {
+    /*hide buying guide for now*/
+    /*end hide buying guide for now*/
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
+    rl-wp-dish-landing features div.wp-landing-feature-button {
+      width: 49.8%; }
+    rl-wp-dish-landing features feature-button:first-child {
+      display: none; }
     rl-wp-dish-landing features .row {
       width: 100%;
       height: 300px;
@@ -1086,7 +1092,7 @@ rl-wp-dish-landing {
     rl-wp-dish-landing product-selector-nav .see-all {
       height: 300px;
       width: 25%;
-      color: 8b8b8b;
+      color: #8b8b8b;
       text-transform: uppercase;
       display: table;
       padding: 0;
