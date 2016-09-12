@@ -21,7 +21,7 @@ import {Footer} from './landing.footer'
 declare var window
 
 @Component({
-    selector: 'rl-wp-cooking-landing',
+    selector: 'rl-wp-dish-landing',
     template: `
     	<masthead class="{{language}}"></masthead>
 		<features class="{{language}}"></features>
@@ -46,7 +46,7 @@ class AppComponent {
 			return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
 		})
         analytics.bind('category', function(str) {
-            return 'Cooking LP'
+            return 'Dish LP'
         })
 
         breakpoint.add('mobile', 480)

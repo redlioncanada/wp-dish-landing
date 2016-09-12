@@ -4,12 +4,12 @@ videoplayer {
         margin-top: 100px;
         margin-bottom: 20px;
          @media screen and (max-width: $mobileBreakpoint) {
-         	margin-top: 70px;
+         	margin-top: 0px;
             font-size: 2em;
         }
 	}
     
-    h2.wp-cooking-landing-videoplayer-title{
+    h2.wp-dish-landing-videoplayer-title{
     	@include header-text;
          @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 2em;
@@ -59,19 +59,20 @@ videoplayer-player {
 	}
 
 
-	.wp-cooking-landing-videoplayer-text {
+	.wp-dish-landing-videoplayer-text {
 		width: 100%;
 		padding: 28px 40px;
 		background-color: $videoPlayer-backgroundColor;
 		color: $videoPlayer-descColor;
 		margin-top: -5px;
 
-		.wp-cooking-landing-videoplayer-description, .wp-cooking-landing-videoplayer-title {
+		.wp-dish-landing-videoplayer-description, .wp-dish-landing-videoplayer-title {
 			text-align: center;
 		}
         
-        .wp-cooking-landing-videoplayer-description{
+        .wp-dish-landing-videoplayer-description{
         	margin-top: 10px;
+        	margin-bottom: 10px;
             @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 66%;
          	}
@@ -82,7 +83,7 @@ videoplayer-player {
 videoplayer-selector {
 	width: 100%;
 
-	.wp-cooking-landing-videoplayer-text {
+	.wp-dish-landing-videoplayer-text {
 		width: 100%;
 		position: absolute;
 		top: 50%;
@@ -91,14 +92,14 @@ videoplayer-selector {
 		z-index: 2;
 
 
-		.wp-cooking-landing-videoplayer-title, .wp-cooking-landing-videoplayer-button {
+		.wp-dish-landing-videoplayer-title, .wp-dish-landing-videoplayer-button {
 			position: relative;
 			text-align: center;
 			color: $videoPlayer-copyColor;
 			border-radius: 15px;
 		}
 
-		.wp-cooking-landing-videoplayer-title {
+		.wp-dish-landing-videoplayer-title {
 			font-size: 2em;
 			width: 100%;
 			color: $videoPlayer-copyColor !important;
@@ -108,7 +109,7 @@ videoplayer-selector {
 	        }
 		}
 
-		.wp-cooking-landing-videoplayer-button {
+		.wp-dish-landing-videoplayer-button {
 			font-size: 0.8em;
 			position: relative;
 			width: 32%;
@@ -123,12 +124,12 @@ videoplayer-selector {
 		}
 	}
 
-	.wp-cooking-landing-videoplayer-text h2, .wp-cooking-landing-videoplayer-text div {
+	.wp-dish-landing-videoplayer-text h2, .wp-dish-landing-videoplayer-text div {
 		position: absolute;
 	}
 
 	videoplayer-selector:hover {
-		.wp-cooking-landing-videoplayer-button {
+		.wp-dish-landing-videoplayer-button {
 			@include grow(1.2);
 		}
 	}
@@ -154,7 +155,7 @@ videoplayer-selector {
 			cursor: default;
 		}
 
-		.wp-cooking-landing-videoplayer-button, .wp-cooking-landing-videoplayer-title {
+		.wp-dish-landing-videoplayer-button, .wp-dish-landing-videoplayer-title {
 			opacity: 0;
 		}
 
@@ -165,7 +166,7 @@ videoplayer-selector {
 }
 
 videoplayer.fr {
-	ul li videoplayer-selector .wp-cooking-landing-videoplayer-title {
+	ul li videoplayer-selector .wp-dish-landing-videoplayer-title {
 		line-height: 35px;
 
 		@media screen and (max-width: $mobileBreakpoint) {
@@ -176,7 +177,7 @@ videoplayer.fr {
 
 	videoplayer-selector {
 		@media screen and (max-width: $mobileBreakpoint) {
-			.wp-cooking-landing-videoplayer-title {
+			.wp-dish-landing-videoplayer-title {
 				font-size: 1em;
 			}
 		}

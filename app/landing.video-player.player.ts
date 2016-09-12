@@ -13,10 +13,10 @@ declare var $: JQueryStatic
 					<videoplayer-video [image]="video.image" [id]="video.id" [selected]="currentId == i" [width]="video.width" [height]="video.height" [alt]="video.thumbAlt"></videoplayer-video>
 				</li>
 			</ul>
-		    <div class="wp-cooking-landing-videoplayer-text">
-		    	<h2 class="wp-cooking-landing-videoplayer-title" [innerHTML]="data[currentId].title">
+		    <div class="wp-dish-landing-videoplayer-text">
+		    	<h2 class="wp-dish-landing-videoplayer-title" [innerHTML]="data[currentId].title">
 		    	</h2>
-		    	<div class="wp-cooking-landing-videoplayer-description" [innerHTML]="!!data[currentId].desc ? data[currentId].desc : ''">
+		    	<div class="wp-dish-landing-videoplayer-description" [innerHTML]="!!data[currentId].desc ? data[currentId].desc : ''">
 		        </div>
 		    </div>
 		</div>

@@ -4,6 +4,23 @@ masthead {
 	display: block;
 	padding-top: 20px;
 
+
+        h2{
+        font-size: 3em;
+        text-align: center;
+        font-weight: 800;
+        width: 100%;
+        margin-top: 15px;
+        @media screen and (max-width: 1366px) {
+            font-size: 2em;
+            margin-top: 35px;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            margin-bottom: 0px;
+        }
+    }
+
     @media screen and (max-width: $mobileBreakpoint) {
         padding-top: initial;
     }
@@ -48,6 +65,12 @@ masthead {
                 left: 0;
                 
             }
+        }
+        h2{
+            font-size: 3em;
+            text-align: center;
+            width: 100%;
+            margin-top: 13px;
         }
     }
 }

@@ -6,15 +6,15 @@ import {LearnMoreButton} from './landing.learn-more.button'
 @Component({
     selector: 'product-slide',
     template: `
-        <div class="rl-wp-lndng-side" id="{{fridgeId}}">
+        <div class="rl-wp-lndng-side" id="{{dishId}}">
             <div class="rl-wp-lndng-prodLeft">
-            <div class="rl-wp-lndng-fridge"><img class="{{fridge}}" src="{{fridge}}" alt="{{fridgeAlt}}" /></div>
+            <div class="rl-wp-lndng-dish"><img class="{{dish}}" src="{{dish}}" alt="{{dishAlt}}" /></div>
             </div>
            <div class="rl-wp-lndng-prodRight">
-           <div class="rl-wp-lndng-fridge-title mobile" [innerHTML]="fridgeTitle"></div>
-            <div class="rl-wp-lndng-fridge-title" [innerHTML]="fridgeTitle"></div>
-            <div class="rl-wp-lndng-fridge-desc">{{fridgeDescription}}</div>
-            <learn-more-button [analytics]="analytics" [link]="fridgeUrl" [text]="ctaText"></learn-more-button>
+           <div class="rl-wp-lndng-dish-title mobile" [innerHTML]="dishTitle"></div>
+            <div class="rl-wp-lndng-dish-title" [innerHTML]="dishTitle"></div>
+            <div class="rl-wp-lndng-dish-desc">{{dishDescription}}</div>
+            <learn-more-button [analytics]="analytics" [link]="dishUrl" [text]="ctaText"></learn-more-button>
             </div>
           </div>
     `,
@@ -22,13 +22,13 @@ import {LearnMoreButton} from './landing.learn-more.button'
 })
 export class ProductSlide {
     // This is where the animation code goes for each slide
-    @Input() fridge
-    @Input() fridgeTitle
-    @Input() fridgeDescription
-    @Input() fridgeUrl
-    @Input() fridgeId
+    @Input() dish
+    @Input() dishTitle
+    @Input() dishDescription
+    @Input() dishUrl
+    @Input() dishId
     @Input() selected
     @Input() ctaText
-    @Input() fridgeAlt
+    @Input() dishAlt
     @Input() analytics
 }

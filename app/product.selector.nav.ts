@@ -8,10 +8,10 @@ import {AnalyticsServiceOn} from './analytics.directive'
     pipes: [InsertBreakPipe],
     template: `
     	<div class="row {{!enabled ? 'hide' : ''}}">
-			<div class="wp-cooking-landing-product {{selectedProduct.prodId == product.prodId ? 'selected' : ''}}" *ngFor="#product of products; #i = index" analyticsOn="click" analyticsCategory="{{product.analytics.category}}" analyticsAction="{{product.analytics.action}}" analyticsLabel="{{product.analytics.label}}" (click)="select(product)">
+			<div class="wp-dish-landing-product {{selectedProduct.prodId == product.prodId ? 'selected' : ''}}" *ngFor="#product of products; #i = index" analyticsOn="click" analyticsCategory="{{product.analytics.category}}" analyticsAction="{{product.analytics.action}}" analyticsLabel="{{product.analytics.label}}" (click)="select(product)">
 				<img src="{{product.prodThumb}}"/>
-				<div class="wp-cooking-landing-button">
-					<div class="wp-cooking-landing-button-circle"><div></div></div>
+				<div class="wp-dish-landing-button">
+					<div class="wp-dish-landing-button-circle"><div></div></div>
 					<p [innerHtml]="product.prodName | insertBreak"></p>
 				</div>
 			</div>

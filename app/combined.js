@@ -1137,23 +1137,23 @@ System.register("app/product.selector.slide", ['angular2/core', "app/landing.lea
                 __decorate([
                     core_12.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridge", void 0);
+                ], ProductSlide.prototype, "dish", void 0);
                 __decorate([
                     core_12.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeTitle", void 0);
+                ], ProductSlide.prototype, "dishTitle", void 0);
                 __decorate([
                     core_12.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeDescription", void 0);
+                ], ProductSlide.prototype, "dishDescription", void 0);
                 __decorate([
                     core_12.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeUrl", void 0);
+                ], ProductSlide.prototype, "dishUrl", void 0);
                 __decorate([
                     core_12.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeId", void 0);
+                ], ProductSlide.prototype, "dishId", void 0);
                 __decorate([
                     core_12.Input(), 
                     __metadata('design:type', Object)
@@ -1165,7 +1165,7 @@ System.register("app/product.selector.slide", ['angular2/core', "app/landing.lea
                 __decorate([
                     core_12.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeAlt", void 0);
+                ], ProductSlide.prototype, "dishAlt", void 0);
                 ProductSlide = __decorate([
                     core_12.Component({
                         selector: 'product-slide',
@@ -1272,9 +1272,9 @@ System.register("app/product.selector.slides", ['angular2/core', "app/product.se
                 ProductSlides.prototype.playOut = function (target, cb) {
                     var self = this;
                     target = $(this.rootElement).find('#' + target);
-                    var image = ($(target).find('.rl-wp-lndng-fridge'));
-                    var title = ($(target).find('.rl-wp-lndng-fridge-title'));
-                    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'));
+                    var image = ($(target).find('.rl-wp-lndng-dish'));
+                    var title = ($(target).find('.rl-wp-lndng-dish-title'));
+                    var desc = ($(target).find('.rl-wp-lndng-dish-desc'));
                     var learn = ($(target).find('learn-more-button'));
                     this.animating = true;
                     TweenMax.to(image, .3, { delay: 0, opacity: 0, ease: Power3.easeOut });
@@ -1292,9 +1292,9 @@ System.register("app/product.selector.slides", ['angular2/core', "app/product.se
                     target = $(self.rootElement).find('#' + target);
                     $(self.rootElement).find('product-slide').css('zIndex', 1);
                     $(target).parent().css('zIndex', 2);
-                    var image = ($(target).find('.rl-wp-lndng-fridge'));
-                    var title = ($(target).find('.rl-wp-lndng-fridge-title'));
-                    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'));
+                    var image = ($(target).find('.rl-wp-lndng-dish'));
+                    var title = ($(target).find('.rl-wp-lndng-dish-title'));
+                    var desc = ($(target).find('.rl-wp-lndng-dish-desc'));
                     var learn = ($(target).find('learn-more-button'));
                     var isMobile = $(window).innerWidth() <= 820;
                     if (isMobile) {
@@ -1787,7 +1787,7 @@ System.register("app/app", ['angular2/platform/browser', 'angular2/http', "app/s
                 }
                 AppComponent = __decorate([
                     core_22.Component({
-                        selector: 'rl-wp-refer-landing',
+                        selector: 'rl-wp-dish-landing',
                         templateUrl: 'app/views/app.view.html',
                         directives: [landing_video_player_1.VideoPlayer, landing_masthead_1.AppMasthead, landing_feature_1.Features, product_selector_1.ProductSelector, landing_banner_1.Banner, landing_morefeatures_1.MoreFeatures, landing_header_1.Header, landing_footer_1.Footer]
                     }), 
@@ -2419,23 +2419,23 @@ System.register("cuat/temp/product.selector.slide", ['angular2/core', "cuat/temp
                 __decorate([
                     core_31.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridge", void 0);
+                ], ProductSlide.prototype, "dish", void 0);
                 __decorate([
                     core_31.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeTitle", void 0);
+                ], ProductSlide.prototype, "dishTitle", void 0);
                 __decorate([
                     core_31.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeDescription", void 0);
+                ], ProductSlide.prototype, "dishDescription", void 0);
                 __decorate([
                     core_31.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeUrl", void 0);
+                ], ProductSlide.prototype, "dishUrl", void 0);
                 __decorate([
                     core_31.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeId", void 0);
+                ], ProductSlide.prototype, "dishId", void 0);
                 __decorate([
                     core_31.Input(), 
                     __metadata('design:type', Object)
@@ -2447,7 +2447,7 @@ System.register("cuat/temp/product.selector.slide", ['angular2/core', "cuat/temp
                 __decorate([
                     core_31.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeAlt", void 0);
+                ], ProductSlide.prototype, "dishAlt", void 0);
                 ProductSlide = __decorate([
                     core_31.Component({
                         selector: 'product-slide',
@@ -2524,9 +2524,9 @@ System.register("cuat/temp/product.selector.slides", ['angular2/core', "cuat/tem
                 ProductSlides.prototype.playOut = function (target, cb) {
                     var self = this;
                     target = $(this.rootElement).find('#' + target);
-                    var image = ($(target).find('.rl-wp-lndng-fridge'));
-                    var title = ($(target).find('.rl-wp-lndng-fridge-title'));
-                    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'));
+                    var image = ($(target).find('.rl-wp-lndng-dish'));
+                    var title = ($(target).find('.rl-wp-lndng-dish-title'));
+                    var desc = ($(target).find('.rl-wp-lndng-dish-desc'));
                     var learn = ($(target).find('learn-more-button'));
                     this.animating = true;
                     TweenMax.to(image, .3, { delay: 0, opacity: 0, ease: Power3.easeOut });
@@ -2544,9 +2544,9 @@ System.register("cuat/temp/product.selector.slides", ['angular2/core', "cuat/tem
                     target = $(self.rootElement).find('#' + target);
                     $(self.rootElement).find('product-slide').css('zIndex', 1);
                     $(target).parent().css('zIndex', 2);
-                    var image = ($(target).find('.rl-wp-lndng-fridge'));
-                    var title = ($(target).find('.rl-wp-lndng-fridge-title'));
-                    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'));
+                    var image = ($(target).find('.rl-wp-lndng-dish'));
+                    var title = ($(target).find('.rl-wp-lndng-dish-title'));
+                    var desc = ($(target).find('.rl-wp-lndng-dish-desc'));
                     var learn = ($(target).find('learn-more-button'));
                     var isMobile = $(window).innerWidth() <= 820;
                     if (isMobile) {
@@ -3043,7 +3043,7 @@ System.register("cuat/temp/app", ['angular2/platform/browser', 'angular2/http', 
                 }
                 AppComponent = __decorate([
                     core_41.Component({
-                        selector: 'rl-wp-refer-landing',
+                        selector: 'rl-wp-dish-landing',
                         template: "undefined",
                         directives: [landing_video_player_2.VideoPlayer, landing_masthead_2.AppMasthead, landing_feature_2.Features, product_selector_2.ProductSelector, landing_banner_2.Banner, landing_morefeatures_2.MoreFeatures, landing_header_2.Header, landing_footer_2.Footer]
                     }), 

@@ -5,7 +5,8 @@ import {AppDataService} from './services/appdata.service'
     selector: 'masthead',
     template: `
     	<div class="{{!enabled ? 'hide': ''}}">
-			<div id="wp-landing-masthead"><img src="{{image}}" alt="{{alt}}" /></div>
+			<div id="wp-landing-masthead"><img src="{{image}}" alt="{{alt}}" />
+			<h2 class="title">Get Started Here</h2></div>
 		</div>
     `
 })

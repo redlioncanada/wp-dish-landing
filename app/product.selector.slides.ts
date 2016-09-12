@@ -10,7 +10,7 @@ declare var $: JQueryStatic;
   selector: 'product-slides',
   template: `
       <div class="row">
-          <product-slide class="{{selectedProduct.prodId == product.prodId ? 'selected' : ''}}" *ngFor="#product of products; #i=index" [selected]="selectedProduct.prodId == product.prodId" [fridge]= "product.prodImage" [fridgeTitle]= "product.prodName" [fridgeDescription]="product.prodDescription" [fridgeUrl]="product.prodUrl" [fridgeId]="product.prodId" [ctaText]="product.ctaText" [fridgeAlt]="product.prodAlt" [ctaBackground]="product.ctaBackground" [analytics]="product.analytics">
+          <product-slide class="{{selectedProduct.prodId == product.prodId ? 'selected' : ''}}" *ngFor="#product of products; #i=index" [selected]="selectedProduct.prodId == product.prodId" [dish]= "product.prodImage" [dishTitle]= "product.prodName" [dishDescription]="product.prodDescription" [dishUrl]="product.prodUrl" [dishId]="product.prodId" [ctaText]="product.ctaText" [dishAlt]="product.prodAlt" [ctaBackground]="product.ctaBackground" [analytics]="product.analytics">
           </product-slide>
       </div>
     `,
@@ -78,9 +78,9 @@ export class ProductSlides {
     var self = this
     target = $(this.rootElement).find('#' + target)
 
-    var image = ($(target).find('.rl-wp-lndng-fridge'))
-    var title = ($(target).find('.rl-wp-lndng-fridge-title'))
-    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'))
+    var image = ($(target).find('.rl-wp-lndng-dish'))
+    var title = ($(target).find('.rl-wp-lndng-dish-title'))
+    var desc = ($(target).find('.rl-wp-lndng-dish-desc'))
     var learn = ($(target).find('learn-more-button'))
 
     this.animating = true;
@@ -111,9 +111,9 @@ export class ProductSlides {
       })
     }
 
-    var image = ($(target).find('.rl-wp-lndng-fridge'))
-    var title = ($(target).find('.rl-wp-lndng-fridge-title'))
-    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'))
+    var image = ($(target).find('.rl-wp-lndng-dish'))
+    var title = ($(target).find('.rl-wp-lndng-dish-title'))
+    var desc = ($(target).find('.rl-wp-lndng-dish-desc'))
     var learn = ($(target).find('learn-more-button'))
 
     var isMobile = this.breakpoint.is('tablet') || this.breakpoint.is('mobile')

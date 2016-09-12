@@ -7,7 +7,7 @@ html, body {
 #container {
   width: 100%; }
 
-rl-wp-cooking-landing {
+rl-wp-dish-landing {
   /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -24,150 +24,150 @@ rl-wp-cooking-landing {
   display: block;
   margin-top: 118px;
   overflow-x: hidden; }
-  rl-wp-cooking-landing html, rl-wp-cooking-landing body, rl-wp-cooking-landing div, rl-wp-cooking-landing span, rl-wp-cooking-landing applet, rl-wp-cooking-landing object, rl-wp-cooking-landing iframe, rl-wp-cooking-landing h1, rl-wp-cooking-landing h2, rl-wp-cooking-landing h3, rl-wp-cooking-landing h4, rl-wp-cooking-landing h5, rl-wp-cooking-landing h6, rl-wp-cooking-landing p, rl-wp-cooking-landing blockquote, rl-wp-cooking-landing pre, rl-wp-cooking-landing a, rl-wp-cooking-landing abbr, rl-wp-cooking-landing acronym, rl-wp-cooking-landing address, rl-wp-cooking-landing big, rl-wp-cooking-landing cite, rl-wp-cooking-landing code, rl-wp-cooking-landing del, rl-wp-cooking-landing dfn, rl-wp-cooking-landing em, rl-wp-cooking-landing img, rl-wp-cooking-landing ins, rl-wp-cooking-landing kbd, rl-wp-cooking-landing q, rl-wp-cooking-landing s, rl-wp-cooking-landing samp, rl-wp-cooking-landing small, rl-wp-cooking-landing strike, rl-wp-cooking-landing strong, rl-wp-cooking-landing sub, rl-wp-cooking-landing sup, rl-wp-cooking-landing tt, rl-wp-cooking-landing var, rl-wp-cooking-landing b, rl-wp-cooking-landing u, rl-wp-cooking-landing i, rl-wp-cooking-landing center, rl-wp-cooking-landing dl, rl-wp-cooking-landing dt, rl-wp-cooking-landing dd, rl-wp-cooking-landing ol, rl-wp-cooking-landing ul, rl-wp-cooking-landing li, rl-wp-cooking-landing fieldset, rl-wp-cooking-landing form, rl-wp-cooking-landing label, rl-wp-cooking-landing legend, rl-wp-cooking-landing table, rl-wp-cooking-landing caption, rl-wp-cooking-landing tbody, rl-wp-cooking-landing tfoot, rl-wp-cooking-landing thead, rl-wp-cooking-landing tr, rl-wp-cooking-landing th, rl-wp-cooking-landing td, rl-wp-cooking-landing article, rl-wp-cooking-landing aside, rl-wp-cooking-landing canvas, rl-wp-cooking-landing details, rl-wp-cooking-landing embed, rl-wp-cooking-landing figure, rl-wp-cooking-landing figcaption, rl-wp-cooking-landing footer, rl-wp-cooking-landing header, rl-wp-cooking-landing hgroup, rl-wp-cooking-landing menu, rl-wp-cooking-landing nav, rl-wp-cooking-landing output, rl-wp-cooking-landing ruby, rl-wp-cooking-landing section, rl-wp-cooking-landing summary, rl-wp-cooking-landing time, rl-wp-cooking-landing mark, rl-wp-cooking-landing audio, rl-wp-cooking-landing video {
+  rl-wp-dish-landing html, rl-wp-dish-landing body, rl-wp-dish-landing div, rl-wp-dish-landing span, rl-wp-dish-landing applet, rl-wp-dish-landing object, rl-wp-dish-landing iframe, rl-wp-dish-landing h1, rl-wp-dish-landing h2, rl-wp-dish-landing h3, rl-wp-dish-landing h4, rl-wp-dish-landing h5, rl-wp-dish-landing h6, rl-wp-dish-landing p, rl-wp-dish-landing blockquote, rl-wp-dish-landing pre, rl-wp-dish-landing a, rl-wp-dish-landing abbr, rl-wp-dish-landing acronym, rl-wp-dish-landing address, rl-wp-dish-landing big, rl-wp-dish-landing cite, rl-wp-dish-landing code, rl-wp-dish-landing del, rl-wp-dish-landing dfn, rl-wp-dish-landing em, rl-wp-dish-landing img, rl-wp-dish-landing ins, rl-wp-dish-landing kbd, rl-wp-dish-landing q, rl-wp-dish-landing s, rl-wp-dish-landing samp, rl-wp-dish-landing small, rl-wp-dish-landing strike, rl-wp-dish-landing strong, rl-wp-dish-landing sub, rl-wp-dish-landing sup, rl-wp-dish-landing tt, rl-wp-dish-landing var, rl-wp-dish-landing b, rl-wp-dish-landing u, rl-wp-dish-landing i, rl-wp-dish-landing center, rl-wp-dish-landing dl, rl-wp-dish-landing dt, rl-wp-dish-landing dd, rl-wp-dish-landing ol, rl-wp-dish-landing ul, rl-wp-dish-landing li, rl-wp-dish-landing fieldset, rl-wp-dish-landing form, rl-wp-dish-landing label, rl-wp-dish-landing legend, rl-wp-dish-landing table, rl-wp-dish-landing caption, rl-wp-dish-landing tbody, rl-wp-dish-landing tfoot, rl-wp-dish-landing thead, rl-wp-dish-landing tr, rl-wp-dish-landing th, rl-wp-dish-landing td, rl-wp-dish-landing article, rl-wp-dish-landing aside, rl-wp-dish-landing canvas, rl-wp-dish-landing details, rl-wp-dish-landing embed, rl-wp-dish-landing figure, rl-wp-dish-landing figcaption, rl-wp-dish-landing footer, rl-wp-dish-landing header, rl-wp-dish-landing hgroup, rl-wp-dish-landing menu, rl-wp-dish-landing nav, rl-wp-dish-landing output, rl-wp-dish-landing ruby, rl-wp-dish-landing section, rl-wp-dish-landing summary, rl-wp-dish-landing time, rl-wp-dish-landing mark, rl-wp-dish-landing audio, rl-wp-dish-landing video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline; }
-  rl-wp-cooking-landing h1 {
+  rl-wp-dish-landing h1 {
     font-size: 2em; }
-  rl-wp-cooking-landing h2 {
+  rl-wp-dish-landing h2 {
     font-size: 1.5em; }
-  rl-wp-cooking-landing h3 {
+  rl-wp-dish-landing h3 {
     font-size: 1.17em; }
-  rl-wp-cooking-landing h4 {
+  rl-wp-dish-landing h4 {
     font-size: 1.12em; }
-  rl-wp-cooking-landing h5 {
+  rl-wp-dish-landing h5 {
     font-size: .83em; }
-  rl-wp-cooking-landing h6 {
+  rl-wp-dish-landing h6 {
     font-size: .75em; }
-  rl-wp-cooking-landing article, rl-wp-cooking-landing aside, rl-wp-cooking-landing details, rl-wp-cooking-landing figcaption, rl-wp-cooking-landing figure, rl-wp-cooking-landing footer, rl-wp-cooking-landing header, rl-wp-cooking-landing hgroup, rl-wp-cooking-landing menu, rl-wp-cooking-landing nav, rl-wp-cooking-landing section {
+  rl-wp-dish-landing article, rl-wp-dish-landing aside, rl-wp-dish-landing details, rl-wp-dish-landing figcaption, rl-wp-dish-landing figure, rl-wp-dish-landing footer, rl-wp-dish-landing header, rl-wp-dish-landing hgroup, rl-wp-dish-landing menu, rl-wp-dish-landing nav, rl-wp-dish-landing section {
     display: block; }
-  rl-wp-cooking-landing body {
+  rl-wp-dish-landing body {
     line-height: 1; }
-  rl-wp-cooking-landing ol, rl-wp-cooking-landing ul {
+  rl-wp-dish-landing ol, rl-wp-dish-landing ul {
     list-style: none; }
-  rl-wp-cooking-landing blockquote, rl-wp-cooking-landing q {
+  rl-wp-dish-landing blockquote, rl-wp-dish-landing q {
     quotes: none; }
-  rl-wp-cooking-landing blockquote:before, rl-wp-cooking-landing blockquote:after {
+  rl-wp-dish-landing blockquote:before, rl-wp-dish-landing blockquote:after {
     content: '';
     content: none; }
-  rl-wp-cooking-landing q:before, rl-wp-cooking-landing q:after {
+  rl-wp-dish-landing q:before, rl-wp-dish-landing q:after {
     content: '';
     content: none; }
-  rl-wp-cooking-landing table {
+  rl-wp-dish-landing table {
     border-collapse: collapse;
     border-spacing: 0; }
-  rl-wp-cooking-landing a {
+  rl-wp-dish-landing a {
     text-decoration: none; }
-  rl-wp-cooking-landing sub, rl-wp-cooking-landing sup {
+  rl-wp-dish-landing sub, rl-wp-dish-landing sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline; }
-  rl-wp-cooking-landing sup {
+  rl-wp-dish-landing sup {
     top: -0.5em; }
-  rl-wp-cooking-landing sub {
+  rl-wp-dish-landing sub {
     bottom: -0.25em; }
-  rl-wp-cooking-landing .hide {
+  rl-wp-dish-landing .hide {
     display: none; }
-  rl-wp-cooking-landing .show {
+  rl-wp-dish-landing .show {
     display: block; }
-  rl-wp-cooking-landing .selected {
+  rl-wp-dish-landing .selected {
     cursor: default; }
-  rl-wp-cooking-landing header {
+  rl-wp-dish-landing header {
     font-family: Helvetica, Arial, sans-serif;
     overflow: hidden; }
-    rl-wp-cooking-landing header #upper-wrap {
+    rl-wp-dish-landing header #upper-wrap {
       background-color: #EEE;
       height: 35px;
       width: 100%;
       position: absolute;
       z-index: 1; }
-    rl-wp-cooking-landing header #header-wrap {
+    rl-wp-dish-landing header #header-wrap {
       position: relative;
       width: 100%;
       z-index: 2; }
-      rl-wp-cooking-landing header #header-wrap ul {
+      rl-wp-dish-landing header #header-wrap ul {
         list-style: none;
         padding: 0;
         margin: 0; }
-        rl-wp-cooking-landing header #header-wrap ul li {
+        rl-wp-dish-landing header #header-wrap ul li {
           float: left; }
-      rl-wp-cooking-landing header #header-wrap a {
+      rl-wp-dish-landing header #header-wrap a {
         color: #333;
         text-decoration: none; }
-      rl-wp-cooking-landing header #header-wrap .header-content-wrap {
+      rl-wp-dish-landing header #header-wrap .header-content-wrap {
         width: 100%;
         height: inherit;
         z-index: 2;
         border-bottom: 1.5px solid #BBB; }
-        rl-wp-cooking-landing header #header-wrap .header-content-wrap > * {
+        rl-wp-dish-landing header #header-wrap .header-content-wrap > * {
           position: relative;
           margin: 0 auto;
           width: 944px; }
-        rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper {
+        rl-wp-dish-landing header #header-wrap .header-content-wrap .upper {
           height: 35px;
           padding: 10px 0;
           font-size: 8pt;
           text-transform: uppercase; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper .logo {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper .logo {
             position: absolute;
             left: -6px;
             top: 50px;
             z-index: 5; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper ul li {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper ul li {
             position: relative; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper ul li:not(:first-child) {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper ul li:not(:first-child) {
             margin-left: 10px; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper ul li:hover {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper ul li:hover {
             text-decoration: underline;
             cursor: pointer; }
-            rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper ul li:hover > .submenu {
+            rl-wp-dish-landing header #header-wrap .header-content-wrap .upper ul li:hover > .submenu {
               display: block; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper .language {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper .language {
             font-weight: 500;
             margin-right: 10px; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper .language:hover {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper .language:hover {
             text-decoration: underline; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper .search-textbox {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper .search-textbox {
             margin-top: -5px;
             width: 110px;
             padding-left: 3px; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .upper .search-textbox-icon {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .upper .search-textbox-icon {
             position: absolute;
             right: 2px;
             top: 7px;
             cursor: pointer; }
-        rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower {
+        rl-wp-dish-landing header #header-wrap .header-content-wrap .lower {
           height: 22px;
           padding-top: 80px; }
-        rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu {
+        rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu {
           position: absolute;
           bottom: 0;
           height: 22px;
           width: inherit; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu > li {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu > li {
             height: 100%;
             text-transform: uppercase;
             font-size: 9pt;
             position: relative; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu > li:first-child {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu > li:first-child {
             margin-right: 10px; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu > li:not(:last-child) {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu > li:not(:last-child) {
             margin-right: 43px; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu > li:hover {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu > li:hover {
             border-bottom: 3px solid #CC0000;
             cursor: pointer; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li:hover > .submenu {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li:hover > .submenu {
             display: block; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double {
             width: 300%; }
-            rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double li {
+            rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double li {
               width: 50%; }
-          rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu {
+          rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu {
             top: 22px;
             left: 0;
             display: none;
@@ -177,38 +177,38 @@ rl-wp-cooking-landing {
             z-index: 10001;
             background-color: white;
             border: 1px solid #BBB; }
-            rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li {
+            rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li {
               width: 100%;
               display: block;
               float: none;
               text-transform: none;
               font-size: 7pt;
               padding: 4px 8px; }
-            rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert {
+            rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert {
               margin-left: 50%;
               margin-top: -200px;
               border-left: 1px solid #BBB; }
-              rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert * {
+              rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert * {
                 padding-left: 9px; }
-            rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li:not(.insert):hover {
+            rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li:not(.insert):hover {
               background-color: #EEE;
               color: #CC0000; }
-            rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:first-child li {
+            rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:first-child li {
               margin-top: 2px; }
-            rl-wp-cooking-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:last-child li {
+            rl-wp-dish-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:last-child li {
               margin-bottom: 13px; }
-    rl-wp-cooking-landing header .pull-left {
+    rl-wp-dish-landing header .pull-left {
       float: left; }
-    rl-wp-cooking-landing header .pull-right {
+    rl-wp-dish-landing header .pull-right {
       float: right; }
-  rl-wp-cooking-landing header:lang(fr) #header-wrap .header-content-wrap .lower .menu li:not(:last-child) {
+  rl-wp-dish-landing header:lang(fr) #header-wrap .header-content-wrap .lower .menu li:not(:last-child) {
     margin-right: 9px; }
-  rl-wp-cooking-landing #header_main_nav .top .header {
+  rl-wp-dish-landing #header_main_nav .top .header {
     height: 20px;
     overflow: visible; }
-  rl-wp-cooking-landing header {
+  rl-wp-dish-landing header {
     display: block; }
-  rl-wp-cooking-landing #main-nav {
+  rl-wp-dish-landing #main-nav {
     position: absolute;
     left: 0;
     top: 0;
@@ -219,14 +219,14 @@ rl-wp-cooking-landing {
     background-repeat: repeat;
     display: none;
     color: #363636; }
-  rl-wp-cooking-landing #main-nav a, rl-wp-cooking-landing #main-nav a:hover, rl-wp-cooking-landing #main-nav a:visited {
+  rl-wp-dish-landing #main-nav a, rl-wp-dish-landing #main-nav a:hover, rl-wp-dish-landing #main-nav a:visited {
     color: #363636;
     text-decoration: none; }
-  rl-wp-cooking-landing #main-nav-container {
+  rl-wp-dish-landing #main-nav-container {
     position: absolute;
     width: 100%;
     height: auto; }
-  rl-wp-cooking-landing .main-page {
+  rl-wp-dish-landing .main-page {
     background-color: #ffffff;
     position: relative;
     z-index: 100;
@@ -235,27 +235,27 @@ rl-wp-cooking-landing {
     float: left;
     width: 100%;
     min-height: 428px; }
-  rl-wp-cooking-landing .main-container {
+  rl-wp-dish-landing .main-container {
     position: relative;
     height: 100%; }
-  rl-wp-cooking-landing #main-nav ul {
+  rl-wp-dish-landing #main-nav ul {
     background-color: #ffffff; }
-  rl-wp-cooking-landing #main-nav li.submenu ul {
+  rl-wp-dish-landing #main-nav li.submenu ul {
     display: none; }
-  rl-wp-cooking-landing #main-nav li, rl-wp-cooking-landing #main-nav li a #main-nav li span {
+  rl-wp-dish-landing #main-nav li, rl-wp-dish-landing #main-nav li a #main-nav li span {
     width: 255px;
     display: block;
     font-size: 14px;
     -webkit-tap-highlight-color: transparent; }
-  rl-wp-cooking-landing #main-nav li {
+  rl-wp-dish-landing #main-nav li {
     border-bottom: 1px dotted #D6D6D6;
     cursor: pointer;
     line-height: 22px; }
-  rl-wp-cooking-landing #main-nav li a {
+  rl-wp-dish-landing #main-nav li a {
     padding: 10px 10px 10px 17px;
     width: 100%;
     display: block; }
-  rl-wp-cooking-landing #main-nav li.home-item {
+  rl-wp-dish-landing #main-nav li.home-item {
     font-size: 18px;
     text-indent: 25px;
     border-bottom: 1px solid #D6D6D6;
@@ -264,37 +264,37 @@ rl-wp-cooking-landing {
     background-size: 20px 50px;
     -webkit-background-size: 20px 50px;
     background-position: 6% 13px; }
-  rl-wp-cooking-landing #main-nav li.home-item.hold a {
+  rl-wp-dish-landing #main-nav li.home-item.hold a {
     background-image: url("http://www.whirlpool.ca/images/template/home-sprite.png");
     background-repeat: no-repeat;
     background-size: 20px 50px;
     -webkit-background-size: 20px 50px;
     background-position: 6% -22px; }
-  rl-wp-cooking-landing #main-nav li.hold, rl-wp-cooking-landing #main-nav li.hold a {
+  rl-wp-dish-landing #main-nav li.hold, rl-wp-dish-landing #main-nav li.hold a {
     background-color: #eeb111;
     color: #ffffff; }
-  rl-wp-cooking-landing #main-nav li:last-child {
+  rl-wp-dish-landing #main-nav li:last-child {
     border-bottom: solid 1px #D6D6D6; }
-  rl-wp-cooking-landing #main-nav li.submenu {
+  rl-wp-dish-landing #main-nav li.submenu {
     background-image: url("http://www.kitchenaid.ca/images/template/nav-next-sprite.png");
     background-repeat: no-repeat;
     background-position: 94% 13px;
     background-size: 15px 60px;
     -webkit-background-size: 15px 60px;
     padding: 10px 10px 10px 17px; }
-  rl-wp-cooking-landing #main-nav li.submenu-about {
+  rl-wp-dish-landing #main-nav li.submenu-about {
     font-size: 13px; }
-  rl-wp-cooking-landing #main-nav li.submenu-about a {
+  rl-wp-dish-landing #main-nav li.submenu-about a {
     padding: 15px 10px 15px 17px;
     width: 100%;
     display: block; }
-  rl-wp-cooking-landing .submenu-about .sub-title {
+  rl-wp-dish-landing .submenu-about .sub-title {
     font-size: 18px; }
-  rl-wp-cooking-landing .submenu-about .sub-collection {
+  rl-wp-dish-landing .submenu-about .sub-collection {
     width: 190px;
     line-height: 17px;
     margin-bottom: 8px; }
-  rl-wp-cooking-landing #main-nav li.menu-back {
+  rl-wp-dish-landing #main-nav li.menu-back {
     background-image: url("../images/template/nav-back-sprite.png");
     background-repeat: no-repeat;
     background-position: 6% 16px;
@@ -303,11 +303,11 @@ rl-wp-cooking-landing {
     -webkit-background-size: 6px 60px;
     font-size: 18px;
     padding: 10px 10px 10px 17px; }
-  rl-wp-cooking-landing #main-nav li.menu-back.hold,
-  rl-wp-cooking-landing #main-nav li.menu-back-light.hold {
+  rl-wp-dish-landing #main-nav li.menu-back.hold,
+  rl-wp-dish-landing #main-nav li.menu-back-light.hold {
     background-image: url("../images/template/nav-back-sprite.png");
     background-position: 6% -9px; }
-  rl-wp-cooking-landing #main-nav li.menu-back-light {
+  rl-wp-dish-landing #main-nav li.menu-back-light {
     background-image: url("../images/template/nav-back-sprite.png");
     background-repeat: no-repeat;
     background-position: 6% -33px;
@@ -317,16 +317,16 @@ rl-wp-cooking-landing {
     font-size: 18px;
     color: #919195;
     padding: 10px 10px 10px 17px; }
-  rl-wp-cooking-landing #main-nav li.menu-back-light.hold {
+  rl-wp-dish-landing #main-nav li.menu-back-light.hold {
     color: #ffffff; }
-  rl-wp-cooking-landing #main-nav li.menu-back span, rl-wp-cooking-landing #main-nav li.menu-back-light span {
+  rl-wp-dish-landing #main-nav li.menu-back span, rl-wp-dish-landing #main-nav li.menu-back-light span {
     padding-left: 15px; }
-  rl-wp-cooking-landing .submenu-container {
+  rl-wp-dish-landing .submenu-container {
     display: none;
     position: absolute;
     background-color: #ffffff;
     width: 100%; }
-  rl-wp-cooking-landing .content-overlay {
+  rl-wp-dish-landing .content-overlay {
     position: fixed;
     left: 0px;
     right: 0;
@@ -339,73 +339,73 @@ rl-wp-cooking-landing {
     z-index: 10000000;
     display: none;
     overflow: hidden; }
-  rl-wp-cooking-landing .nav-footer {
+  rl-wp-dish-landing .nav-footer {
     color: #363636;
     font-size: 12px; }
-  rl-wp-cooking-landing #main-nav .nav-footer-links li a {
+  rl-wp-dish-landing #main-nav .nav-footer-links li a {
     padding: 0px; }
-  rl-wp-cooking-landing #main-nav .nav-footer-links li:active, rl-wp-cooking-landing #main-nav .nav-footer-links li a:active,
-  rl-wp-cooking-landing #main-nav .nav-footer-links ul li.hold, rl-wp-cooking-landing #main-nav .nav-footer-links ul li.hold a {
+  rl-wp-dish-landing #main-nav .nav-footer-links li:active, rl-wp-dish-landing #main-nav .nav-footer-links li a:active,
+  rl-wp-dish-landing #main-nav .nav-footer-links ul li.hold, rl-wp-dish-landing #main-nav .nav-footer-links ul li.hold a {
     background-color: transparent;
     color: #eeb111; }
-  rl-wp-cooking-landing #main-nav .nav-copyright-links a:active {
+  rl-wp-dish-landing #main-nav .nav-copyright-links a:active {
     color: #eeb111; }
-  rl-wp-cooking-landing .nav-footer hr {
+  rl-wp-dish-landing .nav-footer hr {
     border-top: 1px solid #959595;
     border-bottom: 1px solid #ffffff;
     height: 2px;
     margin-bottom: 4px; }
-  rl-wp-cooking-landing .nav-social {
+  rl-wp-dish-landing .nav-social {
     padding: 25px 17px 36px; }
-  rl-wp-cooking-landing .nav-social div {
+  rl-wp-dish-landing .nav-social div {
     float: left; }
-  rl-wp-cooking-landing .nav-social div:first-child {
+  rl-wp-dish-landing .nav-social div:first-child {
     float: none;
     margin-bottom: 14px; }
-  rl-wp-cooking-landing .nav-social .facebook img {
+  rl-wp-dish-landing .nav-social .facebook img {
     width: 32px;
     height: 32px;
     margin-right: 23px; }
-  rl-wp-cooking-landing .nav-social .twitter img {
+  rl-wp-dish-landing .nav-social .twitter img {
     width: 39px;
     height: 32px;
     margin-right: 16px; }
-  rl-wp-cooking-landing .nav-social .youtube img {
+  rl-wp-dish-landing .nav-social .youtube img {
     width: 52px;
     height: 21px;
     margin-right: 23px; }
-  rl-wp-cooking-landing .nav-social .pintrest img {
+  rl-wp-dish-landing .nav-social .pintrest img {
     width: 35px;
     height: 35px; }
-  rl-wp-cooking-landing #main-nav .nav-footer-links {
+  rl-wp-dish-landing #main-nav .nav-footer-links {
     margin-top: 17px; }
-  rl-wp-cooking-landing #main-nav .nav-footer-links ul {
+  rl-wp-dish-landing #main-nav .nav-footer-links ul {
     float: left;
     width: 120px;
     background-color: transparent;
     margin-bottom: 14px; }
-  rl-wp-cooking-landing #main-nav .nav-footer-links ul:first-child {
+  rl-wp-dish-landing #main-nav .nav-footer-links ul:first-child {
     padding-left: 12px; }
-  rl-wp-cooking-landing #main-nav .nav-footer-links ul li {
+  rl-wp-dish-landing #main-nav .nav-footer-links ul li {
     background-color: transparent;
     border: 0px;
     font-size: 11px;
     padding: 0px 5px 5px 5px; }
-  rl-wp-cooking-landing #main-nav .nav-footer-links li:last-child {
+  rl-wp-dish-landing #main-nav .nav-footer-links li:last-child {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
-  rl-wp-cooking-landing .nav-copyright-links {
+  rl-wp-dish-landing .nav-copyright-links {
     font-size: 11px;
     padding: 0px 17px 10px;
     line-height: 26px; }
-  rl-wp-cooking-landing #main-nav-container {
+  rl-wp-dish-landing #main-nav-container {
     overflow: hidden; }
-    rl-wp-cooking-landing #main-nav-container ul {
+    rl-wp-dish-landing #main-nav-container ul {
       padding-left: 0; }
-  rl-wp-cooking-landing #main-nav {
+  rl-wp-dish-landing #main-nav {
     overflow-x: scroll; }
-  rl-wp-cooking-landing .mobileOverlay {
+  rl-wp-dish-landing .mobileOverlay {
     position: absolute;
     background-color: #333333;
     opacity: 0;
@@ -413,85 +413,86 @@ rl-wp-cooking-landing {
     z-index: 101;
     display: none; }
   @media screen and (min-width: 580px) {
-    rl-wp-cooking-landing #main-nav, rl-wp-cooking-landing .mobileOverlay {
+    rl-wp-dish-landing #main-nav, rl-wp-dish-landing .mobileOverlay {
       height: 1000px !important; } }
   @media screen and (min-width: 1023px) {
-    rl-wp-cooking-landing #main-nav {
+    rl-wp-dish-landing #main-nav {
       display: none !important; } }
-  rl-wp-cooking-landing videoplayer > h2 {
+  rl-wp-dish-landing videoplayer > h2 {
     font-size: 3em;
     text-align: center;
     width: 100%;
     margin-top: 100px;
     margin-bottom: 20px; }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing videoplayer > h2 {
-        margin-top: 70px;
+      rl-wp-dish-landing videoplayer > h2 {
+        margin-top: 0px;
         font-size: 2em; } }
-  rl-wp-cooking-landing videoplayer h2.wp-cooking-landing-videoplayer-title {
+  rl-wp-dish-landing videoplayer h2.wp-dish-landing-videoplayer-title {
     font-size: 3em;
     text-align: center;
     width: 100%; }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing videoplayer h2.wp-cooking-landing-videoplayer-title {
+      rl-wp-dish-landing videoplayer h2.wp-dish-landing-videoplayer-title {
         font-size: 2em; } }
-  rl-wp-cooking-landing videoplayer > ul {
+  rl-wp-dish-landing videoplayer > ul {
     overflow: hidden; }
-    rl-wp-cooking-landing videoplayer > ul li {
+    rl-wp-dish-landing videoplayer > ul li {
       float: left;
       width: 33.333333333%;
       padding: 0 5px; }
-    rl-wp-cooking-landing videoplayer > ul li:last-child {
+    rl-wp-dish-landing videoplayer > ul li:last-child {
       padding-right: 0; }
-    rl-wp-cooking-landing videoplayer > ul li:first-child {
+    rl-wp-dish-landing videoplayer > ul li:first-child {
       padding-left: 0; }
-    rl-wp-cooking-landing videoplayer > ul li:nth-child(2) img {
+    rl-wp-dish-landing videoplayer > ul li:nth-child(2) img {
       width: 101.5%; }
-  rl-wp-cooking-landing videoplayer-player {
+  rl-wp-dish-landing videoplayer-player {
     width: 100%; }
-    rl-wp-cooking-landing videoplayer-player ul {
+    rl-wp-dish-landing videoplayer-player ul {
       overflow: auto; }
-    rl-wp-cooking-landing videoplayer-player ul li {
+    rl-wp-dish-landing videoplayer-player ul li {
       width: 100%; }
-    rl-wp-cooking-landing videoplayer-player videoplayer-video {
+    rl-wp-dish-landing videoplayer-player videoplayer-video {
       width: 100%; }
-      rl-wp-cooking-landing videoplayer-player videoplayer-video img {
+      rl-wp-dish-landing videoplayer-player videoplayer-video img {
         width: 100%; }
-    rl-wp-cooking-landing videoplayer-player .wp-cooking-landing-videoplayer-text {
+    rl-wp-dish-landing videoplayer-player .wp-dish-landing-videoplayer-text {
       width: 100%;
       padding: 28px 40px;
-      background-color: #FFFFFF;
+      background-color: #ebebeb;
       color: #313131;
       margin-top: -5px; }
-      rl-wp-cooking-landing videoplayer-player .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-description, rl-wp-cooking-landing videoplayer-player .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-title {
+      rl-wp-dish-landing videoplayer-player .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-description, rl-wp-dish-landing videoplayer-player .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-title {
         text-align: center; }
-      rl-wp-cooking-landing videoplayer-player .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-description {
-        margin-top: 10px; }
+      rl-wp-dish-landing videoplayer-player .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-description {
+        margin-top: 10px;
+        margin-bottom: 10px; }
         @media screen and (max-width: 820px) {
-          rl-wp-cooking-landing videoplayer-player .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-description {
+          rl-wp-dish-landing videoplayer-player .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-description {
             font-size: 66%; } }
-  rl-wp-cooking-landing videoplayer-selector {
+  rl-wp-dish-landing videoplayer-selector {
     width: 100%; }
-    rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text {
+    rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text {
       width: 100%;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 2; }
-      rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-title, rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-button {
+      rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-title, rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-button {
         position: relative;
         text-align: center;
-        color: #FFFFFF;
+        color: #ebebeb;
         border-radius: 15px; }
-      rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-title {
+      rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-title {
         font-size: 2em;
         width: 100%;
-        color: #FFFFFF !important; }
+        color: #ebebeb !important; }
         @media screen and (max-width: 820px) {
-          rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-title {
+          rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-title {
             font-size: 1.0em; } }
-      rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-button {
+      rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-button {
         font-size: 0.8em;
         position: relative;
         width: 32%;
@@ -504,19 +505,19 @@ rl-wp-cooking-landing {
         -o-transition: all 0.2s ease;
         transition: all 0.2s ease; }
         @media screen and (max-width: 785px) {
-          rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text .wp-cooking-landing-videoplayer-button {
+          rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text .wp-dish-landing-videoplayer-button {
             display: none; } }
-    rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text h2, rl-wp-cooking-landing videoplayer-selector .wp-cooking-landing-videoplayer-text div {
+    rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text h2, rl-wp-dish-landing videoplayer-selector .wp-dish-landing-videoplayer-text div {
       position: absolute; }
-    rl-wp-cooking-landing videoplayer-selector videoplayer-selector:hover .wp-cooking-landing-videoplayer-button {
+    rl-wp-dish-landing videoplayer-selector videoplayer-selector:hover .wp-dish-landing-videoplayer-button {
       transform: scale(1.2);
       -webkit-transform: scale(1.2); }
-    rl-wp-cooking-landing videoplayer-selector > div {
+    rl-wp-dish-landing videoplayer-selector > div {
       position: relative;
       cursor: pointer;
       background-color: #000000;
       overflow: hidden; }
-    rl-wp-cooking-landing videoplayer-selector img {
+    rl-wp-dish-landing videoplayer-selector img {
       opacity: 0.45;
       width: 100%;
       z-index: 1;
@@ -524,92 +525,110 @@ rl-wp-cooking-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-    rl-wp-cooking-landing videoplayer-selector .selected {
+    rl-wp-dish-landing videoplayer-selector .selected {
       cursor: default; }
-      rl-wp-cooking-landing videoplayer-selector .selected * {
+      rl-wp-dish-landing videoplayer-selector .selected * {
         cursor: default; }
-      rl-wp-cooking-landing videoplayer-selector .selected .wp-cooking-landing-videoplayer-button, rl-wp-cooking-landing videoplayer-selector .selected .wp-cooking-landing-videoplayer-title {
+      rl-wp-dish-landing videoplayer-selector .selected .wp-dish-landing-videoplayer-button, rl-wp-dish-landing videoplayer-selector .selected .wp-dish-landing-videoplayer-title {
         opacity: 0; }
-      rl-wp-cooking-landing videoplayer-selector .selected img {
+      rl-wp-dish-landing videoplayer-selector .selected img {
         opacity: 1; }
-  rl-wp-cooking-landing videoplayer.fr ul li videoplayer-selector .wp-cooking-landing-videoplayer-title {
+  rl-wp-dish-landing videoplayer.fr ul li videoplayer-selector .wp-dish-landing-videoplayer-title {
     line-height: 35px; }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing videoplayer.fr ul li videoplayer-selector .wp-cooking-landing-videoplayer-title {
+      rl-wp-dish-landing videoplayer.fr ul li videoplayer-selector .wp-dish-landing-videoplayer-title {
         font-size: 0.8em;
         line-height: 15px; } }
   @media screen and (max-width: 820px) {
-    rl-wp-cooking-landing videoplayer.fr videoplayer-selector .wp-cooking-landing-videoplayer-title {
+    rl-wp-dish-landing videoplayer.fr videoplayer-selector .wp-dish-landing-videoplayer-title {
       font-size: 1em; } }
-  rl-wp-cooking-landing masthead {
+  rl-wp-dish-landing masthead {
     width: 80%;
     position: relative;
     display: block;
     padding-top: 20px; }
+    rl-wp-dish-landing masthead h2 {
+      font-size: 3em;
+      text-align: center;
+      font-weight: 800;
+      width: 100%;
+      margin-top: 15px; }
+      @media screen and (max-width: 1366px) {
+        rl-wp-dish-landing masthead h2 {
+          font-size: 2em;
+          margin-top: 35px; } }
+      @media screen and (max-width: 820px) {
+        rl-wp-dish-landing masthead h2 {
+          margin-bottom: 0px; } }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing masthead {
+      rl-wp-dish-landing masthead {
         padding-top: initial; } }
-    rl-wp-cooking-landing masthead #wp-landing-masthead {
+    rl-wp-dish-landing masthead #wp-landing-masthead {
       overflow: hidden;
       cursor: default;
       margin-bottom: 20px; }
       @media screen and (min-width: 768px) and (max-width: 1275px) {
-        rl-wp-cooking-landing masthead #wp-landing-masthead {
+        rl-wp-dish-landing masthead #wp-landing-masthead {
           height: 250px; } }
-    rl-wp-cooking-landing masthead img {
+    rl-wp-dish-landing masthead img {
       width: 100%;
       -webkit-transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease; }
       @media screen and (min-width: 768px) and (max-width: 1275px) {
-        rl-wp-cooking-landing masthead img {
+        rl-wp-dish-landing masthead img {
           width: 75%;
           margin: auto;
           position: absolute;
           left: 0px;
           right: 0px; } }
-    rl-wp-cooking-landing masthead .wp-landing-title h1 {
+    rl-wp-dish-landing masthead .wp-landing-title h1 {
       text-transform: uppercase;
       font-weight: 100;
       font-size: 32px;
       letter-spacing: 1px;
       margin-top: 125px; }
       @media screen and (max-width: 1275px) {
-        rl-wp-cooking-landing masthead .wp-landing-title h1 {
+        rl-wp-dish-landing masthead .wp-landing-title h1 {
           position: relative;
           left: 12.5%; } }
       @media screen and (max-width: 768px) {
-        rl-wp-cooking-landing masthead .wp-landing-title h1 {
+        rl-wp-dish-landing masthead .wp-landing-title h1 {
           text-align: center;
           padding-bottom: 10px;
           left: 0; } }
-  rl-wp-cooking-landing features {
+    rl-wp-dish-landing masthead .wp-landing-title h2 {
+      font-size: 3em;
+      text-align: center;
+      width: 100%;
+      margin-top: 13px; }
+  rl-wp-dish-landing features {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-    rl-wp-cooking-landing features .row {
+    rl-wp-dish-landing features .row {
       width: 100%;
       height: 300px;
       float: none;
       border: 4px solid #eeb111; }
     @media screen and (max-width: 1275px) {
-      rl-wp-cooking-landing features .row {
+      rl-wp-dish-landing features .row {
         width: 75%;
         position: relative;
         left: 13%;
         height: 220px; }
-      rl-wp-cooking-landing features .wp-landing-feature-button:after {
+      rl-wp-dish-landing features .wp-landing-feature-button:after {
         height: 154px !important;
         top: 33px !important; } }
     @media screen and (max-width: 785px) {
-      rl-wp-cooking-landing features .row {
+      rl-wp-dish-landing features .row {
         height: 210px;
         width: 100%;
         position: relative;
         left: .3%; } }
-    rl-wp-cooking-landing features .wp-landing-feature-icon {
+    rl-wp-dish-landing features .wp-landing-feature-icon {
       width: 100px;
       height: 100px;
       border-radius: 50px;
@@ -619,7 +638,7 @@ rl-wp-cooking-landing {
       right: 0;
       overflow: hidden;
       margin: auto; }
-      rl-wp-cooking-landing features .wp-landing-feature-icon > img {
+      rl-wp-dish-landing features .wp-landing-feature-icon > img {
         width: 75px;
         height: 75px;
         position: absolute;
@@ -629,26 +648,26 @@ rl-wp-cooking-landing {
         left: 0;
         right: 0; }
       @media screen and (max-width: 1275px) {
-        rl-wp-cooking-landing features .wp-landing-feature-icon {
+        rl-wp-dish-landing features .wp-landing-feature-icon {
           width: 60px;
           height: 60px;
           top: 20px; }
-          rl-wp-cooking-landing features .wp-landing-feature-icon img {
+          rl-wp-dish-landing features .wp-landing-feature-icon img {
             width: 45px;
             height: 45px; } }
-    rl-wp-cooking-landing features .wp-landing-feature-title {
+    rl-wp-dish-landing features .wp-landing-feature-title {
       text-transform: uppercase;
       width: 100%;
       top: 150px;
       text-align: center;
       color: #eeb111 !important; }
       @media screen and (max-width: 1275px) {
-        rl-wp-cooking-landing features .wp-landing-feature-title {
+        rl-wp-dish-landing features .wp-landing-feature-title {
           top: 95px; } }
       @media screen and (max-width: 479px) {
-        rl-wp-cooking-landing features .wp-landing-feature-title {
+        rl-wp-dish-landing features .wp-landing-feature-title {
           font-size: 12px; } }
-    rl-wp-cooking-landing features .wp-landing-feature-button-over {
+    rl-wp-dish-landing features .wp-landing-feature-button-over {
       opacity: 0;
       z-index: 2;
       display: table;
@@ -659,7 +678,7 @@ rl-wp-cooking-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-    rl-wp-cooking-landing features .wp-landing-feature-copy-container {
+    rl-wp-dish-landing features .wp-landing-feature-copy-container {
       display: table-cell;
       color: #898989;
       position: relative;
@@ -667,7 +686,7 @@ rl-wp-cooking-landing {
       width: inherit;
       vertical-align: middle;
       padding: 0 14px; }
-    rl-wp-cooking-landing features .wp-landing-over-copy {
+    rl-wp-dish-landing features .wp-landing-over-copy {
       font-weight: 100;
       margin-bottom: 2px;
       color: #313131;
@@ -681,46 +700,47 @@ rl-wp-cooking-landing {
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
       @media screen and (max-width: 1275px) {
-        rl-wp-cooking-landing features .wp-landing-over-copy {
+        rl-wp-dish-landing features .wp-landing-over-copy {
           font-size: 11px;
           top: 144px; } }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing features .wp-landing-over-copy {
+        rl-wp-dish-landing features .wp-landing-over-copy {
           font-size: 0.5em;
           top: 135px;
           padding: 0 2px; } }
-    rl-wp-cooking-landing features .wp-landing-over-copy, rl-wp-cooking-landing features .wp-landing-over-cta {
+    rl-wp-dish-landing features .wp-landing-over-copy, rl-wp-dish-landing features .wp-landing-over-cta {
       width: 100%;
       text-align: center;
       position: absolute; }
-    rl-wp-cooking-landing features .wp-landing-over-cta {
+    rl-wp-dish-landing features .wp-landing-over-cta {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       font-weight: 400;
       color: #eeb111;
-      top: 230px; }
+      top: 230px;
+      right: 10px; }
       @media screen and (max-width: 1275px) {
-        rl-wp-cooking-landing features .wp-landing-over-cta {
+        rl-wp-dish-landing features .wp-landing-over-cta {
           top: 168px; } }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing features .wp-landing-over-cta {
+        rl-wp-dish-landing features .wp-landing-over-cta {
           font-size: 0.8em;
           margin-left: -10px; }
-          rl-wp-cooking-landing features .wp-landing-over-cta .wp-landing-over-cta:after {
+          rl-wp-dish-landing features .wp-landing-over-cta .wp-landing-over-cta:after {
             top: 1px; } }
-    rl-wp-cooking-landing features .wp-landing-over-cta:after {
+    rl-wp-dish-landing features .wp-landing-over-cta:after {
       position: absolute;
       content: ' ';
       background: url(../images/arrow.jpg);
       width: 15px;
       height: 15px;
-      top: 2px;
+      top: 4px;
       margin-left: 4px; }
-    rl-wp-cooking-landing features .wp-landing-feature-button-over-background {
+    rl-wp-dish-landing features .wp-landing-feature-button-over-background {
       height: 100%;
       width: 100%;
       background-color: #eeb111;
       position: absolute; }
-    rl-wp-cooking-landing features .wp-landing-feature-button {
+    rl-wp-dish-landing features .wp-landing-feature-button {
       width: 33%;
       padding: 2px;
       float: left;
@@ -732,14 +752,14 @@ rl-wp-cooking-landing {
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease; }
       @media screen and (max-width: 1275px) {
-        rl-wp-cooking-landing features .wp-landing-feature-button {
+        rl-wp-dish-landing features .wp-landing-feature-button {
           height: 150px; } }
-      rl-wp-cooking-landing features .wp-landing-feature-button .wp-landing-feature-button-up {
+      rl-wp-dish-landing features .wp-landing-feature-button .wp-landing-feature-button-up {
         position: relative;
         z-index: 1; }
-      rl-wp-cooking-landing features .wp-landing-feature-button .wp-landing-innerBtn {
+      rl-wp-dish-landing features .wp-landing-feature-button .wp-landing-innerBtn {
         position: absolute; }
-      rl-wp-cooking-landing features .wp-landing-feature-button .wp-landing-feature-rule {
+      rl-wp-dish-landing features .wp-landing-feature-button .wp-landing-feature-rule {
         width: 70%;
         height: 5px;
         border-top: 1px dashed #585858;
@@ -750,10 +770,10 @@ rl-wp-cooking-landing {
         margin-right: auto;
         margin-top: 10px; }
         @media screen and (max-width: 1275px) {
-          rl-wp-cooking-landing features .wp-landing-feature-button .wp-landing-feature-rule {
+          rl-wp-dish-landing features .wp-landing-feature-button .wp-landing-feature-rule {
             top: 120px;
             width: 60px; } }
-    rl-wp-cooking-landing features .wp-landing-feature-button:after {
+    rl-wp-dish-landing features .wp-landing-feature-button:after {
       content: ' ';
       width: 1px;
       height: 199.5px;
@@ -761,63 +781,63 @@ rl-wp-cooking-landing {
       position: absolute;
       right: 0;
       border-left: 1px dashed #585858; }
-    rl-wp-cooking-landing features .wp-landing-feature-button:hover .wp-landing-over-copy {
+    rl-wp-dish-landing features .wp-landing-feature-button:hover .wp-landing-over-copy {
       opacity: 1; }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing features .wp-landing-feature-button .wp-landing-over-copy {
+      rl-wp-dish-landing features .wp-landing-feature-button .wp-landing-over-copy {
         opacity: 1; } }
-    rl-wp-cooking-landing features feature-button:first-of-type .wp-landing-feature-button {
+    rl-wp-dish-landing features feature-button:first-of-type .wp-landing-feature-button {
       margin-left: 0px; }
-    rl-wp-cooking-landing features feature-button:last-of-type .wp-landing-feature-button {
+    rl-wp-dish-landing features feature-button:last-of-type .wp-landing-feature-button {
       margin-right: 0px;
       margin-left: 2px; }
-    rl-wp-cooking-landing features feature-button:last-of-type .wp-landing-feature-button:after {
+    rl-wp-dish-landing features feature-button:last-of-type .wp-landing-feature-button:after {
       content: initial; }
   @media screen and (max-width: 1275px) {
-    rl-wp-cooking-landing features.fr .row {
+    rl-wp-dish-landing features.fr .row {
       height: 235px; }
-      rl-wp-cooking-landing features.fr .row .wp-landing-feature-button:after {
+      rl-wp-dish-landing features.fr .row .wp-landing-feature-button:after {
         height: 154px !important;
         top: 33px !important; } }
   @media screen and (max-width: 820px) {
-    rl-wp-cooking-landing features.fr .row {
+    rl-wp-dish-landing features.fr .row {
       height: 230px; }
-      rl-wp-cooking-landing features.fr .row .wp-landing-feature-button:after {
+      rl-wp-dish-landing features.fr .row .wp-landing-feature-button:after {
         height: 154px !important;
         top: 33px !important; } }
-  rl-wp-cooking-landing features.fr .wp-landing-feature-rule {
+  rl-wp-dish-landing features.fr .wp-landing-feature-rule {
     top: 187px; }
     @media screen and (max-width: 1275px) {
-      rl-wp-cooking-landing features.fr .wp-landing-feature-rule {
+      rl-wp-dish-landing features.fr .wp-landing-feature-rule {
         top: 124px;
         font-size: 0.7em; } }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing features.fr .wp-landing-feature-rule {
+      rl-wp-dish-landing features.fr .wp-landing-feature-rule {
         top: 132px; } }
-  rl-wp-cooking-landing features.fr .wp-landing-over-cta {
+  rl-wp-dish-landing features.fr .wp-landing-over-cta {
     top: 240px; }
     @media screen and (max-width: 1275px) {
-      rl-wp-cooking-landing features.fr .wp-landing-over-cta {
+      rl-wp-dish-landing features.fr .wp-landing-over-cta {
         top: 188px; } }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing features.fr .wp-landing-over-cta {
+      rl-wp-dish-landing features.fr .wp-landing-over-cta {
         top: 190px; } }
   @media screen and (max-width: 1275px) {
-    rl-wp-cooking-landing features.fr .wp-landing-feature-title {
+    rl-wp-dish-landing features.fr .wp-landing-feature-title {
       top: 95px;
       font-size: 0.8em; } }
   @media screen and (max-width: 1275px) {
-    rl-wp-cooking-landing features.fr .wp-landing-over-copy {
+    rl-wp-dish-landing features.fr .wp-landing-over-copy {
       top: 148px; } }
   @media screen and (max-width: 820px) {
-    rl-wp-cooking-landing features.fr .wp-landing-over-copy {
+    rl-wp-dish-landing features.fr .wp-landing-over-copy {
       top: 150px; } }
-  rl-wp-cooking-landing product-selector {
+  rl-wp-dish-landing product-selector {
     width: 80%;
     position: relative;
     -webkit-transition: all 1s;
     transition: all 1s; }
-    rl-wp-cooking-landing product-selector h2 {
+    rl-wp-dish-landing product-selector h2 {
       font-size: 3em;
       text-align: center;
       font-weight: 800;
@@ -825,82 +845,85 @@ rl-wp-cooking-landing {
       margin-top: 50px;
       margin-bottom: 50px; }
       @media screen and (max-width: 1366px) {
-        rl-wp-cooking-landing product-selector h2 {
+        rl-wp-dish-landing product-selector h2 {
           font-size: 2em;
           margin-top: 35px; } }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector h2 {
+        rl-wp-dish-landing product-selector h2 {
           margin-bottom: 0px; } }
-    rl-wp-cooking-landing product-selector #french-door, rl-wp-cooking-landing product-selector #side-by-side, rl-wp-cooking-landing product-selector #bottom-freezer, rl-wp-cooking-landing product-selector #under-counter, rl-wp-cooking-landing product-selector #built-in {
+    rl-wp-dish-landing product-selector #french-door, rl-wp-dish-landing product-selector #side-by-side, rl-wp-dish-landing product-selector #bottom-freezer, rl-wp-dish-landing product-selector #under-counter, rl-wp-dish-landing product-selector #built-in {
       opacity: 0; }
-    rl-wp-cooking-landing product-selector product-slides {
+    rl-wp-dish-landing product-selector product-slides {
       display: inline-block;
       width: 100%;
       -webkit-transition: all 1s;
       transition: all 1s; }
-    rl-wp-cooking-landing product-selector .wp-cooking-landing-product-slide {
+    rl-wp-dish-landing product-selector .wp-dish-landing-product-slide {
       position: relative; }
-    rl-wp-cooking-landing product-selector product-slide {
+    rl-wp-dish-landing product-selector product-slide {
       display: inline-block;
       position: relative;
       padding-bottom: 20px;
       -webkit-transition: all 1s;
       transition: all 1s; }
-      rl-wp-cooking-landing product-selector product-slide #freezers img {
+      rl-wp-dish-landing product-selector product-slide #freezers img {
         margin-left: -50px; }
         @media screen and (max-width: 820px) {
-          rl-wp-cooking-landing product-selector product-slide #freezers img {
+          rl-wp-dish-landing product-selector product-slide #freezers img {
             margin: 0 auto; } }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector product-slide {
+        rl-wp-dish-landing product-selector product-slide {
           width: 100%; } }
-    rl-wp-cooking-landing product-selector product-slide:not(.selected) {
+    rl-wp-dish-landing product-selector product-slide:not(.selected) {
       display: none; }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing product-selector product-slide:first-of-type {
+      rl-wp-dish-landing product-selector product-slide:first-of-type {
         position: relative; } }
-    rl-wp-cooking-landing product-selector > .row {
+    rl-wp-dish-landing product-selector > .row {
       background-image: url("../../public/images/refer-select-shadow.png");
       background-repeat: no-repeat;
       background-position-y: 100px;
       -webkit-transition: all 1s;
       transition: all 1s; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector > .row {
+        rl-wp-dish-landing product-selector > .row {
           background-position-y: -30px; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-prodLeft {
+    rl-wp-dish-landing product-selector .rl-wp-lndng-prodLeft {
       width: 50%;
       position: relative;
       float: left;
-      text-align: right;
+      text-align: center;
       -webkit-transition: all 1s;
-      transition: all 1s; }
+      transition: all 1s;
+      left: 60px; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-prodLeft {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-prodLeft {
           float: none;
           width: 100%; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-prodRight {
+    rl-wp-dish-landing product-selector .rl-wp-lndng-prodRight {
       width: 35%;
       position: relative;
       float: left;
       -webkit-transition: all 1s;
       transition: all 1s; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-prodRight {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-prodRight {
           float: none;
-          width: 100%; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-side {
+          width: 90%;
+          margin-right: auto;
+          margin-left: auto; } }
+    rl-wp-dish-landing product-selector .rl-wp-lndng-side {
       display: none;
       -webkit-transition: all 1s;
       transition: all 1s; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-side {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-side {
           width: 100%; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-title.mobile {
+    rl-wp-dish-landing product-selector .rl-wp-lndng-dish-title.mobile {
       display: none;
       margin-bottom: 20px; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-title.mobile {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-dish-title.mobile {
           position: relative;
           top: initial;
           left: initial;
@@ -911,7 +934,7 @@ rl-wp-cooking-landing {
           margin-bottom: 10px;
           color: #000000 !important;
           width: 100%; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-title {
+    rl-wp-dish-landing product-selector .rl-wp-lndng-dish-title {
       position: relative;
       font-weight: 300;
       font-size: 32px;
@@ -921,46 +944,48 @@ rl-wp-cooking-landing {
       text-align: left;
       padding-bottom: 10px; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-title {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-dish-title {
           display: none; } }
-    rl-wp-cooking-landing product-selector learn-more-button {
+    rl-wp-dish-landing product-selector learn-more-button {
       position: relative;
       width: 115px;
       height: 30px;
       opacity: 0; }
       @media screen and (max-width: 1366px) {
-        rl-wp-cooking-landing product-selector learn-more-button {
-          transform: scale(1, 1);
-          -webkit-transform: scale(1, 1);
-          font-size: .7em; } }
+        rl-wp-dish-landing product-selector learn-more-button {
+          transform: scale(1.5, 1.5);
+          -webkit-transform: scale(1.5, 1.5);
+          font-size: .7em;
+          left: 25px; } }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector learn-more-button {
+        rl-wp-dish-landing product-selector learn-more-button {
           position: relative;
           top: initial;
           left: initial;
           display: block;
           text-align: center;
           margin: 0 auto; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge {
+    rl-wp-dish-landing product-selector .rl-wp-lndng-dish {
       position: relative;
       opacity: 0; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-dish {
           left: initial;
           position: relative;
           display: block;
           top: 0;
           margin-bottom: 20px;
-          width: 100%; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge img {
-      width: 350px; }
+          width: 100%;
+          margin-top: 20px; } }
+    rl-wp-dish-landing product-selector .rl-wp-lndng-dish img {
+      width: 263px; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge img {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-dish img {
           height: 200px;
-          margin-left: 50%;
+          margin-left: 13%;
           transform: translateX(-50%);
           width: initial; } }
-    rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-desc {
+    rl-wp-dish-landing product-selector .rl-wp-lndng-dish-desc {
       position: relative;
       font-size: 18.5px;
       font-weight: 100;
@@ -971,7 +996,7 @@ rl-wp-cooking-landing {
       text-align: left;
       padding-bottom: 20px; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-desc {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-dish-desc {
           position: relative;
           top: initial;
           left: initial;
@@ -981,34 +1006,41 @@ rl-wp-cooking-landing {
           font-size: 14px !important;
           line-height: 18px !important; } }
       @media screen and (max-width: 1366px) {
-        rl-wp-cooking-landing product-selector .rl-wp-lndng-fridge-desc {
+        rl-wp-dish-landing product-selector .rl-wp-lndng-dish-desc {
           font-size: 18px;
           line-height: 24px; } }
-  rl-wp-cooking-landing product-selector-nav {
+  rl-wp-dish-landing product-selector-nav {
     position: relative;
     display: inline-block;
-    padding-top: 4%;
+    padding-top: 15%;
     -webkit-transition: all 1s;
     transition: all 1s; }
-    rl-wp-cooking-landing product-selector-nav .row {
+    rl-wp-dish-landing product-selector-nav .row {
       position: relative;
       display: inline-block; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product, rl-wp-cooking-landing product-selector-nav .see-all {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product, rl-wp-dish-landing product-selector-nav .see-all {
       float: left;
       width: 25%;
-      padding: 0 12px; }
-      rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product img, rl-wp-cooking-landing product-selector-nav .see-all img {
+      padding: 0 50px;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto; }
+      rl-wp-dish-landing product-selector-nav .wp-dish-landing-product img, rl-wp-dish-landing product-selector-nav .see-all img {
         width: 100%; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product > img {
+      @media screen and (max-width: 820px) {
+        rl-wp-dish-landing product-selector-nav .wp-dish-landing-product, rl-wp-dish-landing product-selector-nav .see-all {
+          padding: 0px 10px;
+          width: 33%; } }
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product > img {
       -webkit-transition: all 0.2s ease;
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product:not(.selected) > img {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product:not(.selected) > img {
       opacity: 0.6; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product:not(.selected) .wp-cooking-landing-button {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product:not(.selected) .wp-dish-landing-button {
       color: #898989; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-button {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-button {
       margin-top: 10px;
       height: 70px;
       display: table;
@@ -1018,44 +1050,43 @@ rl-wp-cooking-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-      rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-button .wp-cooking-landing-button-circle {
+      rl-wp-dish-landing product-selector-nav .wp-dish-landing-button .wp-dish-landing-button-circle {
         width: 100%;
         height: 15px;
         margin-bottom: 6px; }
-        rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-button .wp-cooking-landing-button-circle div {
+        rl-wp-dish-landing product-selector-nav .wp-dish-landing-button .wp-dish-landing-button-circle div {
           height: inherit;
           width: 15px;
           margin: 0 auto;
           display: block;
           background-color: #898989;
           border-radius: 10px; }
-      rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-button p {
+      rl-wp-dish-landing product-selector-nav .wp-dish-landing-button p {
         width: 100%;
         line-height: 14px;
         font-size: 1em;
         font-weight: 400;
         text-align: center; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-button {
+        rl-wp-dish-landing product-selector-nav .wp-dish-landing-button {
           min-height: 10.5%; }
-          rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-button p {
+          rl-wp-dish-landing product-selector-nav .wp-dish-landing-button p {
             font-size: 0.9em;
             font-weight: 200; } }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product:hover > img {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product:hover > img {
       opacity: 0.75; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product:hover .wp-cooking-landing-button {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product:hover .wp-dish-landing-button {
       color: #eeb111 !important; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product:hover .wp-cooking-landing-button-circle div {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product:hover .wp-dish-landing-button-circle div {
       background-color: #eeb111 !important; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product.selected .wp-cooking-landing-button {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product.selected .wp-dish-landing-button {
       color: #eeb111; }
-    rl-wp-cooking-landing product-selector-nav .wp-cooking-landing-product.selected .wp-cooking-landing-button-circle div {
+    rl-wp-dish-landing product-selector-nav .wp-dish-landing-product.selected .wp-dish-landing-button-circle div {
       background-color: #eeb111; }
-    rl-wp-cooking-landing product-selector-nav .see-all {
-      display: none !important;
+    rl-wp-dish-landing product-selector-nav .see-all {
       height: 300px;
       width: 25%;
-      color: #eeb111;
+      color: 8b8b8b;
       text-transform: uppercase;
       display: table;
       padding: 0;
@@ -1063,16 +1094,16 @@ rl-wp-cooking-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-      rl-wp-cooking-landing product-selector-nav .see-all div {
+      rl-wp-dish-landing product-selector-nav .see-all div {
         display: table;
         width: 120px;
         height: 120px;
-        border: 1px solid black;
+        border: 5px solid #8b8b8b;
         border-radius: 130px;
         margin: 0 auto;
-        margin-top: 58%;
+        margin-top: 25%;
         font-weight: 400; }
-      rl-wp-cooking-landing product-selector-nav .see-all p {
+      rl-wp-dish-landing product-selector-nav .see-all p {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
@@ -1080,42 +1111,49 @@ rl-wp-cooking-landing {
         font-size: 1.3em;
         line-height: 20px; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing product-selector-nav .see-all {
+        rl-wp-dish-landing product-selector-nav .see-all {
           height: 130px;
-          margin-top: 70px;
-          padding: initial; }
-          rl-wp-cooking-landing product-selector-nav .see-all div {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          padding: initial;
+          width: 100%; }
+          rl-wp-dish-landing product-selector-nav .see-all div {
             margin-top: initial;
             margin: 0 auto;
-            width: 60px;
-            height: 60px; }
-          rl-wp-cooking-landing product-selector-nav .see-all p {
+            width: 90px;
+            height: 90px; }
+          rl-wp-dish-landing product-selector-nav .see-all p {
             font-size: 1em;
             line-height: 15px; } }
-  rl-wp-cooking-landing product-selector.fr .rl-wp-lndng-fridge-title {
+    rl-wp-dish-landing product-selector-nav .see-all:hover div {
+      border-color: #eeb111; }
+    rl-wp-dish-landing product-selector-nav .see-all:hover p {
+      color: #eeb111; }
+  rl-wp-dish-landing product-selector.fr .rl-wp-lndng-dish-title {
     width: 450px; }
   @media screen and (max-width: 820px) {
-    rl-wp-cooking-landing product-selector.fr .rl-wp-lndng-fridge-title.mobile {
+    rl-wp-dish-landing product-selector.fr .rl-wp-lndng-dish-title.mobile {
       width: 100%; } }
-  rl-wp-cooking-landing product-selector.fr .rl-wp-lndng-fridge-desc {
+  rl-wp-dish-landing product-selector.fr .rl-wp-lndng-dish-desc {
     width: 450px; }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing product-selector.fr .rl-wp-lndng-fridge-desc {
+      rl-wp-dish-landing product-selector.fr .rl-wp-lndng-dish-desc {
         width: 100%;
         padding: 0 10px 13px 10px; } }
-  rl-wp-cooking-landing product-selector.fr product-selector-nav .wp-cooking-landing-product:nth-child(4) {
+  rl-wp-dish-landing product-selector.fr product-selector-nav .wp-dish-landing-product:nth-child(4) {
     margin-bottom: 8px; }
   @media screen and (max-width: 820px) {
-    rl-wp-cooking-landing product-selector.fr product-selector-nav div .wp-cooking-landing-button p {
+    rl-wp-dish-landing product-selector.fr product-selector-nav div .wp-dish-landing-button p {
       font-size: 0.6em;
       font-weight: 200;
       line-height: 11px; } }
-  rl-wp-cooking-landing product-selector.fr product-slides product-slide .rl-wp-lndng-fridge-title.mobile {
+  rl-wp-dish-landing product-selector.fr product-slides product-slide .rl-wp-lndng-dish-title.mobile {
     font-size: 18px;
     line-height: 20px; }
-  rl-wp-cooking-landing product-selector.fr learn-more-button {
+  rl-wp-dish-landing product-selector.fr learn-more-button {
     width: 135px; }
-  rl-wp-cooking-landing .product-slide-background {
+  rl-wp-dish-landing .product-slide-background {
     width: 100%;
     height: 130px;
     background: url(../images/refer-select-shadow.png);
@@ -1125,9 +1163,9 @@ rl-wp-cooking-landing {
     left: -90px;
     opacity: 0.5; }
     @media screen and (max-width: 820px) {
-      rl-wp-cooking-landing .product-slide-background {
+      rl-wp-dish-landing .product-slide-background {
         left: 0; } }
-  rl-wp-cooking-landing learn-more-button {
+  rl-wp-dish-landing learn-more-button {
     display: block;
     position: relative;
     width: 180px;
@@ -1141,52 +1179,52 @@ rl-wp-cooking-landing {
     font-weight: 300;
     border-radius: 15px; }
     @media screen and (max-width: 685px) {
-      rl-wp-cooking-landing learn-more-button {
+      rl-wp-dish-landing learn-more-button {
         font-size: .7em !important; } }
-    rl-wp-cooking-landing learn-more-button * {
+    rl-wp-dish-landing learn-more-button * {
       color: #FFFFFF; }
-    rl-wp-cooking-landing learn-more-button div {
+    rl-wp-dish-landing learn-more-button div {
       width: 100%;
       height: 100%;
       display: table; }
-    rl-wp-cooking-landing learn-more-button p {
+    rl-wp-dish-landing learn-more-button p {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
-  rl-wp-cooking-landing learn-more-button:hover {
+  rl-wp-dish-landing learn-more-button:hover {
     transform: scale(1.2);
     -webkit-transform: scale(1.2); }
-  rl-wp-cooking-landing more-features {
+  rl-wp-dish-landing more-features {
     padding: 0px 0 70px 0;
     overflow: hidden;
     top: 35px; }
-    rl-wp-cooking-landing more-features h2 {
+    rl-wp-dish-landing more-features h2 {
       font-size: 3em;
       text-align: center;
       width: 100%;
       padding: 0px 0 20px 0; }
       @media screen and (max-width: 685px) {
-        rl-wp-cooking-landing more-features h2 {
+        rl-wp-dish-landing more-features h2 {
           font-size: 2em; } }
-    rl-wp-cooking-landing more-features more-features-feature:first-of-type > a > div {
+    rl-wp-dish-landing more-features more-features-feature:first-of-type > a > div {
       margin-left: initial; }
-    rl-wp-cooking-landing more-features more-features-feature:last-of-type > a > div {
+    rl-wp-dish-landing more-features more-features-feature:last-of-type > a > div {
       margin-right: initial; }
-  rl-wp-cooking-landing more-features-feature {
+  rl-wp-dish-landing more-features-feature {
     width: 33.33333333333%;
     float: left; }
-    rl-wp-cooking-landing more-features-feature > a > div, rl-wp-cooking-landing more-features-feature > div > div {
+    rl-wp-dish-landing more-features-feature > a > div, rl-wp-dish-landing more-features-feature > div > div {
       margin: 0 5px; }
-    rl-wp-cooking-landing more-features-feature > div, rl-wp-cooking-landing more-features-feature > div > div * {
+    rl-wp-dish-landing more-features-feature > div, rl-wp-dish-landing more-features-feature > div > div * {
       cursor: default; }
-    rl-wp-cooking-landing more-features-feature .hover {
+    rl-wp-dish-landing more-features-feature .hover {
       position: relative; }
-    rl-wp-cooking-landing more-features-feature .text-container:hover {
+    rl-wp-dish-landing more-features-feature .text-container:hover {
       opacity: 0.95; }
       @media screen and (max-width: 400px) {
-        rl-wp-cooking-landing more-features-feature .text-container:hover {
+        rl-wp-dish-landing more-features-feature .text-container:hover {
           opacity: 0; } }
-    rl-wp-cooking-landing more-features-feature .text-container {
+    rl-wp-dish-landing more-features-feature .text-container {
       display: flex;
       display: -webkit-flex;
       align-items: center;
@@ -1202,114 +1240,114 @@ rl-wp-cooking-landing {
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
       background-color: #eab018; }
-    rl-wp-cooking-landing more-features-feature .text-container * {
+    rl-wp-dish-landing more-features-feature .text-container * {
       pointer-events: none; }
-    rl-wp-cooking-landing more-features-feature .text-container-cell {
+    rl-wp-dish-landing more-features-feature .text-container-cell {
       max-width: 50%; }
-      rl-wp-cooking-landing more-features-feature .text-container-cell .cta {
+      rl-wp-dish-landing more-features-feature .text-container-cell .cta {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 800;
         margin-top: 5px; }
-      rl-wp-cooking-landing more-features-feature .text-container-cell p {
+      rl-wp-dish-landing more-features-feature .text-container-cell p {
         text-align: center;
         color: #FFF; }
-    rl-wp-cooking-landing more-features-feature .spacer-top {
+    rl-wp-dish-landing more-features-feature .spacer-top {
       max-width: 50%;
       align-self: flex-start;
       -webkit-align-self: flex-start; }
-    rl-wp-cooking-landing more-features-feature .spacer-bottom {
+    rl-wp-dish-landing more-features-feature .spacer-bottom {
       max-width: 50%;
       align-self: flex-end;
       -webkit-align-self: flex-end; }
-    rl-wp-cooking-landing more-features-feature img {
+    rl-wp-dish-landing more-features-feature img {
       width: 100%;
       margin-bottom: 0px !important; }
-    rl-wp-cooking-landing more-features-feature .bottom-text {
+    rl-wp-dish-landing more-features-feature .bottom-text {
       text-align: center;
       color: #000000;
       margin-top: 15px; }
       @media screen and (max-width: 820px) {
-        rl-wp-cooking-landing more-features-feature .bottom-text {
+        rl-wp-dish-landing more-features-feature .bottom-text {
           margin-top: 0px; } }
-  rl-wp-cooking-landing banner {
+  rl-wp-dish-landing banner {
     cursor: default; }
-    rl-wp-cooking-landing banner img {
+    rl-wp-dish-landing banner img {
       width: 100%; }
-    rl-wp-cooking-landing banner learn-more-button {
+    rl-wp-dish-landing banner learn-more-button {
       position: absolute;
-      top: 65%;
-      right: 38%;
+      top: 44%;
+      right: 20%;
       width: 18%;
       height: 34px;
       border-radius: 20px; }
       @media screen and (max-width: 685px) {
-        rl-wp-cooking-landing banner learn-more-button {
+        rl-wp-dish-landing banner learn-more-button {
           font-size: small;
-          right: 37%;
+          right: 15%;
           width: 25%;
           height: 20px;
-          top: 62%; } }
+          top: 35%; } }
   @media screen and (max-width: 820px) {
-    rl-wp-cooking-landing banner.fr learn-more-button {
+    rl-wp-dish-landing banner.fr learn-more-button {
       right: 37%;
       width: 28%; } }
-  rl-wp-cooking-landing footer {
+  rl-wp-dish-landing footer {
     font-family: Helvetica, Arial, sans-serif;
     width: 100%;
     color: #333;
     padding-top: 50px;
     overflow: hidden; }
-    rl-wp-cooking-landing footer #footer-wrap {
+    rl-wp-dish-landing footer #footer-wrap {
       width: 944px;
       margin: 0 auto;
       border-top: 1px solid #BBB;
       padding: 5px 0 10px 0; }
-    rl-wp-cooking-landing footer a {
+    rl-wp-dish-landing footer a {
       text-decoration: none;
       color: #333; }
-    rl-wp-cooking-landing footer ul {
+    rl-wp-dish-landing footer ul {
       float: left;
       width: 140px;
       list-style: none;
       margin: 0;
       padding: 0; }
-    rl-wp-cooking-landing footer ul:not(:last-child) {
+    rl-wp-dish-landing footer ul:not(:last-child) {
       margin-right: 20px; }
-    rl-wp-cooking-landing footer ul li {
+    rl-wp-dish-landing footer ul li {
       font-size: 7pt;
       width: 100%;
       margin-top: 5px; }
-      rl-wp-cooking-landing footer ul li a:hover {
+      rl-wp-dish-landing footer ul li a:hover {
         text-decoration: underline;
         cursor: pointer; }
-      rl-wp-cooking-landing footer ul li.split {
+      rl-wp-dish-landing footer ul li.split {
         padding-top: 15px; }
-      rl-wp-cooking-landing footer ul li.split span:first-child {
+      rl-wp-dish-landing footer ul li.split span:first-child {
         padding-right: 3px; }
-      rl-wp-cooking-landing footer ul li.split span:last-child {
+      rl-wp-dish-landing footer ul li.split span:last-child {
         margin-left: 3px; }
-      rl-wp-cooking-landing footer ul li:first-child {
+      rl-wp-dish-landing footer ul li:first-child {
         text-transform: uppercase;
         color: black;
         font-weight: 500;
         padding-bottom: 5px;
         border-bottom: 1px dotted black; }
-      rl-wp-cooking-landing footer ul li:nth-child(2) {
+      rl-wp-dish-landing footer ul li:nth-child(2) {
         margin-top: 8px; }
-  rl-wp-cooking-landing footer {
+  rl-wp-dish-landing footer {
     width: 100%; }
-  rl-wp-cooking-landing h1, rl-wp-cooking-landing h2, rl-wp-cooking-landing h3, rl-wp-cooking-landing h4, rl-wp-cooking-landing h5, rl-wp-cooking-landing [class*='title'] {
+  rl-wp-dish-landing h1, rl-wp-dish-landing h2, rl-wp-dish-landing h3, rl-wp-dish-landing h4, rl-wp-dish-landing h5, rl-wp-dish-landing [class*='title'] {
     color: #313131 !important;
     cursor: default;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400; }
-  rl-wp-cooking-landing p, rl-wp-cooking-landing span, rl-wp-cooking-landing div {
+  rl-wp-dish-landing p, rl-wp-dish-landing span, rl-wp-dish-landing div {
     cursor: pointer; }
-  rl-wp-cooking-landing *, rl-wp-cooking-landing *:before, rl-wp-cooking-landing *:after {
+  rl-wp-dish-landing *, rl-wp-dish-landing *:before, rl-wp-dish-landing *:after {
     box-sizing: border-box; }
-  rl-wp-cooking-landing a {
+  rl-wp-dish-landing a {
     color: #FFFFFF; }
-  rl-wp-cooking-landing > *:not(header):not(footer) {
+  rl-wp-dish-landing > *:not(header):not(footer) {
     width: 100%;
     max-width: 944px;
     min-width: 320px;
@@ -1317,9 +1355,9 @@ rl-wp-cooking-landing {
     position: relative;
     display: block; }
   @media screen and (max-width: 820px) {
-    rl-wp-cooking-landing {
+    rl-wp-dish-landing {
       margin-top: initial; } }
-  rl-wp-cooking-landing sup {
+  rl-wp-dish-landing sup {
     font-size: 0.5em; }
 
 [class*="explorer"] features .wp-landing-feature-button-over:hover {

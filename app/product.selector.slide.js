@@ -27,23 +27,23 @@ System.register(['angular2/core', './landing.learn-more.button'], function(expor
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridge", void 0);
+                ], ProductSlide.prototype, "dish", void 0);
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeTitle", void 0);
+                ], ProductSlide.prototype, "dishTitle", void 0);
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeDescription", void 0);
+                ], ProductSlide.prototype, "dishDescription", void 0);
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeUrl", void 0);
+                ], ProductSlide.prototype, "dishUrl", void 0);
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeId", void 0);
+                ], ProductSlide.prototype, "dishId", void 0);
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
@@ -55,7 +55,7 @@ System.register(['angular2/core', './landing.learn-more.button'], function(expor
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ProductSlide.prototype, "fridgeAlt", void 0);
+                ], ProductSlide.prototype, "dishAlt", void 0);
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
@@ -63,7 +63,7 @@ System.register(['angular2/core', './landing.learn-more.button'], function(expor
                 ProductSlide = __decorate([
                     core_1.Component({
                         selector: 'product-slide',
-                        template: "\n        <div class=\"rl-wp-lndng-side\" id=\"{{fridgeId}}\">\n            <div class=\"rl-wp-lndng-prodLeft\">\n            <div class=\"rl-wp-lndng-fridge\"><img class=\"{{fridge}}\" src=\"{{fridge}}\" alt=\"{{fridgeAlt}}\" /></div>\n            </div>\n           <div class=\"rl-wp-lndng-prodRight\">\n           <div class=\"rl-wp-lndng-fridge-title mobile\" [innerHTML]=\"fridgeTitle\"></div>\n            <div class=\"rl-wp-lndng-fridge-title\" [innerHTML]=\"fridgeTitle\"></div>\n            <div class=\"rl-wp-lndng-fridge-desc\">{{fridgeDescription}}</div>\n            <learn-more-button [analytics]=\"analytics\" [link]=\"fridgeUrl\" [text]=\"ctaText\"></learn-more-button>\n            </div>\n          </div>\n    ",
+                        template: "\n        <div class=\"rl-wp-lndng-side\" id=\"{{dishId}}\">\n            <div class=\"rl-wp-lndng-prodLeft\">\n            <div class=\"rl-wp-lndng-dish\"><img class=\"{{dish}}\" src=\"{{dish}}\" alt=\"{{dishAlt}}\" /></div>\n            </div>\n           <div class=\"rl-wp-lndng-prodRight\">\n           <div class=\"rl-wp-lndng-dish-title mobile\" [innerHTML]=\"dishTitle\"></div>\n            <div class=\"rl-wp-lndng-dish-title\" [innerHTML]=\"dishTitle\"></div>\n            <div class=\"rl-wp-lndng-dish-desc\">{{dishDescription}}</div>\n            <learn-more-button [analytics]=\"analytics\" [link]=\"dishUrl\" [text]=\"ctaText\"></learn-more-button>\n            </div>\n          </div>\n    ",
                         directives: [landing_learn_more_button_1.LearnMoreButton]
                     }), 
                     __metadata('design:paramtypes', [])

@@ -34,7 +34,7 @@ System.register(['angular2/core', './services/appdata.service'], function(export
                 AppMasthead = __decorate([
                     core_1.Component({
                         selector: 'masthead',
-                        template: "\n    \t<div class=\"{{!enabled ? 'hide': ''}}\">\n\t\t\t<div id=\"wp-landing-masthead\"><img src=\"{{image}}\" alt=\"{{alt}}\" /></div>\n\t\t</div>\n    "
+                        template: "\n    \t<div class=\"{{!enabled ? 'hide': ''}}\">\n\t\t\t<div id=\"wp-landing-masthead\"><img src=\"{{image}}\" alt=\"{{alt}}\" />\n\t\t\t<h2 class=\"title\">Get Started Here</h2></div>\n\t\t</div>\n    "
                     }), 
                     __metadata('design:paramtypes', [appdata_service_1.AppDataService])
                 ], AppMasthead);

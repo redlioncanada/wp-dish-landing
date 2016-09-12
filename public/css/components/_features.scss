@@ -131,6 +131,7 @@ features {
         @include Helvetica-Medium;
         color: $accentColor;
         top: 230px;
+        right:10px;
 
         @media screen and (max-width: 1275px) {
             top: 168px;
@@ -152,7 +153,7 @@ features {
         background: url(../images/arrow.jpg);
         width: 15px;
         height: 15px;
-        top: 2px;
+        top: 4px;
         margin-left: 4px;
     }
 

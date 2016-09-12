@@ -75,9 +75,9 @@ System.register(['angular2/core', './product.selector.slide', './services/logger
                 ProductSlides.prototype.playOut = function (target, cb) {
                     var self = this;
                     target = $(this.rootElement).find('#' + target);
-                    var image = ($(target).find('.rl-wp-lndng-fridge'));
-                    var title = ($(target).find('.rl-wp-lndng-fridge-title'));
-                    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'));
+                    var image = ($(target).find('.rl-wp-lndng-dish'));
+                    var title = ($(target).find('.rl-wp-lndng-dish-title'));
+                    var desc = ($(target).find('.rl-wp-lndng-dish-desc'));
                     var learn = ($(target).find('learn-more-button'));
                     this.animating = true;
                     TweenMax.to(image, .5, { delay: 0, opacity: 0, ease: Power3.easeOut });
@@ -105,9 +105,9 @@ System.register(['angular2/core', './product.selector.slide', './services/logger
                             scrollTop: $('product-slides').offset().top
                         });
                     }
-                    var image = ($(target).find('.rl-wp-lndng-fridge'));
-                    var title = ($(target).find('.rl-wp-lndng-fridge-title'));
-                    var desc = ($(target).find('.rl-wp-lndng-fridge-desc'));
+                    var image = ($(target).find('.rl-wp-lndng-dish'));
+                    var title = ($(target).find('.rl-wp-lndng-dish-title'));
+                    var desc = ($(target).find('.rl-wp-lndng-dish-desc'));
                     var learn = ($(target).find('learn-more-button'));
                     var isMobile = this.breakpoint.is('tablet') || this.breakpoint.is('mobile');
                     TweenMax.to(target, 0, { delay: 0.1, opacity: 1 });
@@ -172,7 +172,7 @@ System.register(['angular2/core', './product.selector.slide', './services/logger
                 ProductSlides = __decorate([
                     core_1.Component({
                         selector: 'product-slides',
-                        template: "\n      <div class=\"row\">\n          <product-slide class=\"{{selectedProduct.prodId == product.prodId ? 'selected' : ''}}\" *ngFor=\"#product of products; #i=index\" [selected]=\"selectedProduct.prodId == product.prodId\" [fridge]= \"product.prodImage\" [fridgeTitle]= \"product.prodName\" [fridgeDescription]=\"product.prodDescription\" [fridgeUrl]=\"product.prodUrl\" [fridgeId]=\"product.prodId\" [ctaText]=\"product.ctaText\" [fridgeAlt]=\"product.prodAlt\" [ctaBackground]=\"product.ctaBackground\" [analytics]=\"product.analytics\">\n          </product-slide>\n      </div>\n    ",
+                        template: "\n      <div class=\"row\">\n          <product-slide class=\"{{selectedProduct.prodId == product.prodId ? 'selected' : ''}}\" *ngFor=\"#product of products; #i=index\" [selected]=\"selectedProduct.prodId == product.prodId\" [dish]= \"product.prodImage\" [dishTitle]= \"product.prodName\" [dishDescription]=\"product.prodDescription\" [dishUrl]=\"product.prodUrl\" [dishId]=\"product.prodId\" [ctaText]=\"product.ctaText\" [dishAlt]=\"product.prodAlt\" [ctaBackground]=\"product.ctaBackground\" [analytics]=\"product.analytics\">\n          </product-slide>\n      </div>\n    ",
                         directives: [product_selector_slide_1.ProductSlide]
                     }),
                     __param(0, core_1.Inject(core_1.ElementRef)), 

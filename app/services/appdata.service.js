@@ -29,7 +29,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                     this.contents.en = {
                         masthead: {
                             enabled: true,
-                            image: "./public/images/refer-landing-masthead.jpg",
+                            image: "./public/images/dish-landing-masthead.jpg",
                             alt: "Front control range installed into countertop",
                             title: ""
                         },
@@ -48,7 +48,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             enabled: true,
                             features: [
                                 {
-                                    image: "./public/images/refer-landing-shopping-cart.png",
+                                    image: "./public/images/dish-landing-shopping-cart.png",
                                     title: "Buying Guide",
                                     alt: "Buying Guide",
                                     desc: "What to look for when buying",
@@ -62,12 +62,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/refer-landing-star.png",
+                                    image: "./public/images/dish-landing-star.png",
                                     title: "Ratings and Reviews",
                                     alt: "Ratings and Reviews",
                                     desc: "See what others are saying",
                                     cta: "Click Here",
-                                    link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html#Ovens",
+                                    link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html#Dishwashers",
                                     type: "star",
                                     analytics: {
                                         "category": "@category",
@@ -76,12 +76,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/refer-landing-mag-glass.png",
-                                    title: "Find Your Whirlpool",
-                                    alt: "Find Your Whirlpool",
-                                    desc: "Need help finding your range?",
+                                    image: "./public/images/dish-landing-mag-glass.png",
+                                    title: "Find Your Dishwasher",
+                                    alt: "Find Your Dishwasher",
+                                    desc: "Need help finding your dishwasher?",
                                     cta: "Click Here",
-                                    link: "http://findmy.whirlpool.ca",
+                                    link: "http://mywhirlpool.wpc-stage.com/category/#/?category=Dishwashers",
                                     type: "magnifier",
                                     analytics: {
                                         "category": "@category",
@@ -96,11 +96,11 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             title: "Additional Features",
                             features: [
                                 {
-                                    title: "FlexHeat<sup>&trade;</sup> Element",
+                                    title: "Dishwasher Cleaner",
                                     image: "./public/images/more-features-1.jpg",
-                                    link: "",
-                                    alt: "Range with Flex Heat Element",
-                                    text: "The FlexHeat™ element is like having two or three elements in one. A 6\" inner ring is great for smaller pots and pans, while expandable outer rings make room to heat larger cookware.",
+                                    link: "http://www.whirlpool.ca/en_CA/Accessories-1/Accessories_Kitchen_Accessories_Dishwasher-3/102280087/",
+                                    alt: "Dishwasher Cleaner",
+                                    text: "",
                                     cta: "",
                                     analytics: {
                                         "category": "@category",
@@ -109,11 +109,11 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    title: "Temperature Sensor",
+                                    title: "Disposers",
                                     image: "./public/images/more-features-2.jpg",
-                                    link: "",
-                                    alt: "Range with temperature sensor",
-                                    text: "A built-in sensor monitors oven temperature and controls the cooking elements to deliver consistent, delicious results every time.",
+                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Dishwasher__Cleaning_Disposers-3/102280039/",
+                                    alt: "Disposers",
+                                    text: "",
                                     cta: "",
                                     analytics: {
                                         "category": "@category",
@@ -122,10 +122,10 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    title: "FIT System Guarantee",
+                                    title: "30 Day Clean & Quiet Guarantee",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "/other-assets/en_CA/pdf/WHR_FIT_Front Control_Guarantee_2016_EN.pdf",
-                                    alt: "Fit System Guarantee",
+                                    link: "http://www.whirlpool.ca/other-assets/en_CA/pdf/WP_2016_Quiet_Guarantee_EN.pdf ",
+                                    alt: "30 Day Clean & Quiet Guarantee",
                                     text: "",
                                     cta: "",
                                     analytics: {
@@ -141,13 +141,13 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             title: "Must-See Innovation",
                             videos: [
                                 {
-                                    id: 'Fxxny2lMDhQ',
+                                    id: 'UVXX0KOE0Pk',
                                     thumb: './public/images/video-select-1.jpg',
-                                    title: 'Electric and Gas Ranges',
-                                    alt: "Play Electric and Gas Ranges",
-                                    ctaTitle: 'Electric and Gas Ranges',
+                                    title: 'Silverware Spray',
+                                    alt: "Silverware Spray",
+                                    ctaTitle: 'Silverware<br/> Spray',
                                     cta: 'Play Video',
-                                    desc: 'Get dinner on the table quickly and a few minutes back in your day to keep it moving. Thanks to ranges from the brand with the TimeSavor<sup>&trade;</sup> system.',
+                                    desc: 'Silverware Spray helps remove stuck-on food - like peanut butter on knives, and oatmeal on spoons – from your utensils. It delivers a concentrated shower of water to the AnyWare<sup>™</sup> Plus Silverware Basket to virtually eliminate rewashing.',
                                     analytics: {
                                         "category": "@category",
                                         "action": "Clicked Cooking-Must-See Innovation",
@@ -155,14 +155,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: './public/images/video-thumb-2.jpg',
+                                    id: '-24XCao5ncg',
                                     thumb: './public/images/video-select-2.jpg',
-                                    title: 'Frozen Bake<sup>&trade;</sup> Technology',
-                                    alt: "Frozen Bake Technology feature",
-                                    thumbAlt: "Pie cooking in oven",
-                                    ctaTitle: 'Frozen Bake<sup>&trade;</sup> Technology',
-                                    cta: 'View',
-                                    desc: 'Frozen Bake<sup>&trade;</sup> technology cooks frozen foods faster<sup>2</sup> by eliminating the need to preheat the oven. Just select the food type, temperature and cook time listed on the frozen item\'s package and the oven will start customizing',
+                                    title: 'TotalCoverage Spray Arm',
+                                    alt: "TotalCoverage Spray Arm",
+                                    thumbAlt: "TotalCoverage Spray Arm",
+                                    ctaTitle: 'TotalCoverage <br/>Spray Arm',
+                                    cta: 'Play Video',
+                                    desc: 'The TotalCoverage Spray Arm cleans with twice the jets for more coverage. A smarter sequence of spray patterns cleans dishes from multiple nozzles throughout the cycle, so you can be sure your dishes are spotless and ready to use.',
                                     analytics: {
                                         "category": "@category",
                                         "action": "Clicked Cooking-Must-See Innovation",
@@ -170,14 +170,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: './public/images/video-thumb-3.jpg',
+                                    id: 'G7tIcABX7Yg',
                                     thumb: './public/images/video-select-3.jpg',
-                                    title: 'Fan Convection Cooking',
-                                    alt: "Fan Convection Cooking Feature",
+                                    title: 'Target Clean<sup>™</sup> <br/>Option',
+                                    alt: "Target Clean™ Option",
                                     thumbAlt: "Close up of Fan Convection Cooking",
-                                    ctaTitle: 'Fan Convection Cooking',
-                                    cta: 'View',
-                                    desc: 'Bake on any rack with fan convection cooking. It fills the entire oven with heat, so no matter which rack you use, you still get great results.',
+                                    ctaTitle: 'Target Clean<sup>™</sup> <br/>Option',
+                                    cta: 'Play Video',
+                                    desc: 'The Target Clean<sup>™</sup> option scours away baked-on foods from casserole dishes with 40 focused jets. Intense streams deliver direct cleaning to even hard-to-reach corners, saving you from any additional soaking and scrubbing.',
                                     analytics: {
                                         "category": "@category",
                                         "action": "Clicked Cooking-Must-See Innovation",
@@ -191,7 +191,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             title: 'Choose Your Style',
                             nav: {
                                 text: 'See<br/>All',
-                                link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003/',
+                                link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Dishwasher__Cleaning_Dishwashers-3/102280034/',
                                 analytics: {
                                     "category": "@category",
                                     "action": "Clicked Choose Your Cooking Style",
@@ -200,12 +200,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/fcr.png",
-                                    thumb: "./public/images/products/thumbs/fcr.png",
-                                    title: "Front Control Ranges",
-                                    alt: "Front Control Ranges",
-                                    desc: "Front Control gives everyone in your home safer and easier access to controls, while providing a built-in look that fits seamlessly into every kitchen. Since the sides are finished, it looks great at the end of the countertop run too.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+10000151/",
+                                    image: "./public/images/products/tc.png",
+                                    thumb: "./public/images/products/thumbs/tc.png",
+                                    title: "Top Control",
+                                    alt: "Top Control",
+                                    desc: "The controls are discretely located on the top of the door to create a sleek, easy-to-clean exterior. Features such as TargetClean™, Sensor Cycle, and the AnyWare™ Plus Silverware Basket offer advanced cleaning performance that will make easy work of even the dirtiest of dishes.",
+                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Dishwasher__Cleaning_Dishwashers-3/102280034+10000147/",
                                     id: "front-control-ranges",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -215,12 +215,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/rcr.png",
-                                    thumb: "./public/images/products/thumbs/rcr.png",
-                                    title: "Rear Control Ranges",
-                                    alt: "Rear Control Ranges",
-                                    desc: "Oven controls are located on the back panel and the style is flexible for your family’s needs– it can fit between cabinets/countertops, at the end of a cabinet run or all by itself.  Ranges can be found in all price points from entry level to premium.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000374/",
+                                    image: "./public/images/products/fc.png",
+                                    thumb: "./public/images/products/thumbs/fc.png",
+                                    title: "Front Control",
+                                    alt: "Front Control",
+                                    desc: "The controls are located on the front of the dishwasher making it easier to select cycles and other settings even after dishes have been loaded. Advanced features such as TargetClean™, Sensor Cycle, and the AnyWare™ Plus Silverware Basket, all found within a stainless steel interior, ensure your dishes always come out sparkling.",
+                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Dishwasher__Cleaning_Dishwashers-3/102280034+10000148/",
                                     id: "rear-control-ranges",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -230,78 +230,18 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/dor.png",
-                                    thumb: "./public/images/products/thumbs/dor.png",
-                                    title: "Double Oven Ranges",
-                                    alt: "Double Oven Ranges",
-                                    desc: "Double ovens come in several shapes and sizes; a smaller top oven paired with a larger one on the bottom and vise versa. When deciding, consider: What kind of things are you usually cooking and how often? How many people are in your household? With two ovens, it’s a piece of cake getting bake sale ready while cooking dinner for the entire family.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102280003+100000375/",
+                                    image: "./public/images/products/port.png",
+                                    thumb: "./public/images/products/thumbs/port.png",
+                                    title: "Portable",
+                                    alt: "Portable",
+                                    desc: "No space under your counter for a dishwasher? No problem! Built-in wheels give this dishwasher the ability to be used anywhere in your kitchen, and can be easily stowed away when not in use. It also features the same Tall Tub interior spacing found in built-in models, ensuring tall or bulky items can be placed inside with ease.",
+                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Dishwasher__Cleaning_Dishwashers-3/102280034+10000149/",
                                     id: "double-oven-ranges",
                                     ctaText: "Learn More",
                                     analytics: {
                                         "category": "@category",
                                         "action": "Clicked Choose Your Cooking Style",
                                         "label": "Double Oven Range"
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/wall-oven.png",
-                                    thumb: "./public/images/products/thumbs/wall-oven.png",
-                                    title: "Wall Ovens",
-                                    alt: "Wall Ovens",
-                                    desc: "Built-in wall ovens offer a little more flexibility in busy kitchens. The wall oven is usually installed at chest height for safe transfers of heavier dishes. There are many different options available to choose from; single wall oven, double wall oven, microwave Combination and Built-In Microwave.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102280007/",
-                                    id: "wall-oven",
-                                    ctaText: "Learn More",
-                                    analytics: {
-                                        "category": "@category",
-                                        "action": "Clicked Choose Your Cooking Style",
-                                        "label": "Wall Oven"
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/cooktop.png",
-                                    thumb: "./public/images/products/thumbs/cooktop.png",
-                                    title: "Cooktops",
-                                    alt: "Overhead Picture of Cooktop",
-                                    desc: "This flat surface with burners or elements can be built into an existing countertop or as a separate appliance. It doesn’t matter if you’re boiling, simmering or pan-frying a quick morning scramble, the technology choices are the same for both.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102280011/",
-                                    id: "cooktops",
-                                    ctaText: "Learn More",
-                                    analytics: {
-                                        "category": "@category",
-                                        "action": "Clicked Choose Your Cooking Style",
-                                        "label": "Cooktop"
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/microwave.png",
-                                    thumb: "./public/images/products/thumbs/microwave.png",
-                                    title: "Microwaves",
-                                    alt: "Microwave",
-                                    desc: "Over-the-range microwave models are installed above your cooking area and come equipped with a built-in hood fan for ventilation. Enhanced models include a convection microwave which uses an interior fan and separate heating element to evenly circulate hot air over the food, giving you that fresh straight-out-of-the-oven effect.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102280018/",
-                                    id: "microwaves",
-                                    ctaText: "Learn More",
-                                    analytics: {
-                                        "category": "@category",
-                                        "action": "Clicked Choose Your Cooking Style",
-                                        "label": "Microwaves"
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/hood.png",
-                                    thumb: "./public/images/products/thumbs/hood.png",
-                                    title: "Hoods",
-                                    alt: "Vent Hood",
-                                    desc: "Range hoods are a stylish way to ventilate the kitchen. Configurations include under cabinet range hoods, island range hoods and wall mounted range hoods. Many hoods offer lighting to illuminate your cooktop.",
-                                    link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Cooking_Hoods-3/102280014/",
-                                    id: "hoods",
-                                    ctaText: "Learn More",
-                                    analytics: {
-                                        "category": "@category",
-                                        "action": "Clicked Choose Your Cooking Style",
-                                        "label": "Hoods"
                                     }
                                 }
                             ]
